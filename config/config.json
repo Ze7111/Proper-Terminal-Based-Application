@@ -1,0 +1,88 @@
+{
+    "setings_profile"     : "defaultSettingsBackend",
+    "setings_path"        : "./config",
+    "config_version"      : "1.0.0",
+
+    "Constants": [
+        {
+        "time"            : true,
+        "date"            : true,
+        "calendar"        : false,
+        "user"            : 0
+        }
+    ],
+
+    "LoggingConfig": [
+        {
+        "logging"         : true,
+        "level"           : "logging.NOTSET",
+        "path"            : "logs\\<date.time>.log",
+        "format"          : "%(asctime)s - %(levelname)s - %(message)s", 
+        "datefmt"         : "%d-%m-%y  %H:%M:%S",
+        "maxFiles"        : 5,
+        "deleteAllonRun?" : false
+        }
+    ],
+    
+    "Logging": [
+        {
+        "logging_level"   : "debug",
+        "logging_path"    : "./logs",
+        "logCritical"     : "#ff0000",
+        "logWarning"      : "#ffcc00",
+        "logError"        : "#cc3d3d",
+        "logInfo"         : "#009900",
+        "logDebug"        : "#72d68e"
+        }
+    ],
+
+    "RuntimeConfig" : [
+        {
+        "StartText"       : "PG_start_time :",
+        "CurrentText"     : "PG_current_time :",
+        "EndText"         : "PG_end_time :",
+        "RawRuntime"      : "PG_runtime :",
+        "RecentRuntime"   : "PG_Converted_runtime :",
+        "FileNameFormat"  : "%d-%m-%y  %H-%M-%S",
+        "FilePath"        : "frontend/data/",
+        "FileName"        : "<date.time>.s",
+        "MaxFiles"        : 5,
+        "MakeRuntimeFile?": true
+        }
+    ],
+
+    "Colors": [
+        {
+            "main"        : "#e34f4f",
+            "secondary"   : "#52e34f",
+            "tertiary"    : "#4f74e3",
+            "quaternary"  : "#a54fe3"
+        },
+
+        {
+            "white"       : "#f5f5f5",
+            "black"       : "#000000",
+            "red"         : "#ff0000",
+            "green"       : "#00ff00",
+            "blue"        : "#0000ff",
+            "yellow"      : "#ffff00",
+            "cyan"        : "#00ffff",
+            "magenta"     : "#ff00ff",
+            "gray"        : "#808080",
+            "darkGray"    : "#404040",
+            "lightRed"    : "#ffcccc",
+            "lightGreen"  : "#ccffcc",
+            "lightBlue"   : "#ccccff",
+            "lightYellow" : "#ffffcc",
+            "lightCyan"   : "#ccffff",
+            "lightMagenta": "#ffffcc",
+            "lightGray"   : "#cccccc",
+            "darkRed"     : "#cc0000",
+            "darkGreen"   : "#00cc00",
+            "darkBlue"    : "#0000cc",
+            "darkYellow"  : "#cccc00",
+            "darkCyan"    : "#00cccc",
+            "darkMagenta" : "#cc00cc"
+        }
+    ]
+}

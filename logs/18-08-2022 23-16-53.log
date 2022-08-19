@@ -1,0 +1,162 @@
+18-08-22  23:16:53 - WARNING - _innit_ function is starting in file __innit__.py
+18-08-22  23:16:53 - INFO - sucessfully loaded the logging config file with values:
+'Logging Status': True 
+'Logging Path': 'logs\18-08-2022 23-16-53.log' 
+'Logging Level': 'logging.NOTSET' 
+'Logging Date Format': '%d-%m-%y  %H:%M:%S' 
+'Max Number of Log Files Allowed': 5
+
+18-08-22  23:16:53 - WARNING - runtests function is starting in file z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\classes\time_class.py
+18-08-22  23:16:55 - INFO - read_runtime_config function is starting in file file_class.py
+18-08-22  23:16:55 - INFO - openning config file config\config.json in file file_class.py
+18-08-22  23:16:55 - INFO - Successfully read base indentation from config file
+18-08-22  23:16:55 - INFO - runtime config data loaded with values:
+Start Text = PG_start_time :
+End Text = PG_end_time :
+Recent Runtime Text = PG_runtime :
+File Name Format = %d-%m-%y  %H-%M-%S
+File Path = frontend/data/runtime.s
+File Name = runtime.s
+Max Runtime Files = 1
+Make Runtime File = True
+18-08-22  23:16:55 - INFO - count_log_files function is starting in file file_class.py
+18-08-22  23:16:55 - INFO - count_lruntime_files function is finsihed in file file_class.py
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 1 before deletion
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 6 after deletion
+18-08-22  23:16:55 - INFO - read_runtime_config function is finished in file file_class.py
+18-08-22  23:16:55 - WARNING - time_read_write function is starting in file z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\classes\time_class.py
+18-08-22  23:16:55 - INFO - read_runtime_config function is starting in file file_class.py
+18-08-22  23:16:55 - INFO - openning config file config\config.json in file file_class.py
+18-08-22  23:16:55 - INFO - Successfully read base indentation from config file
+18-08-22  23:16:55 - INFO - runtime config data loaded with values:
+Start Text = PG_start_time :
+End Text = PG_end_time :
+Recent Runtime Text = PG_runtime :
+File Name Format = %d-%m-%y  %H-%M-%S
+File Path = frontend/data/runtime.s
+File Name = runtime.s
+Max Runtime Files = 1
+Make Runtime File = True
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 1 before deletion
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 6 after deletion
+18-08-22  23:16:55 - INFO - read_runtime_config function is finished in file file_class.py
+18-08-22  23:16:55 - WARNING - time_read_write function is starting in file z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\classes\time_class.py
+18-08-22  23:16:55 - INFO - read_runtime_config function is starting in file file_class.py
+18-08-22  23:16:55 - INFO - openning config file config\config.json in file file_class.py
+18-08-22  23:16:55 - INFO - Successfully read base indentation from config file
+18-08-22  23:16:55 - INFO - runtime config data loaded with values:
+Start Text = PG_start_time :
+End Text = PG_end_time :
+Recent Runtime Text = PG_runtime :
+File Name Format = %d-%m-%y  %H-%M-%S
+File Path = frontend/data/runtime.s
+File Name = runtime.s
+Max Runtime Files = 1
+Make Runtime File = True
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 1 before deletion
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 6 after deletion
+18-08-22  23:16:55 - INFO - read_runtime_config function is finished in file file_class.py
+18-08-22  23:16:55 - WARNING - time_read_write function is starting in file z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\classes\time_class.py
+18-08-22  23:16:55 - INFO - read_runtime_config function is starting in file file_class.py
+18-08-22  23:16:55 - INFO - openning config file config\config.json in file file_class.py
+18-08-22  23:16:55 - INFO - Successfully read base indentation from config file
+18-08-22  23:16:55 - INFO - runtime config data loaded with values:
+Start Text = PG_start_time :
+End Text = PG_end_time :
+Recent Runtime Text = PG_runtime :
+File Name Format = %d-%m-%y  %H-%M-%S
+File Path = frontend/data/runtime.s
+File Name = runtime.s
+Max Runtime Files = 1
+Make Runtime File = True
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 1 before deletion
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 6 after deletion
+18-08-22  23:16:55 - INFO - read_runtime_config function is finished in file file_class.py
+18-08-22  23:16:55 - WARNING - time_read_write function is starting in file z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\classes\time_class.py
+18-08-22  23:16:55 - INFO - read_runtime_config function is starting in file file_class.py
+18-08-22  23:16:55 - INFO - openning config file config\config.json in file file_class.py
+18-08-22  23:16:55 - INFO - Successfully read base indentation from config file
+18-08-22  23:16:55 - INFO - runtime config data loaded with values:
+Start Text = PG_start_time :
+End Text = PG_end_time :
+Recent Runtime Text = PG_runtime :
+File Name Format = %d-%m-%y  %H-%M-%S
+File Path = frontend/data/runtime.s
+File Name = runtime.s
+Max Runtime Files = 1
+Make Runtime File = True
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 1 before deletion
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 6 after deletion
+18-08-22  23:16:55 - INFO - read_runtime_config function is finished in file file_class.py
+18-08-22  23:16:55 - WARNING - time_read_write function is starting in file z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\classes\time_class.py
+18-08-22  23:16:55 - INFO - read_runtime_config function is starting in file file_class.py
+18-08-22  23:16:55 - INFO - openning config file config\config.json in file file_class.py
+18-08-22  23:16:55 - INFO - Successfully read base indentation from config file
+18-08-22  23:16:55 - INFO - runtime config data loaded with values:
+Start Text = PG_start_time :
+End Text = PG_end_time :
+Recent Runtime Text = PG_runtime :
+File Name Format = %d-%m-%y  %H-%M-%S
+File Path = frontend/data/runtime.s
+File Name = runtime.s
+Max Runtime Files = 1
+Make Runtime File = True
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 1 before deletion
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 6 after deletion
+18-08-22  23:16:55 - INFO - read_runtime_config function is finished in file file_class.py
+18-08-22  23:16:55 - WARNING - time_read_write function is starting in file z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\classes\time_class.py
+18-08-22  23:16:55 - INFO - read_runtime_config function is starting in file file_class.py
+18-08-22  23:16:55 - INFO - openning config file config\config.json in file file_class.py
+18-08-22  23:16:55 - INFO - Successfully read base indentation from config file
+18-08-22  23:16:55 - INFO - runtime config data loaded with values:
+Start Text = PG_start_time :
+End Text = PG_end_time :
+Recent Runtime Text = PG_runtime :
+File Name Format = %d-%m-%y  %H-%M-%S
+File Path = frontend/data/runtime.s
+File Name = runtime.s
+Max Runtime Files = 1
+Make Runtime File = True
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 1 before deletion
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 6 after deletion
+18-08-22  23:16:55 - INFO - read_runtime_config function is finished in file file_class.py
+18-08-22  23:16:55 - WARNING - time_read_write function is starting in file z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\classes\time_class.py
+18-08-22  23:16:55 - WARNING - _innit_ function is finished in file __innit__.py
+18-08-22  23:16:55 - WARNING - _main_ function is starting in file __innit__.py
+18-08-22  23:16:55 - INFO - count_log_files function is starting in file file_class.py
+18-08-22  23:16:55 - INFO - count_log_files function is finsihed in file file_class.py
+18-08-22  23:16:55 - INFO - Number of log files in ./logs is 6 before deletion
+18-08-22  23:16:55 - INFO - Removed log file logs/17-08-2022 15-45-25.disabled.log in ./logs
+18-08-22  23:16:55 - INFO - Number of log files in ./logs is 5 after deletion
+18-08-22  23:16:55 - INFO - read_runtime_config function is starting in file file_class.py
+18-08-22  23:16:55 - INFO - openning config file config\config.json in file file_class.py
+18-08-22  23:16:55 - INFO - Successfully read base indentation from config file
+18-08-22  23:16:55 - INFO - runtime config data loaded with values:
+Start Text = PG_start_time :
+End Text = PG_end_time :
+Recent Runtime Text = PG_runtime :
+File Name Format = %d-%m-%y  %H-%M-%S
+File Path = frontend/data/runtime.s
+File Name = runtime.s
+Max Runtime Files = 1
+Make Runtime File = True
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 1 before deletion
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 5 after deletion
+18-08-22  23:16:55 - INFO - read_runtime_config function is finished in file file_class.py
+18-08-22  23:16:55 - WARNING - time_read_write function is starting in file z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\classes\time_class.py
+18-08-22  23:16:55 - INFO - read_runtime_config function is starting in file file_class.py
+18-08-22  23:16:55 - INFO - openning config file config\config.json in file file_class.py
+18-08-22  23:16:55 - INFO - Successfully read base indentation from config file
+18-08-22  23:16:55 - INFO - runtime config data loaded with values:
+Start Text = PG_start_time :
+End Text = PG_end_time :
+Recent Runtime Text = PG_runtime :
+File Name Format = %d-%m-%y  %H-%M-%S
+File Path = frontend/data/runtime.s
+File Name = runtime.s
+Max Runtime Files = 1
+Make Runtime File = True
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 1 before deletion
+18-08-22  23:16:55 - INFO - Number of runtime files in .\frontend/data/ is 5 after deletion
+18-08-22  23:16:55 - INFO - read_runtime_config function is finished in file file_class.py
+18-08-22  23:16:55 - WARNING - time_read_write function is starting in file z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\classes\time_class.py
