@@ -38,11 +38,11 @@
 
     "RuntimeConfig" : [
         {
-        "StartText"       : "PG_start_time :",
-        "CurrentText"     : "PG_current_time :",
-        "EndText"         : "PG_end_time :",
-        "RawRuntime"      : "PG_runtime :",
-        "RecentRuntime"   : "PG_Converted_runtime :",
+        "StartText"       : "Start Time                 :",
+        "CurrentText"     : "Current Time               :",
+        "EndText"         : "End Time                   :",
+        "RawRuntime"      : "Runtime                :",
+        "RecentRuntime"   : "Unit Coverted Runtime  :",
         "FileNameFormat"  : "%d-%m-%y  %H-%M-%S",
         "FilePath"        : "frontend/data/",
         "FileName"        : "<date.time>.s",
@@ -58,7 +58,7 @@
             "tertiary"    : "#4f74e3",
             "quaternary"  : "#a54fe3"
         },
-
+        
         {
             "white"       : "#f5f5f5",
             "black"       : "#000000",

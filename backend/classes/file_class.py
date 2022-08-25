@@ -1,15 +1,12 @@
-import logging
-import os
-import time
-import json
-import sys
-import threading
+import logging, os, time, json
+from random import randrange as r
 from rich import console
 
 
 this_file: str = os.path.basename(__file__)
 rundone: bool = False
 runtimerundone: bool = False
+runtimelogdone: bool = False
 
 class file_opperations:
     global this_file
@@ -56,58 +53,71 @@ class file_opperations:
         return runtime_files_path
     
     def read_runtime_config(conf_path: str):
-        global this_file
+        global this_file, runtimelogdone
         logging.info(f'read_runtime_config function is starting in file {this_file}')
         
-        #try:
-        with open(conf_path) as json_file:
-            logging.info(f"openning config file {conf_path} in file {this_file}")
-            
-            data = json.load(json_file)
-            runtime_config_data = data['RuntimeConfig']
-            runtime_config_data = runtime_config_data[0]
-            
-            logging.info(f'Successfully read base indentation from config file')
-            
-            program_start_text: str = runtime_config_data['StartText']
-            program_end_text: str = runtime_config_data['EndText']
-            program_current_text: str = runtime_config_data['CurrentText']
-            recent_runtime: str = runtime_config_data['RecentRuntime']
-            raw_Runtime: str = runtime_config_data['RawRuntime']
-            file_name_format: str = runtime_config_data['FileNameFormat']
-            base_file_path: str = runtime_config_data['FilePath']
-            file_name: str = runtime_config_data['FileName']
-            max_files: int = runtime_config_data['MaxFiles']
-            make_runtime_files: bool = runtime_config_data['MakeRuntimeFile?']
-            
-            
-            if make_runtime_files is False:
-                logging.info(f'Make Runtime File is set to False, so no runtime file will be made')
-                max_files = 0
-
-            file_name = file_name.replace('<date.time>', time.strftime('%d-%m-%Y %H-%M-%S',time.localtime()))
-            file_path = f"{base_file_path}{file_name}"
-            logging.info(f'runtime config data loaded with values:\nStart Text = {program_start_text}\nEnd Text = {program_end_text}\nRecent Runtime Text = {recent_runtime}\nFile Name Format = {file_name_format}\nFile Path = {file_path}\nFile Name = {file_name}\nMax Runtime Files = {max_files}\nMake Runtime File = {make_runtime_files}')
-            
-            if len(file_opperations.count_runtime_files(base_file_path)) >= max_files: # if number of files in ./logs is greater than 10
-        
-                logging.info(f"Number of runtime files in .\{base_file_path} is {len(file_opperations.count_runtime_files(base_file_path))} before deletion") # log number of files ./logs
+        try:
+            with open(conf_path) as json_file:
+                logging.info(f"openning config file {conf_path} in file {this_file}")
                 
-                while len(file_opperations.count_runtime_files(base_file_path)) > max_files:
-                    oldest_file = min(file_opperations.count_runtime_files(base_file_path), key=os.path.getctime) # get oldest file in ./logs
-                    os.remove(oldest_file) # remove oldest file in ./logs
-                    logging.info(f"Removed runtime file {oldest_file} in .\{base_file_path}") # log number of files ./logs
+                data = json.load(json_file)
+                runtime_config_data = data['RuntimeConfig']
+                runtime_config_data = runtime_config_data[0]
                 
-                logging.info(f"Number of runtime files in .\{base_file_path} is {len(file_opperations.count_runtime_files('logs'))} after deletion") # log number of files ./logs
+                logging.info(f'Successfully read base indentation from config file')
+                
+                program_start_text: str = runtime_config_data['StartText']
+                program_end_text: str = runtime_config_data['EndText']
+                program_current_text: str = runtime_config_data['CurrentText']
+                recent_runtime: str = runtime_config_data['RecentRuntime']
+                raw_Runtime: str = runtime_config_data['RawRuntime']
+                file_name_format: str = runtime_config_data['FileNameFormat']
+                base_file_path: str = runtime_config_data['FilePath']
+                file_name: str = runtime_config_data['FileName']
+                max_files: int = runtime_config_data['MaxFiles']
+                make_runtime_files: bool = runtime_config_data['MakeRuntimeFile?']
+                
+                
+                if make_runtime_files is False:
+                    logging.info(f'Make Runtime File is set to False, so no runtime file will be made')
+                    max_files = 0
 
-            logging.info(f'read_runtime_config function is finished in file {this_file}')
+                file_name = file_name.replace('<date.time>', time.strftime('%d-%m-%Y %H-%M-%S',time.localtime()))
+                file_path = f"{base_file_path}{file_name}"
+                
+                if runtimelogdone is not True:
+                    logging.info(f"runtime config data loaded with values:\n'Start Text' = '{program_start_text}'\n'End Text' = '{program_end_text}'\n'Recent Runtime Text' = '{recent_runtime}'\n'File Name Format' = '{file_name_format}'\n'File Path' = '{file_path}'\n'File Name' = '{file_name}'\n'Max Runtime Files' = {max_files}\n'Make Runtime File' = {make_runtime_files}")
+                    runtimelogdone = True
+                    
+                if len(file_opperations.count_runtime_files(base_file_path)) >= max_files: # if number of files in ./logs is greater than 10
             
-            json_file.close()
-            return program_start_text, program_end_text, program_current_text, recent_runtime, raw_Runtime, file_name_format, file_path, file_name, max_files, make_runtime_files
-        
-        #except Exception as e:
-            #logging.error(f'read_runtime_config function FAILED in file {this_file} with error : {e}')
-            #return None
+                    logging.info(f"Number of runtime files in .\{base_file_path} is {len(file_opperations.count_runtime_files(base_file_path))} before deletion") # log number of files ./logs
+                    
+                    while len(file_opperations.count_runtime_files(base_file_path)) > max_files:
+                        oldest_file = min(file_opperations.count_runtime_files(base_file_path), key=os.path.getctime) # get oldest file in ./logs
+                        os.remove(oldest_file) # remove oldest file in ./logs
+                        logging.info(f"Removed runtime file {oldest_file} in .\{base_file_path}") # log number of files ./logs
+                    
+                    logging.info(f"Number of runtime files in .\{base_file_path} is {len(file_opperations.count_runtime_files('logs'))} after deletion") # log number of files ./logs
+
+                logging.info(f'read_runtime_config function is finished in file {this_file}')
+                
+                json_file.close()
+                return program_start_text, program_end_text, program_current_text, recent_runtime, raw_Runtime, file_name_format, file_path, file_name, max_files, make_runtime_files
+        except Exception as e:
+            logging.error(f'read_runtime_config function FAILED in file {this_file} with error : {e}')
+            return None
+    
+    def red_codes():
+        Codes = 'Codes File'
+        with open('/data/codes.bf', 'w') as f:
+            f.write(f'{Codes:-^80}')
+            s1 = r(1000, 9999)
+            s2 = r(1000, 9999)
+            s3 = r(100, 999)
+            f.write(f'{s1}-{s2}-{s3}')
+            f.close()
+            
     
 class JSON_read:
     global this_file

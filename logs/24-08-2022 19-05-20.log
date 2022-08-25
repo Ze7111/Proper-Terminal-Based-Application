@@ -1,0 +1,1677 @@
+24-08-22  19:05:20 - WARNING - _innit_ function is starting in file __innit__.py
+24-08-22  19:05:20 - INFO - sucessfully loaded the logging config file with values:
+'Logging Status': True 
+'Logging Path': 'logs\24-08-2022 19-05-20.log' 
+'Logging Level': 'logging.NOTSET' 
+'Logging Date Format': '%d-%m-%y  %H:%M:%S' 
+'Max Number of Log Files Allowed': 5
+
+24-08-22  19:05:20 - WARNING - __innit__ is starting in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:05:20 - INFO - read_runtime_config function is starting in file file_class.py
+24-08-22  19:05:20 - INFO - openning config file config\config.json in file file_class.py
+24-08-22  19:05:20 - INFO - Successfully read base indentation from config file
+24-08-22  19:05:20 - INFO - runtime config data loaded with values:
+'Start Text' = 'Start Time                 :'
+'End Text' = 'End Time                   :'
+'Recent Runtime Text' = 'Unit Coverted Runtime  :'
+'File Name Format' = '%d-%m-%y  %H-%M-%S'
+'File Path' = 'frontend/data/24-08-2022 19-05-20.s'
+'File Name' = '24-08-2022 19-05-20.s'
+'Max Runtime Files' = 5
+'Make Runtime File' = True
+24-08-22  19:05:20 - INFO - count_log_files function is starting in file file_class.py
+24-08-22  19:05:20 - INFO - count_lruntime_files function is finsihed in file file_class.py
+24-08-22  19:05:20 - INFO - Number of runtime files in .\frontend/data/ is 6 before deletion
+24-08-22  19:05:20 - INFO - Removed runtime file frontend/data/24-08-2022 19-04-01.s in .\frontend/data/
+24-08-22  19:05:20 - INFO - Number of runtime files in .\frontend/data/ is 7 after deletion
+24-08-22  19:05:20 - INFO - read_runtime_config function is finished in file file_class.py
+24-08-22  19:05:20 - INFO - W_S function is called in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:05:20 - INFO - file frontend/data/24-08-2022 19-05-20.s is opened
+24-08-22  19:05:20 - INFO - file frontend/data/24-08-2022 19-05-20.s is closed
+24-08-22  19:05:20 - INFO - W_S function is finished in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:05:20 - WARNING - _innit_ function is finished in file __innit__.py
+24-08-22  19:05:20 - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=91)
+           2	LOAD_GLOBAL(arg=0, lineno=91)
+           4	LOAD_METHOD(arg=1, lineno=91)
+           6	LOAD_GLOBAL(arg=2, lineno=91)
+           8	CALL_METHOD(arg=1, lineno=91)
+          10	LOAD_CONST(arg=1, lineno=91)
+          12	BINARY_SUBSCR(arg=None, lineno=91)
+          14	LOAD_CONST(arg=0, lineno=91)
+          16	IS_OP(arg=0, lineno=91)
+          18	POP_JUMP_IF_FALSE(arg=18, lineno=91)
+          20	LOAD_GLOBAL(arg=3, lineno=91)
+          22	LOAD_ATTR(arg=4, lineno=91)
+          24	LOAD_CONST(arg=2, lineno=91)
+          26	LOAD_CONST(arg=3, lineno=91)
+          28	LOAD_CONST(arg=4, lineno=91)
+          30	CALL_FUNCTION_KW(arg=2, lineno=91)
+          32	JUMP_FORWARD(arg=6, lineno=91)
+>         34	LOAD_GLOBAL(arg=0, lineno=91)
+          36	LOAD_METHOD(arg=1, lineno=91)
+          38	LOAD_GLOBAL(arg=2, lineno=91)
+          40	CALL_METHOD(arg=1, lineno=91)
+          42	LOAD_CONST(arg=1, lineno=91)
+          44	BINARY_SUBSCR(arg=None, lineno=91)
+>         46	STORE_FAST(arg=0, lineno=91)
+          48	LOAD_GLOBAL(arg=5, lineno=94)
+          50	LOAD_METHOD(arg=6, lineno=94)
+          52	LOAD_CONST(arg=5, lineno=94)
+          54	LOAD_GLOBAL(arg=7, lineno=94)
+          56	FORMAT_VALUE(arg=0, lineno=94)
+          58	BUILD_STRING(arg=2, lineno=94)
+          60	CALL_METHOD(arg=1, lineno=94)
+          62	POP_TOP(arg=None, lineno=94)
+          64	LOAD_GLOBAL(arg=8, lineno=96)
+          66	LOAD_METHOD(arg=8, lineno=96)
+          68	CALL_METHOD(arg=0, lineno=96)
+          70	STORE_FAST(arg=1, lineno=96)
+          72	LOAD_GLOBAL(arg=8, lineno=97)
+          74	LOAD_METHOD(arg=9, lineno=97)
+          76	LOAD_CONST(arg=6, lineno=97)
+          78	LOAD_GLOBAL(arg=8, lineno=97)
+          80	LOAD_METHOD(arg=10, lineno=97)
+          82	LOAD_FAST(arg=1, lineno=97)
+          84	CALL_METHOD(arg=1, lineno=97)
+          86	CALL_METHOD(arg=2, lineno=97)
+          88	STORE_FAST(arg=2, lineno=97)
+          90	LOAD_GLOBAL(arg=11, lineno=99)
+          92	LOAD_GLOBAL(arg=12, lineno=99)
+          94	LOAD_METHOD(arg=13, lineno=99)
+          96	LOAD_CONST(arg=7, lineno=99)
+          98	CALL_METHOD(arg=1, lineno=99)
+         100	CALL_FUNCTION(arg=1, lineno=99)
+         102	LOAD_FAST(arg=0, lineno=99)
+         104	COMPARE_OP(arg=5, lineno=99)
+         106	POP_JUMP_IF_FALSE(arg=126, lineno=99)
+         108	LOAD_GLOBAL(arg=5, lineno=101)
+         110	LOAD_METHOD(arg=14, lineno=101)
+         112	LOAD_CONST(arg=8, lineno=101)
+         114	LOAD_GLOBAL(arg=11, lineno=101)
+         116	LOAD_GLOBAL(arg=12, lineno=101)
+         118	LOAD_METHOD(arg=13, lineno=101)
+         120	LOAD_CONST(arg=7, lineno=101)
+         122	CALL_METHOD(arg=1, lineno=101)
+         124	CALL_FUNCTION(arg=1, lineno=101)
+         126	FORMAT_VALUE(arg=0, lineno=101)
+         128	LOAD_CONST(arg=9, lineno=101)
+         130	BUILD_STRING(arg=3, lineno=101)
+         132	CALL_METHOD(arg=1, lineno=101)
+         134	POP_TOP(arg=None, lineno=101)
+         136	LOAD_GLOBAL(arg=11, lineno=103)
+         138	LOAD_GLOBAL(arg=12, lineno=103)
+         140	LOAD_METHOD(arg=13, lineno=103)
+         142	LOAD_CONST(arg=7, lineno=103)
+         144	CALL_METHOD(arg=1, lineno=103)
+         146	CALL_FUNCTION(arg=1, lineno=103)
+         148	LOAD_FAST(arg=0, lineno=103)
+         150	COMPARE_OP(arg=4, lineno=103)
+         152	POP_JUMP_IF_FALSE(arg=112, lineno=103)
+>        154	LOAD_GLOBAL(arg=15, lineno=104)
+         156	LOAD_GLOBAL(arg=12, lineno=104)
+         158	LOAD_METHOD(arg=13, lineno=104)
+         160	LOAD_CONST(arg=7, lineno=104)
+         162	CALL_METHOD(arg=1, lineno=104)
+         164	LOAD_GLOBAL(arg=16, lineno=104)
+         166	LOAD_ATTR(arg=17, lineno=104)
+         168	LOAD_ATTR(arg=18, lineno=104)
+         170	LOAD_CONST(arg=10, lineno=104)
+         172	CALL_FUNCTION_KW(arg=2, lineno=104)
+         174	STORE_FAST(arg=3, lineno=104)
+         176	LOAD_GLOBAL(arg=16, lineno=105)
+         178	LOAD_METHOD(arg=19, lineno=105)
+         180	LOAD_FAST(arg=3, lineno=105)
+         182	CALL_METHOD(arg=1, lineno=105)
+         184	POP_TOP(arg=None, lineno=105)
+         186	LOAD_GLOBAL(arg=5, lineno=106)
+         188	LOAD_METHOD(arg=14, lineno=106)
+         190	LOAD_CONST(arg=11, lineno=106)
+         192	LOAD_FAST(arg=3, lineno=106)
+         194	FORMAT_VALUE(arg=0, lineno=106)
+         196	LOAD_CONST(arg=12, lineno=106)
+         198	BUILD_STRING(arg=3, lineno=106)
+         200	CALL_METHOD(arg=1, lineno=106)
+         202	POP_TOP(arg=None, lineno=106)
+         204	LOAD_GLOBAL(arg=11, lineno=103)
+         206	LOAD_GLOBAL(arg=12, lineno=103)
+         208	LOAD_METHOD(arg=13, lineno=103)
+         210	LOAD_CONST(arg=7, lineno=103)
+         212	CALL_METHOD(arg=1, lineno=103)
+         214	CALL_FUNCTION(arg=1, lineno=103)
+         216	LOAD_FAST(arg=0, lineno=103)
+         218	COMPARE_OP(arg=4, lineno=103)
+         220	POP_JUMP_IF_TRUE(arg=78, lineno=103)
+>        222	LOAD_GLOBAL(arg=5, lineno=108)
+         224	LOAD_METHOD(arg=14, lineno=108)
+         226	LOAD_CONST(arg=8, lineno=108)
+         228	LOAD_GLOBAL(arg=11, lineno=108)
+         230	LOAD_GLOBAL(arg=12, lineno=108)
+         232	LOAD_METHOD(arg=13, lineno=108)
+         234	LOAD_CONST(arg=7, lineno=108)
+         236	CALL_METHOD(arg=1, lineno=108)
+         238	CALL_FUNCTION(arg=1, lineno=108)
+         240	FORMAT_VALUE(arg=0, lineno=108)
+         242	LOAD_CONST(arg=13, lineno=108)
+         244	BUILD_STRING(arg=3, lineno=108)
+         246	CALL_METHOD(arg=1, lineno=108)
+         248	POP_TOP(arg=None, lineno=108)
+>        250	LOAD_GLOBAL(arg=20, lineno=111)
+         252	LOAD_CONST(arg=14, lineno=111)
+         254	LOAD_CONST(arg=14, lineno=111)
+         256	LOAD_GLOBAL(arg=21, lineno=111)
+         258	CALL_FUNCTION(arg=3, lineno=111)
+         260	POP_TOP(arg=None, lineno=111)
+         262	LOAD_GLOBAL(arg=16, lineno=114)
+         264	LOAD_METHOD(arg=22, lineno=114)
+         266	LOAD_GLOBAL(arg=23, lineno=114)
+         268	CALL_METHOD(arg=1, lineno=114)
+         270	POP_TOP(arg=None, lineno=114)
+         272	LOAD_GLOBAL(arg=3, lineno=116)
+         274	LOAD_ATTR(arg=4, lineno=116)
+         276	LOAD_FAST(arg=2, lineno=116)
+         278	LOAD_GLOBAL(arg=24, lineno=116)
+         280	LOAD_CONST(arg=15, lineno=116)
+         282	LOAD_CONST(arg=16, lineno=116)
+         284	CALL_FUNCTION(arg=2, lineno=116)
+         286	LOAD_CONST(arg=4, lineno=116)
+         288	CALL_FUNCTION_KW(arg=2, lineno=116)
+         290	POP_TOP(arg=None, lineno=116)
+         292	LOAD_GLOBAL(arg=3, lineno=118)
+         294	LOAD_ATTR(arg=4, lineno=118)
+         296	LOAD_CONST(arg=17, lineno=118)
+         298	LOAD_GLOBAL(arg=20, lineno=118)
+         300	LOAD_CONST(arg=16, lineno=118)
+         302	LOAD_CONST(arg=18, lineno=118)
+         304	LOAD_GLOBAL(arg=21, lineno=118)
+         306	CALL_FUNCTION(arg=3, lineno=118)
+         308	LOAD_CONST(arg=16, lineno=118)
+         310	BINARY_SUBSCR(arg=None, lineno=118)
+         312	FORMAT_VALUE(arg=0, lineno=118)
+         314	LOAD_CONST(arg=19, lineno=118)
+         316	LOAD_GLOBAL(arg=20, lineno=118)
+         318	LOAD_CONST(arg=16, lineno=118)
+         320	LOAD_CONST(arg=18, lineno=118)
+         322	LOAD_GLOBAL(arg=21, lineno=118)
+         324	CALL_FUNCTION(arg=3, lineno=118)
+         326	LOAD_CONST(arg=14, lineno=118)
+         328	BINARY_SUBSCR(arg=None, lineno=118)
+         330	FORMAT_VALUE(arg=0, lineno=118)
+         332	BUILD_STRING(arg=4, lineno=118)
+         334	LOAD_GLOBAL(arg=24, lineno=118)
+         336	LOAD_CONST(arg=15, lineno=118)
+         338	LOAD_CONST(arg=16, lineno=118)
+         340	CALL_FUNCTION(arg=2, lineno=118)
+         342	LOAD_CONST(arg=4, lineno=118)
+         344	CALL_FUNCTION_KW(arg=2, lineno=118)
+         346	POP_TOP(arg=None, lineno=118)
+         348	LOAD_GLOBAL(arg=25, lineno=120)
+         350	LOAD_METHOD(arg=26, lineno=120)
+         352	LOAD_CONST(arg=20, lineno=120)
+         354	CALL_METHOD(arg=1, lineno=120)
+         356	STORE_FAST(arg=4, lineno=120)
+         358	LOAD_GLOBAL(arg=5, lineno=122)
+         360	LOAD_METHOD(arg=6, lineno=122)
+         362	LOAD_CONST(arg=21, lineno=122)
+         364	LOAD_GLOBAL(arg=7, lineno=122)
+         366	FORMAT_VALUE(arg=0, lineno=122)
+         368	BUILD_STRING(arg=2, lineno=122)
+         370	CALL_METHOD(arg=1, lineno=122)
+         372	POP_TOP(arg=None, lineno=122)
+         374	LOAD_CONST(arg=0, lineno=122)
+         376	RETURN_VALUE(arg=None, lineno=122)
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+24-08-22  19:05:20 - DEBUG - stack: []
+24-08-22  19:05:20 - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=2, inst=LOAD_GLOBAL(arg=0, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=4, inst=LOAD_METHOD(arg=1, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$2load_global.0']
+24-08-22  19:05:20 - DEBUG - dispatch pc=6, inst=LOAD_GLOBAL(arg=2, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$4load_method.1']
+24-08-22  19:05:20 - DEBUG - dispatch pc=8, inst=CALL_METHOD(arg=1, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$4load_method.1', '$6load_global.2']
+24-08-22  19:05:20 - DEBUG - dispatch pc=10, inst=LOAD_CONST(arg=1, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$8call_method.3']
+24-08-22  19:05:20 - DEBUG - dispatch pc=12, inst=BINARY_SUBSCR(arg=None, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$8call_method.3', '$const10.4']
+24-08-22  19:05:20 - DEBUG - dispatch pc=14, inst=LOAD_CONST(arg=0, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$12binary_subscr.5']
+24-08-22  19:05:20 - DEBUG - dispatch pc=16, inst=IS_OP(arg=0, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$12binary_subscr.5', '$const14.6']
+24-08-22  19:05:20 - DEBUG - dispatch pc=18, inst=POP_JUMP_IF_FALSE(arg=18, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$16is_op.7']
+24-08-22  19:05:20 - DEBUG - end state. edges=[Edge(pc=20, stack=(), blockstack=(), npush=0), Edge(pc=34, stack=(), blockstack=(), npush=0)]
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=20 nstack_initial=0), State(pc_initial=34 nstack_initial=0)])
+24-08-22  19:05:20 - DEBUG - stack: []
+24-08-22  19:05:20 - DEBUG - dispatch pc=20, inst=LOAD_GLOBAL(arg=3, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=22, inst=LOAD_ATTR(arg=4, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$20load_global.0']
+24-08-22  19:05:20 - DEBUG - dispatch pc=24, inst=LOAD_CONST(arg=2, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$22load_attr.1']
+24-08-22  19:05:20 - DEBUG - dispatch pc=26, inst=LOAD_CONST(arg=3, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$22load_attr.1', '$const24.2']
+24-08-22  19:05:20 - DEBUG - dispatch pc=28, inst=LOAD_CONST(arg=4, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$22load_attr.1', '$const24.2', '$const26.3']
+24-08-22  19:05:20 - DEBUG - dispatch pc=30, inst=CALL_FUNCTION_KW(arg=2, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$22load_attr.1', '$const24.2', '$const26.3', '$const28.4']
+24-08-22  19:05:20 - DEBUG - dispatch pc=32, inst=JUMP_FORWARD(arg=6, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$30call_function_kw.5']
+24-08-22  19:05:20 - DEBUG - end state. edges=[Edge(pc=46, stack=('$30call_function_kw.5',), blockstack=(), npush=0)]
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=34 nstack_initial=0), State(pc_initial=46 nstack_initial=1)])
+24-08-22  19:05:20 - DEBUG - stack: []
+24-08-22  19:05:20 - DEBUG - dispatch pc=34, inst=LOAD_GLOBAL(arg=0, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=36, inst=LOAD_METHOD(arg=1, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$34load_global.0']
+24-08-22  19:05:20 - DEBUG - dispatch pc=38, inst=LOAD_GLOBAL(arg=2, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$36load_method.1']
+24-08-22  19:05:20 - DEBUG - dispatch pc=40, inst=CALL_METHOD(arg=1, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$36load_method.1', '$38load_global.2']
+24-08-22  19:05:20 - DEBUG - dispatch pc=42, inst=LOAD_CONST(arg=1, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$40call_method.3']
+24-08-22  19:05:20 - DEBUG - dispatch pc=44, inst=BINARY_SUBSCR(arg=None, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$40call_method.3', '$const42.4']
+24-08-22  19:05:20 - DEBUG - end state. edges=[Edge(pc=46, stack=('$44binary_subscr.5',), blockstack=(), npush=0)]
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=46 nstack_initial=1), State(pc_initial=46 nstack_initial=1)])
+24-08-22  19:05:20 - DEBUG - stack: ['$phi46.0']
+24-08-22  19:05:20 - DEBUG - dispatch pc=46, inst=STORE_FAST(arg=0, lineno=91)
+24-08-22  19:05:20 - DEBUG - stack ['$phi46.0']
+24-08-22  19:05:20 - DEBUG - dispatch pc=48, inst=LOAD_GLOBAL(arg=5, lineno=94)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=50, inst=LOAD_METHOD(arg=6, lineno=94)
+24-08-22  19:05:20 - DEBUG - stack ['$48load_global.1']
+24-08-22  19:05:20 - DEBUG - dispatch pc=52, inst=LOAD_CONST(arg=5, lineno=94)
+24-08-22  19:05:20 - DEBUG - stack ['$50load_method.2']
+24-08-22  19:05:20 - DEBUG - dispatch pc=54, inst=LOAD_GLOBAL(arg=7, lineno=94)
+24-08-22  19:05:20 - DEBUG - stack ['$50load_method.2', '$const52.3']
+24-08-22  19:05:20 - DEBUG - dispatch pc=56, inst=FORMAT_VALUE(arg=0, lineno=94)
+24-08-22  19:05:20 - DEBUG - stack ['$50load_method.2', '$const52.3', '$54load_global.4']
+24-08-22  19:05:20 - DEBUG - dispatch pc=58, inst=BUILD_STRING(arg=2, lineno=94)
+24-08-22  19:05:20 - DEBUG - stack ['$50load_method.2', '$const52.3', '$56format_value.6']
+24-08-22  19:05:20 - DEBUG - dispatch pc=60, inst=CALL_METHOD(arg=1, lineno=94)
+24-08-22  19:05:20 - DEBUG - stack ['$50load_method.2', '$58build_string.7']
+24-08-22  19:05:20 - DEBUG - dispatch pc=62, inst=POP_TOP(arg=None, lineno=94)
+24-08-22  19:05:20 - DEBUG - stack ['$60call_method.8']
+24-08-22  19:05:20 - DEBUG - dispatch pc=64, inst=LOAD_GLOBAL(arg=8, lineno=96)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=66, inst=LOAD_METHOD(arg=8, lineno=96)
+24-08-22  19:05:20 - DEBUG - stack ['$64load_global.9']
+24-08-22  19:05:20 - DEBUG - dispatch pc=68, inst=CALL_METHOD(arg=0, lineno=96)
+24-08-22  19:05:20 - DEBUG - stack ['$66load_method.10']
+24-08-22  19:05:20 - DEBUG - dispatch pc=70, inst=STORE_FAST(arg=1, lineno=96)
+24-08-22  19:05:20 - DEBUG - stack ['$68call_method.11']
+24-08-22  19:05:20 - DEBUG - dispatch pc=72, inst=LOAD_GLOBAL(arg=8, lineno=97)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=74, inst=LOAD_METHOD(arg=9, lineno=97)
+24-08-22  19:05:20 - DEBUG - stack ['$72load_global.12']
+24-08-22  19:05:20 - DEBUG - dispatch pc=76, inst=LOAD_CONST(arg=6, lineno=97)
+24-08-22  19:05:20 - DEBUG - stack ['$74load_method.13']
+24-08-22  19:05:20 - DEBUG - dispatch pc=78, inst=LOAD_GLOBAL(arg=8, lineno=97)
+24-08-22  19:05:20 - DEBUG - stack ['$74load_method.13', '$const76.14']
+24-08-22  19:05:20 - DEBUG - dispatch pc=80, inst=LOAD_METHOD(arg=10, lineno=97)
+24-08-22  19:05:20 - DEBUG - stack ['$74load_method.13', '$const76.14', '$78load_global.15']
+24-08-22  19:05:20 - DEBUG - dispatch pc=82, inst=LOAD_FAST(arg=1, lineno=97)
+24-08-22  19:05:20 - DEBUG - stack ['$74load_method.13', '$const76.14', '$80load_method.16']
+24-08-22  19:05:20 - DEBUG - dispatch pc=84, inst=CALL_METHOD(arg=1, lineno=97)
+24-08-22  19:05:20 - DEBUG - stack ['$74load_method.13', '$const76.14', '$80load_method.16', '$current_time82.17']
+24-08-22  19:05:20 - DEBUG - dispatch pc=86, inst=CALL_METHOD(arg=2, lineno=97)
+24-08-22  19:05:20 - DEBUG - stack ['$74load_method.13', '$const76.14', '$84call_method.18']
+24-08-22  19:05:20 - DEBUG - dispatch pc=88, inst=STORE_FAST(arg=2, lineno=97)
+24-08-22  19:05:20 - DEBUG - stack ['$86call_method.19']
+24-08-22  19:05:20 - DEBUG - dispatch pc=90, inst=LOAD_GLOBAL(arg=11, lineno=99)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=92, inst=LOAD_GLOBAL(arg=12, lineno=99)
+24-08-22  19:05:20 - DEBUG - stack ['$90load_global.20']
+24-08-22  19:05:20 - DEBUG - dispatch pc=94, inst=LOAD_METHOD(arg=13, lineno=99)
+24-08-22  19:05:20 - DEBUG - stack ['$90load_global.20', '$92load_global.21']
+24-08-22  19:05:20 - DEBUG - dispatch pc=96, inst=LOAD_CONST(arg=7, lineno=99)
+24-08-22  19:05:20 - DEBUG - stack ['$90load_global.20', '$94load_method.22']
+24-08-22  19:05:20 - DEBUG - dispatch pc=98, inst=CALL_METHOD(arg=1, lineno=99)
+24-08-22  19:05:20 - DEBUG - stack ['$90load_global.20', '$94load_method.22', '$const96.23']
+24-08-22  19:05:20 - DEBUG - dispatch pc=100, inst=CALL_FUNCTION(arg=1, lineno=99)
+24-08-22  19:05:20 - DEBUG - stack ['$90load_global.20', '$98call_method.24']
+24-08-22  19:05:20 - DEBUG - dispatch pc=102, inst=LOAD_FAST(arg=0, lineno=99)
+24-08-22  19:05:20 - DEBUG - stack ['$100call_function.25']
+24-08-22  19:05:20 - DEBUG - dispatch pc=104, inst=COMPARE_OP(arg=5, lineno=99)
+24-08-22  19:05:20 - DEBUG - stack ['$100call_function.25', '$logging_maxFiles102.26']
+24-08-22  19:05:20 - DEBUG - dispatch pc=106, inst=POP_JUMP_IF_FALSE(arg=126, lineno=99)
+24-08-22  19:05:20 - DEBUG - stack ['$104compare_op.27']
+24-08-22  19:05:20 - DEBUG - end state. edges=[Edge(pc=108, stack=(), blockstack=(), npush=0), Edge(pc=250, stack=(), blockstack=(), npush=0)]
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=46 nstack_initial=1), State(pc_initial=108 nstack_initial=0), State(pc_initial=250 nstack_initial=0)])
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=108 nstack_initial=0), State(pc_initial=250 nstack_initial=0)])
+24-08-22  19:05:20 - DEBUG - stack: []
+24-08-22  19:05:20 - DEBUG - dispatch pc=108, inst=LOAD_GLOBAL(arg=5, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=110, inst=LOAD_METHOD(arg=14, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$108load_global.0']
+24-08-22  19:05:20 - DEBUG - dispatch pc=112, inst=LOAD_CONST(arg=8, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$110load_method.1']
+24-08-22  19:05:20 - DEBUG - dispatch pc=114, inst=LOAD_GLOBAL(arg=11, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$110load_method.1', '$const112.2']
+24-08-22  19:05:20 - DEBUG - dispatch pc=116, inst=LOAD_GLOBAL(arg=12, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$110load_method.1', '$const112.2', '$114load_global.3']
+24-08-22  19:05:20 - DEBUG - dispatch pc=118, inst=LOAD_METHOD(arg=13, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$110load_method.1', '$const112.2', '$114load_global.3', '$116load_global.4']
+24-08-22  19:05:20 - DEBUG - dispatch pc=120, inst=LOAD_CONST(arg=7, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$110load_method.1', '$const112.2', '$114load_global.3', '$118load_method.5']
+24-08-22  19:05:20 - DEBUG - dispatch pc=122, inst=CALL_METHOD(arg=1, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$110load_method.1', '$const112.2', '$114load_global.3', '$118load_method.5', '$const120.6']
+24-08-22  19:05:20 - DEBUG - dispatch pc=124, inst=CALL_FUNCTION(arg=1, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$110load_method.1', '$const112.2', '$114load_global.3', '$122call_method.7']
+24-08-22  19:05:20 - DEBUG - dispatch pc=126, inst=FORMAT_VALUE(arg=0, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$110load_method.1', '$const112.2', '$124call_function.8']
+24-08-22  19:05:20 - DEBUG - dispatch pc=128, inst=LOAD_CONST(arg=9, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$110load_method.1', '$const112.2', '$126format_value.10']
+24-08-22  19:05:20 - DEBUG - dispatch pc=130, inst=BUILD_STRING(arg=3, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$110load_method.1', '$const112.2', '$126format_value.10', '$const128.11']
+24-08-22  19:05:20 - DEBUG - dispatch pc=132, inst=CALL_METHOD(arg=1, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$110load_method.1', '$130build_string.13']
+24-08-22  19:05:20 - DEBUG - dispatch pc=134, inst=POP_TOP(arg=None, lineno=101)
+24-08-22  19:05:20 - DEBUG - stack ['$132call_method.14']
+24-08-22  19:05:20 - DEBUG - dispatch pc=136, inst=LOAD_GLOBAL(arg=11, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=138, inst=LOAD_GLOBAL(arg=12, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$136load_global.15']
+24-08-22  19:05:20 - DEBUG - dispatch pc=140, inst=LOAD_METHOD(arg=13, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$136load_global.15', '$138load_global.16']
+24-08-22  19:05:20 - DEBUG - dispatch pc=142, inst=LOAD_CONST(arg=7, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$136load_global.15', '$140load_method.17']
+24-08-22  19:05:20 - DEBUG - dispatch pc=144, inst=CALL_METHOD(arg=1, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$136load_global.15', '$140load_method.17', '$const142.18']
+24-08-22  19:05:20 - DEBUG - dispatch pc=146, inst=CALL_FUNCTION(arg=1, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$136load_global.15', '$144call_method.19']
+24-08-22  19:05:20 - DEBUG - dispatch pc=148, inst=LOAD_FAST(arg=0, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$146call_function.20']
+24-08-22  19:05:20 - DEBUG - dispatch pc=150, inst=COMPARE_OP(arg=4, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$146call_function.20', '$logging_maxFiles148.21']
+24-08-22  19:05:20 - DEBUG - dispatch pc=152, inst=POP_JUMP_IF_FALSE(arg=112, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$150compare_op.22']
+24-08-22  19:05:20 - DEBUG - end state. edges=[Edge(pc=154, stack=(), blockstack=(), npush=0), Edge(pc=222, stack=(), blockstack=(), npush=0)]
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=250 nstack_initial=0), State(pc_initial=154 nstack_initial=0), State(pc_initial=222 nstack_initial=0)])
+24-08-22  19:05:20 - DEBUG - stack: []
+24-08-22  19:05:20 - DEBUG - dispatch pc=250, inst=LOAD_GLOBAL(arg=20, lineno=111)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=252, inst=LOAD_CONST(arg=14, lineno=111)
+24-08-22  19:05:20 - DEBUG - stack ['$250load_global.0']
+24-08-22  19:05:20 - DEBUG - dispatch pc=254, inst=LOAD_CONST(arg=14, lineno=111)
+24-08-22  19:05:20 - DEBUG - stack ['$250load_global.0', '$const252.1']
+24-08-22  19:05:20 - DEBUG - dispatch pc=256, inst=LOAD_GLOBAL(arg=21, lineno=111)
+24-08-22  19:05:20 - DEBUG - stack ['$250load_global.0', '$const252.1', '$const254.2']
+24-08-22  19:05:20 - DEBUG - dispatch pc=258, inst=CALL_FUNCTION(arg=3, lineno=111)
+24-08-22  19:05:20 - DEBUG - stack ['$250load_global.0', '$const252.1', '$const254.2', '$256load_global.3']
+24-08-22  19:05:20 - DEBUG - dispatch pc=260, inst=POP_TOP(arg=None, lineno=111)
+24-08-22  19:05:20 - DEBUG - stack ['$258call_function.4']
+24-08-22  19:05:20 - DEBUG - dispatch pc=262, inst=LOAD_GLOBAL(arg=16, lineno=114)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=264, inst=LOAD_METHOD(arg=22, lineno=114)
+24-08-22  19:05:20 - DEBUG - stack ['$262load_global.5']
+24-08-22  19:05:20 - DEBUG - dispatch pc=266, inst=LOAD_GLOBAL(arg=23, lineno=114)
+24-08-22  19:05:20 - DEBUG - stack ['$264load_method.6']
+24-08-22  19:05:20 - DEBUG - dispatch pc=268, inst=CALL_METHOD(arg=1, lineno=114)
+24-08-22  19:05:20 - DEBUG - stack ['$264load_method.6', '$266load_global.7']
+24-08-22  19:05:20 - DEBUG - dispatch pc=270, inst=POP_TOP(arg=None, lineno=114)
+24-08-22  19:05:20 - DEBUG - stack ['$268call_method.8']
+24-08-22  19:05:20 - DEBUG - dispatch pc=272, inst=LOAD_GLOBAL(arg=3, lineno=116)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=274, inst=LOAD_ATTR(arg=4, lineno=116)
+24-08-22  19:05:20 - DEBUG - stack ['$272load_global.9']
+24-08-22  19:05:20 - DEBUG - dispatch pc=276, inst=LOAD_FAST(arg=2, lineno=116)
+24-08-22  19:05:20 - DEBUG - stack ['$274load_attr.10']
+24-08-22  19:05:20 - DEBUG - dispatch pc=278, inst=LOAD_GLOBAL(arg=24, lineno=116)
+24-08-22  19:05:20 - DEBUG - stack ['$274load_attr.10', '$current_time_date276.11']
+24-08-22  19:05:20 - DEBUG - dispatch pc=280, inst=LOAD_CONST(arg=15, lineno=116)
+24-08-22  19:05:20 - DEBUG - stack ['$274load_attr.10', '$current_time_date276.11', '$278load_global.12']
+24-08-22  19:05:20 - DEBUG - dispatch pc=282, inst=LOAD_CONST(arg=16, lineno=116)
+24-08-22  19:05:20 - DEBUG - stack ['$274load_attr.10', '$current_time_date276.11', '$278load_global.12', '$const280.13']
+24-08-22  19:05:20 - DEBUG - dispatch pc=284, inst=CALL_FUNCTION(arg=2, lineno=116)
+24-08-22  19:05:20 - DEBUG - stack ['$274load_attr.10', '$current_time_date276.11', '$278load_global.12', '$const280.13', '$const282.14']
+24-08-22  19:05:20 - DEBUG - dispatch pc=286, inst=LOAD_CONST(arg=4, lineno=116)
+24-08-22  19:05:20 - DEBUG - stack ['$274load_attr.10', '$current_time_date276.11', '$284call_function.15']
+24-08-22  19:05:20 - DEBUG - dispatch pc=288, inst=CALL_FUNCTION_KW(arg=2, lineno=116)
+24-08-22  19:05:20 - DEBUG - stack ['$274load_attr.10', '$current_time_date276.11', '$284call_function.15', '$const286.16']
+24-08-22  19:05:20 - DEBUG - dispatch pc=290, inst=POP_TOP(arg=None, lineno=116)
+24-08-22  19:05:20 - DEBUG - stack ['$288call_function_kw.17']
+24-08-22  19:05:20 - DEBUG - dispatch pc=292, inst=LOAD_GLOBAL(arg=3, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=294, inst=LOAD_ATTR(arg=4, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$292load_global.18']
+24-08-22  19:05:20 - DEBUG - dispatch pc=296, inst=LOAD_CONST(arg=17, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19']
+24-08-22  19:05:20 - DEBUG - dispatch pc=298, inst=LOAD_GLOBAL(arg=20, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20']
+24-08-22  19:05:20 - DEBUG - dispatch pc=300, inst=LOAD_CONST(arg=16, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$298load_global.21']
+24-08-22  19:05:20 - DEBUG - dispatch pc=302, inst=LOAD_CONST(arg=18, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$298load_global.21', '$const300.22']
+24-08-22  19:05:20 - DEBUG - dispatch pc=304, inst=LOAD_GLOBAL(arg=21, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$298load_global.21', '$const300.22', '$const302.23']
+24-08-22  19:05:20 - DEBUG - dispatch pc=306, inst=CALL_FUNCTION(arg=3, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$298load_global.21', '$const300.22', '$const302.23', '$304load_global.24']
+24-08-22  19:05:20 - DEBUG - dispatch pc=308, inst=LOAD_CONST(arg=16, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$306call_function.25']
+24-08-22  19:05:20 - DEBUG - dispatch pc=310, inst=BINARY_SUBSCR(arg=None, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$306call_function.25', '$const308.26']
+24-08-22  19:05:20 - DEBUG - dispatch pc=312, inst=FORMAT_VALUE(arg=0, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$310binary_subscr.27']
+24-08-22  19:05:20 - DEBUG - dispatch pc=314, inst=LOAD_CONST(arg=19, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$312format_value.29']
+24-08-22  19:05:20 - DEBUG - dispatch pc=316, inst=LOAD_GLOBAL(arg=20, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$312format_value.29', '$const314.30']
+24-08-22  19:05:20 - DEBUG - dispatch pc=318, inst=LOAD_CONST(arg=16, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$312format_value.29', '$const314.30', '$316load_global.31']
+24-08-22  19:05:20 - DEBUG - dispatch pc=320, inst=LOAD_CONST(arg=18, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$312format_value.29', '$const314.30', '$316load_global.31', '$const318.32']
+24-08-22  19:05:20 - DEBUG - dispatch pc=322, inst=LOAD_GLOBAL(arg=21, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$312format_value.29', '$const314.30', '$316load_global.31', '$const318.32', '$const320.33']
+24-08-22  19:05:20 - DEBUG - dispatch pc=324, inst=CALL_FUNCTION(arg=3, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$312format_value.29', '$const314.30', '$316load_global.31', '$const318.32', '$const320.33', '$322load_global.34']
+24-08-22  19:05:20 - DEBUG - dispatch pc=326, inst=LOAD_CONST(arg=14, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$312format_value.29', '$const314.30', '$324call_function.35']
+24-08-22  19:05:20 - DEBUG - dispatch pc=328, inst=BINARY_SUBSCR(arg=None, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$312format_value.29', '$const314.30', '$324call_function.35', '$const326.36']
+24-08-22  19:05:20 - DEBUG - dispatch pc=330, inst=FORMAT_VALUE(arg=0, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$312format_value.29', '$const314.30', '$328binary_subscr.37']
+24-08-22  19:05:20 - DEBUG - dispatch pc=332, inst=BUILD_STRING(arg=4, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$const296.20', '$312format_value.29', '$const314.30', '$330format_value.39']
+24-08-22  19:05:20 - DEBUG - dispatch pc=334, inst=LOAD_GLOBAL(arg=24, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$332build_string.42']
+24-08-22  19:05:20 - DEBUG - dispatch pc=336, inst=LOAD_CONST(arg=15, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$332build_string.42', '$334load_global.43']
+24-08-22  19:05:20 - DEBUG - dispatch pc=338, inst=LOAD_CONST(arg=16, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$332build_string.42', '$334load_global.43', '$const336.44']
+24-08-22  19:05:20 - DEBUG - dispatch pc=340, inst=CALL_FUNCTION(arg=2, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$332build_string.42', '$334load_global.43', '$const336.44', '$const338.45']
+24-08-22  19:05:20 - DEBUG - dispatch pc=342, inst=LOAD_CONST(arg=4, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$332build_string.42', '$340call_function.46']
+24-08-22  19:05:20 - DEBUG - dispatch pc=344, inst=CALL_FUNCTION_KW(arg=2, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$294load_attr.19', '$332build_string.42', '$340call_function.46', '$const342.47']
+24-08-22  19:05:20 - DEBUG - dispatch pc=346, inst=POP_TOP(arg=None, lineno=118)
+24-08-22  19:05:20 - DEBUG - stack ['$344call_function_kw.48']
+24-08-22  19:05:20 - DEBUG - dispatch pc=348, inst=LOAD_GLOBAL(arg=25, lineno=120)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=350, inst=LOAD_METHOD(arg=26, lineno=120)
+24-08-22  19:05:20 - DEBUG - stack ['$348load_global.49']
+24-08-22  19:05:20 - DEBUG - dispatch pc=352, inst=LOAD_CONST(arg=20, lineno=120)
+24-08-22  19:05:20 - DEBUG - stack ['$350load_method.50']
+24-08-22  19:05:20 - DEBUG - dispatch pc=354, inst=CALL_METHOD(arg=1, lineno=120)
+24-08-22  19:05:20 - DEBUG - stack ['$350load_method.50', '$const352.51']
+24-08-22  19:05:20 - DEBUG - dispatch pc=356, inst=STORE_FAST(arg=4, lineno=120)
+24-08-22  19:05:20 - DEBUG - stack ['$354call_method.52']
+24-08-22  19:05:20 - DEBUG - dispatch pc=358, inst=LOAD_GLOBAL(arg=5, lineno=122)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=360, inst=LOAD_METHOD(arg=6, lineno=122)
+24-08-22  19:05:20 - DEBUG - stack ['$358load_global.53']
+24-08-22  19:05:20 - DEBUG - dispatch pc=362, inst=LOAD_CONST(arg=21, lineno=122)
+24-08-22  19:05:20 - DEBUG - stack ['$360load_method.54']
+24-08-22  19:05:20 - DEBUG - dispatch pc=364, inst=LOAD_GLOBAL(arg=7, lineno=122)
+24-08-22  19:05:20 - DEBUG - stack ['$360load_method.54', '$const362.55']
+24-08-22  19:05:20 - DEBUG - dispatch pc=366, inst=FORMAT_VALUE(arg=0, lineno=122)
+24-08-22  19:05:20 - DEBUG - stack ['$360load_method.54', '$const362.55', '$364load_global.56']
+24-08-22  19:05:20 - DEBUG - dispatch pc=368, inst=BUILD_STRING(arg=2, lineno=122)
+24-08-22  19:05:20 - DEBUG - stack ['$360load_method.54', '$const362.55', '$366format_value.58']
+24-08-22  19:05:20 - DEBUG - dispatch pc=370, inst=CALL_METHOD(arg=1, lineno=122)
+24-08-22  19:05:20 - DEBUG - stack ['$360load_method.54', '$368build_string.59']
+24-08-22  19:05:20 - DEBUG - dispatch pc=372, inst=POP_TOP(arg=None, lineno=122)
+24-08-22  19:05:20 - DEBUG - stack ['$370call_method.60']
+24-08-22  19:05:20 - DEBUG - dispatch pc=374, inst=LOAD_CONST(arg=0, lineno=122)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=376, inst=RETURN_VALUE(arg=None, lineno=122)
+24-08-22  19:05:20 - DEBUG - stack ['$const374.61']
+24-08-22  19:05:20 - DEBUG - end state. edges=[]
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=154 nstack_initial=0), State(pc_initial=222 nstack_initial=0)])
+24-08-22  19:05:20 - DEBUG - stack: []
+24-08-22  19:05:20 - DEBUG - dispatch pc=154, inst=LOAD_GLOBAL(arg=15, lineno=104)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=156, inst=LOAD_GLOBAL(arg=12, lineno=104)
+24-08-22  19:05:20 - DEBUG - stack ['$154load_global.0']
+24-08-22  19:05:20 - DEBUG - dispatch pc=158, inst=LOAD_METHOD(arg=13, lineno=104)
+24-08-22  19:05:20 - DEBUG - stack ['$154load_global.0', '$156load_global.1']
+24-08-22  19:05:20 - DEBUG - dispatch pc=160, inst=LOAD_CONST(arg=7, lineno=104)
+24-08-22  19:05:20 - DEBUG - stack ['$154load_global.0', '$158load_method.2']
+24-08-22  19:05:20 - DEBUG - dispatch pc=162, inst=CALL_METHOD(arg=1, lineno=104)
+24-08-22  19:05:20 - DEBUG - stack ['$154load_global.0', '$158load_method.2', '$const160.3']
+24-08-22  19:05:20 - DEBUG - dispatch pc=164, inst=LOAD_GLOBAL(arg=16, lineno=104)
+24-08-22  19:05:20 - DEBUG - stack ['$154load_global.0', '$162call_method.4']
+24-08-22  19:05:20 - DEBUG - dispatch pc=166, inst=LOAD_ATTR(arg=17, lineno=104)
+24-08-22  19:05:20 - DEBUG - stack ['$154load_global.0', '$162call_method.4', '$164load_global.5']
+24-08-22  19:05:20 - DEBUG - dispatch pc=168, inst=LOAD_ATTR(arg=18, lineno=104)
+24-08-22  19:05:20 - DEBUG - stack ['$154load_global.0', '$162call_method.4', '$166load_attr.6']
+24-08-22  19:05:20 - DEBUG - dispatch pc=170, inst=LOAD_CONST(arg=10, lineno=104)
+24-08-22  19:05:20 - DEBUG - stack ['$154load_global.0', '$162call_method.4', '$168load_attr.7']
+24-08-22  19:05:20 - DEBUG - dispatch pc=172, inst=CALL_FUNCTION_KW(arg=2, lineno=104)
+24-08-22  19:05:20 - DEBUG - stack ['$154load_global.0', '$162call_method.4', '$168load_attr.7', '$const170.8']
+24-08-22  19:05:20 - DEBUG - dispatch pc=174, inst=STORE_FAST(arg=3, lineno=104)
+24-08-22  19:05:20 - DEBUG - stack ['$172call_function_kw.9']
+24-08-22  19:05:20 - DEBUG - dispatch pc=176, inst=LOAD_GLOBAL(arg=16, lineno=105)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=178, inst=LOAD_METHOD(arg=19, lineno=105)
+24-08-22  19:05:20 - DEBUG - stack ['$176load_global.10']
+24-08-22  19:05:20 - DEBUG - dispatch pc=180, inst=LOAD_FAST(arg=3, lineno=105)
+24-08-22  19:05:20 - DEBUG - stack ['$178load_method.11']
+24-08-22  19:05:20 - DEBUG - dispatch pc=182, inst=CALL_METHOD(arg=1, lineno=105)
+24-08-22  19:05:20 - DEBUG - stack ['$178load_method.11', '$oldest_file180.12']
+24-08-22  19:05:20 - DEBUG - dispatch pc=184, inst=POP_TOP(arg=None, lineno=105)
+24-08-22  19:05:20 - DEBUG - stack ['$182call_method.13']
+24-08-22  19:05:20 - DEBUG - dispatch pc=186, inst=LOAD_GLOBAL(arg=5, lineno=106)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=188, inst=LOAD_METHOD(arg=14, lineno=106)
+24-08-22  19:05:20 - DEBUG - stack ['$186load_global.14']
+24-08-22  19:05:20 - DEBUG - dispatch pc=190, inst=LOAD_CONST(arg=11, lineno=106)
+24-08-22  19:05:20 - DEBUG - stack ['$188load_method.15']
+24-08-22  19:05:20 - DEBUG - dispatch pc=192, inst=LOAD_FAST(arg=3, lineno=106)
+24-08-22  19:05:20 - DEBUG - stack ['$188load_method.15', '$const190.16']
+24-08-22  19:05:20 - DEBUG - dispatch pc=194, inst=FORMAT_VALUE(arg=0, lineno=106)
+24-08-22  19:05:20 - DEBUG - stack ['$188load_method.15', '$const190.16', '$oldest_file192.17']
+24-08-22  19:05:20 - DEBUG - dispatch pc=196, inst=LOAD_CONST(arg=12, lineno=106)
+24-08-22  19:05:20 - DEBUG - stack ['$188load_method.15', '$const190.16', '$194format_value.19']
+24-08-22  19:05:20 - DEBUG - dispatch pc=198, inst=BUILD_STRING(arg=3, lineno=106)
+24-08-22  19:05:20 - DEBUG - stack ['$188load_method.15', '$const190.16', '$194format_value.19', '$const196.20']
+24-08-22  19:05:20 - DEBUG - dispatch pc=200, inst=CALL_METHOD(arg=1, lineno=106)
+24-08-22  19:05:20 - DEBUG - stack ['$188load_method.15', '$198build_string.22']
+24-08-22  19:05:20 - DEBUG - dispatch pc=202, inst=POP_TOP(arg=None, lineno=106)
+24-08-22  19:05:20 - DEBUG - stack ['$200call_method.23']
+24-08-22  19:05:20 - DEBUG - dispatch pc=204, inst=LOAD_GLOBAL(arg=11, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=206, inst=LOAD_GLOBAL(arg=12, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$204load_global.24']
+24-08-22  19:05:20 - DEBUG - dispatch pc=208, inst=LOAD_METHOD(arg=13, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$204load_global.24', '$206load_global.25']
+24-08-22  19:05:20 - DEBUG - dispatch pc=210, inst=LOAD_CONST(arg=7, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$204load_global.24', '$208load_method.26']
+24-08-22  19:05:20 - DEBUG - dispatch pc=212, inst=CALL_METHOD(arg=1, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$204load_global.24', '$208load_method.26', '$const210.27']
+24-08-22  19:05:20 - DEBUG - dispatch pc=214, inst=CALL_FUNCTION(arg=1, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$204load_global.24', '$212call_method.28']
+24-08-22  19:05:20 - DEBUG - dispatch pc=216, inst=LOAD_FAST(arg=0, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$214call_function.29']
+24-08-22  19:05:20 - DEBUG - dispatch pc=218, inst=COMPARE_OP(arg=4, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$214call_function.29', '$logging_maxFiles216.30']
+24-08-22  19:05:20 - DEBUG - dispatch pc=220, inst=POP_JUMP_IF_TRUE(arg=78, lineno=103)
+24-08-22  19:05:20 - DEBUG - stack ['$218compare_op.31']
+24-08-22  19:05:20 - DEBUG - end state. edges=[Edge(pc=222, stack=(), blockstack=(), npush=0), Edge(pc=154, stack=(), blockstack=(), npush=0)]
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=222 nstack_initial=0), State(pc_initial=222 nstack_initial=0), State(pc_initial=154 nstack_initial=0)])
+24-08-22  19:05:20 - DEBUG - stack: []
+24-08-22  19:05:20 - DEBUG - dispatch pc=222, inst=LOAD_GLOBAL(arg=5, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack []
+24-08-22  19:05:20 - DEBUG - dispatch pc=224, inst=LOAD_METHOD(arg=14, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$222load_global.0']
+24-08-22  19:05:20 - DEBUG - dispatch pc=226, inst=LOAD_CONST(arg=8, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$224load_method.1']
+24-08-22  19:05:20 - DEBUG - dispatch pc=228, inst=LOAD_GLOBAL(arg=11, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$224load_method.1', '$const226.2']
+24-08-22  19:05:20 - DEBUG - dispatch pc=230, inst=LOAD_GLOBAL(arg=12, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$224load_method.1', '$const226.2', '$228load_global.3']
+24-08-22  19:05:20 - DEBUG - dispatch pc=232, inst=LOAD_METHOD(arg=13, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$224load_method.1', '$const226.2', '$228load_global.3', '$230load_global.4']
+24-08-22  19:05:20 - DEBUG - dispatch pc=234, inst=LOAD_CONST(arg=7, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$224load_method.1', '$const226.2', '$228load_global.3', '$232load_method.5']
+24-08-22  19:05:20 - DEBUG - dispatch pc=236, inst=CALL_METHOD(arg=1, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$224load_method.1', '$const226.2', '$228load_global.3', '$232load_method.5', '$const234.6']
+24-08-22  19:05:20 - DEBUG - dispatch pc=238, inst=CALL_FUNCTION(arg=1, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$224load_method.1', '$const226.2', '$228load_global.3', '$236call_method.7']
+24-08-22  19:05:20 - DEBUG - dispatch pc=240, inst=FORMAT_VALUE(arg=0, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$224load_method.1', '$const226.2', '$238call_function.8']
+24-08-22  19:05:20 - DEBUG - dispatch pc=242, inst=LOAD_CONST(arg=13, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$224load_method.1', '$const226.2', '$240format_value.10']
+24-08-22  19:05:20 - DEBUG - dispatch pc=244, inst=BUILD_STRING(arg=3, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$224load_method.1', '$const226.2', '$240format_value.10', '$const242.11']
+24-08-22  19:05:20 - DEBUG - dispatch pc=246, inst=CALL_METHOD(arg=1, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$224load_method.1', '$244build_string.13']
+24-08-22  19:05:20 - DEBUG - dispatch pc=248, inst=POP_TOP(arg=None, lineno=108)
+24-08-22  19:05:20 - DEBUG - stack ['$246call_method.14']
+24-08-22  19:05:20 - DEBUG - end state. edges=[Edge(pc=250, stack=(), blockstack=(), npush=0)]
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=222 nstack_initial=0), State(pc_initial=154 nstack_initial=0), State(pc_initial=250 nstack_initial=0)])
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=154 nstack_initial=0), State(pc_initial=250 nstack_initial=0)])
+24-08-22  19:05:20 - DEBUG - pending: deque([State(pc_initial=250 nstack_initial=0)])
+24-08-22  19:05:20 - DEBUG - -------------------------Prune PHIs-------------------------
+24-08-22  19:05:20 - DEBUG - Used_phis: defaultdict(<class 'set'>,
+            {State(pc_initial=0 nstack_initial=0): set(),
+             State(pc_initial=20 nstack_initial=0): set(),
+             State(pc_initial=34 nstack_initial=0): set(),
+             State(pc_initial=46 nstack_initial=1): {'$phi46.0'},
+             State(pc_initial=108 nstack_initial=0): set(),
+             State(pc_initial=154 nstack_initial=0): set(),
+             State(pc_initial=222 nstack_initial=0): set(),
+             State(pc_initial=250 nstack_initial=0): set()})
+24-08-22  19:05:20 - DEBUG - defmap: {'$phi46.0': State(pc_initial=20 nstack_initial=0)}
+24-08-22  19:05:20 - DEBUG - phismap: defaultdict(<class 'set'>,
+            {'$phi46.0': {('$30call_function_kw.5',
+                           State(pc_initial=20 nstack_initial=0)),
+                          ('$44binary_subscr.5',
+                           State(pc_initial=34 nstack_initial=0))}})
+24-08-22  19:05:20 - DEBUG - changing phismap: defaultdict(<class 'set'>,
+            {'$phi46.0': {('$30call_function_kw.5',
+                           State(pc_initial=20 nstack_initial=0)),
+                          ('$44binary_subscr.5',
+                           State(pc_initial=34 nstack_initial=0))}})
+24-08-22  19:05:20 - DEBUG - keep phismap: {'$phi46.0': {('$30call_function_kw.5', State(pc_initial=20 nstack_initial=0)),
+              ('$44binary_subscr.5', State(pc_initial=34 nstack_initial=0))}}
+24-08-22  19:05:20 - DEBUG - new_out: defaultdict(<class 'dict'>,
+            {State(pc_initial=20 nstack_initial=0): {'$phi46.0': '$30call_function_kw.5'},
+             State(pc_initial=34 nstack_initial=0): {'$phi46.0': '$44binary_subscr.5'}})
+24-08-22  19:05:20 - DEBUG - ----------------------DONE Prune PHIs-----------------------
+24-08-22  19:05:20 - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {'res': '$2load_global.0'}), (4, {'item': '$2load_global.0', 'res': '$4load_method.1'}), (6, {'res': '$6load_global.2'}), (8, {'func': '$4load_method.1', 'args': ['$6load_global.2'], 'res': '$8call_method.3'}), (10, {'res': '$const10.4'}), (12, {'index': '$const10.4', 'target': '$8call_method.3', 'res': '$12binary_subscr.5'}), (14, {'res': '$const14.6'}), (16, {'lhs': '$12binary_subscr.5', 'rhs': '$const14.6', 'res': '$16is_op.7'}), (18, {'pred': '$16is_op.7'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={20: (), 34: ()})
+24-08-22  19:05:20 - DEBUG - block_infos State(pc_initial=20 nstack_initial=0):
+AdaptBlockInfo(insts=((20, {'res': '$20load_global.0'}), (22, {'item': '$20load_global.0', 'res': '$22load_attr.1'}), (24, {'res': '$const24.2'}), (26, {'res': '$const26.3'}), (28, {'res': '$const28.4'}), (30, {'func': '$22load_attr.1', 'args': ['$const24.2', '$const26.3'], 'names': '$const28.4', 'res': '$30call_function_kw.5'}), (32, {})), outgoing_phis={'$phi46.0': '$30call_function_kw.5'}, blockstack=(), active_try_block=None, outgoing_edgepushed={46: ('$30call_function_kw.5',)})
+24-08-22  19:05:20 - DEBUG - block_infos State(pc_initial=34 nstack_initial=0):
+AdaptBlockInfo(insts=((34, {'res': '$34load_global.0'}), (36, {'item': '$34load_global.0', 'res': '$36load_method.1'}), (38, {'res': '$38load_global.2'}), (40, {'func': '$36load_method.1', 'args': ['$38load_global.2'], 'res': '$40call_method.3'}), (42, {'res': '$const42.4'}), (44, {'index': '$const42.4', 'target': '$40call_method.3', 'res': '$44binary_subscr.5'})), outgoing_phis={'$phi46.0': '$44binary_subscr.5'}, blockstack=(), active_try_block=None, outgoing_edgepushed={46: ('$44binary_subscr.5',)})
+24-08-22  19:05:20 - DEBUG - block_infos State(pc_initial=46 nstack_initial=1):
+AdaptBlockInfo(insts=((46, {'value': '$phi46.0'}), (48, {'res': '$48load_global.1'}), (50, {'item': '$48load_global.1', 'res': '$50load_method.2'}), (52, {'res': '$const52.3'}), (54, {'res': '$54load_global.4'}), (56, {'value': '$54load_global.4', 'res': '$56format_value.6', 'strvar': '$56format_value.5'}), (58, {'strings': ['$const52.3', '$56format_value.6'], 'tmps': ['$58build_string.7']}), (60, {'func': '$50load_method.2', 'args': ['$58build_string.7'], 'res': '$60call_method.8'}), (64, {'res': '$64load_global.9'}), (66, {'item': '$64load_global.9', 'res': '$66load_method.10'}), (68, {'func': '$66load_method.10', 'args': [], 'res': '$68call_method.11'}), (70, {'value': '$68call_method.11'}), (72, {'res': '$72load_global.12'}), (74, {'item': '$72load_global.12', 'res': '$74load_method.13'}), (76, {'res': '$const76.14'}), (78, {'res': '$78load_global.15'}), (80, {'item': '$78load_global.15', 'res': '$80load_method.16'}), (82, {'res': '$current_time82.17'}), (84, {'func': '$80load_method.16', 'args': ['$current_time82.17'], 'res': '$84call_method.18'}), (86, {'func': '$74load_method.13', 'args': ['$const76.14', '$84call_method.18'], 'res': '$86call_method.19'}), (88, {'value': '$86call_method.19'}), (90, {'res': '$90load_global.20'}), (92, {'res': '$92load_global.21'}), (94, {'item': '$92load_global.21', 'res': '$94load_method.22'}), (96, {'res': '$const96.23'}), (98, {'func': '$94load_method.22', 'args': ['$const96.23'], 'res': '$98call_method.24'}), (100, {'func': '$90load_global.20', 'args': ['$98call_method.24'], 'res': '$100call_function.25'}), (102, {'res': '$logging_maxFiles102.26'}), (104, {'lhs': '$100call_function.25', 'rhs': '$logging_maxFiles102.26', 'res': '$104compare_op.27'}), (106, {'pred': '$104compare_op.27'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={108: (), 250: ()})
+24-08-22  19:05:20 - DEBUG - block_infos State(pc_initial=108 nstack_initial=0):
+AdaptBlockInfo(insts=((108, {'res': '$108load_global.0'}), (110, {'item': '$108load_global.0', 'res': '$110load_method.1'}), (112, {'res': '$const112.2'}), (114, {'res': '$114load_global.3'}), (116, {'res': '$116load_global.4'}), (118, {'item': '$116load_global.4', 'res': '$118load_method.5'}), (120, {'res': '$const120.6'}), (122, {'func': '$118load_method.5', 'args': ['$const120.6'], 'res': '$122call_method.7'}), (124, {'func': '$114load_global.3', 'args': ['$122call_method.7'], 'res': '$124call_function.8'}), (126, {'value': '$124call_function.8', 'res': '$126format_value.10', 'strvar': '$126format_value.9'}), (128, {'res': '$const128.11'}), (130, {'strings': ['$const112.2', '$126format_value.10', '$const128.11'], 'tmps': ['$130build_string.12', '$130build_string.13']}), (132, {'func': '$110load_method.1', 'args': ['$130build_string.13'], 'res': '$132call_method.14'}), (136, {'res': '$136load_global.15'}), (138, {'res': '$138load_global.16'}), (140, {'item': '$138load_global.16', 'res': '$140load_method.17'}), (142, {'res': '$const142.18'}), (144, {'func': '$140load_method.17', 'args': ['$const142.18'], 'res': '$144call_method.19'}), (146, {'func': '$136load_global.15', 'args': ['$144call_method.19'], 'res': '$146call_function.20'}), (148, {'res': '$logging_maxFiles148.21'}), (150, {'lhs': '$146call_function.20', 'rhs': '$logging_maxFiles148.21', 'res': '$150compare_op.22'}), (152, {'pred': '$150compare_op.22'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={154: (), 222: ()})
+24-08-22  19:05:20 - DEBUG - block_infos State(pc_initial=154 nstack_initial=0):
+AdaptBlockInfo(insts=((154, {'res': '$154load_global.0'}), (156, {'res': '$156load_global.1'}), (158, {'item': '$156load_global.1', 'res': '$158load_method.2'}), (160, {'res': '$const160.3'}), (162, {'func': '$158load_method.2', 'args': ['$const160.3'], 'res': '$162call_method.4'}), (164, {'res': '$164load_global.5'}), (166, {'item': '$164load_global.5', 'res': '$166load_attr.6'}), (168, {'item': '$166load_attr.6', 'res': '$168load_attr.7'}), (170, {'res': '$const170.8'}), (172, {'func': '$154load_global.0', 'args': ['$162call_method.4', '$168load_attr.7'], 'names': '$const170.8', 'res': '$172call_function_kw.9'}), (174, {'value': '$172call_function_kw.9'}), (176, {'res': '$176load_global.10'}), (178, {'item': '$176load_global.10', 'res': '$178load_method.11'}), (180, {'res': '$oldest_file180.12'}), (182, {'func': '$178load_method.11', 'args': ['$oldest_file180.12'], 'res': '$182call_method.13'}), (186, {'res': '$186load_global.14'}), (188, {'item': '$186load_global.14', 'res': '$188load_method.15'}), (190, {'res': '$const190.16'}), (192, {'res': '$oldest_file192.17'}), (194, {'value': '$oldest_file192.17', 'res': '$194format_value.19', 'strvar': '$194format_value.18'}), (196, {'res': '$const196.20'}), (198, {'strings': ['$const190.16', '$194format_value.19', '$const196.20'], 'tmps': ['$198build_string.21', '$198build_string.22']}), (200, {'func': '$188load_method.15', 'args': ['$198build_string.22'], 'res': '$200call_method.23'}), (204, {'res': '$204load_global.24'}), (206, {'res': '$206load_global.25'}), (208, {'item': '$206load_global.25', 'res': '$208load_method.26'}), (210, {'res': '$const210.27'}), (212, {'func': '$208load_method.26', 'args': ['$const210.27'], 'res': '$212call_method.28'}), (214, {'func': '$204load_global.24', 'args': ['$212call_method.28'], 'res': '$214call_function.29'}), (216, {'res': '$logging_maxFiles216.30'}), (218, {'lhs': '$214call_function.29', 'rhs': '$logging_maxFiles216.30', 'res': '$218compare_op.31'}), (220, {'pred': '$218compare_op.31'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={222: (), 154: ()})
+24-08-22  19:05:20 - DEBUG - block_infos State(pc_initial=222 nstack_initial=0):
+AdaptBlockInfo(insts=((222, {'res': '$222load_global.0'}), (224, {'item': '$222load_global.0', 'res': '$224load_method.1'}), (226, {'res': '$const226.2'}), (228, {'res': '$228load_global.3'}), (230, {'res': '$230load_global.4'}), (232, {'item': '$230load_global.4', 'res': '$232load_method.5'}), (234, {'res': '$const234.6'}), (236, {'func': '$232load_method.5', 'args': ['$const234.6'], 'res': '$236call_method.7'}), (238, {'func': '$228load_global.3', 'args': ['$236call_method.7'], 'res': '$238call_function.8'}), (240, {'value': '$238call_function.8', 'res': '$240format_value.10', 'strvar': '$240format_value.9'}), (242, {'res': '$const242.11'}), (244, {'strings': ['$const226.2', '$240format_value.10', '$const242.11'], 'tmps': ['$244build_string.12', '$244build_string.13']}), (246, {'func': '$224load_method.1', 'args': ['$244build_string.13'], 'res': '$246call_method.14'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={250: ()})
+24-08-22  19:05:20 - DEBUG - block_infos State(pc_initial=250 nstack_initial=0):
+AdaptBlockInfo(insts=((250, {'res': '$250load_global.0'}), (252, {'res': '$const252.1'}), (254, {'res': '$const254.2'}), (256, {'res': '$256load_global.3'}), (258, {'func': '$250load_global.0', 'args': ['$const252.1', '$const254.2', '$256load_global.3'], 'res': '$258call_function.4'}), (262, {'res': '$262load_global.5'}), (264, {'item': '$262load_global.5', 'res': '$264load_method.6'}), (266, {'res': '$266load_global.7'}), (268, {'func': '$264load_method.6', 'args': ['$266load_global.7'], 'res': '$268call_method.8'}), (272, {'res': '$272load_global.9'}), (274, {'item': '$272load_global.9', 'res': '$274load_attr.10'}), (276, {'res': '$current_time_date276.11'}), (278, {'res': '$278load_global.12'}), (280, {'res': '$const280.13'}), (282, {'res': '$const282.14'}), (284, {'func': '$278load_global.12', 'args': ['$const280.13', '$const282.14'], 'res': '$284call_function.15'}), (286, {'res': '$const286.16'}), (288, {'func': '$274load_attr.10', 'args': ['$current_time_date276.11', '$284call_function.15'], 'names': '$const286.16', 'res': '$288call_function_kw.17'}), (292, {'res': '$292load_global.18'}), (294, {'item': '$292load_global.18', 'res': '$294load_attr.19'}), (296, {'res': '$const296.20'}), (298, {'res': '$298load_global.21'}), (300, {'res': '$const300.22'}), (302, {'res': '$const302.23'}), (304, {'res': '$304load_global.24'}), (306, {'func': '$298load_global.21', 'args': ['$const300.22', '$const302.23', '$304load_global.24'], 'res': '$306call_function.25'}), (308, {'res': '$const308.26'}), (310, {'index': '$const308.26', 'target': '$306call_function.25', 'res': '$310binary_subscr.27'}), (312, {'value': '$310binary_subscr.27', 'res': '$312format_value.29', 'strvar': '$312format_value.28'}), (314, {'res': '$const314.30'}), (316, {'res': '$316load_global.31'}), (318, {'res': '$const318.32'}), (320, {'res': '$const320.33'}), (322, {'res': '$322load_global.34'}), (324, {'func': '$316load_global.31', 'args': ['$const318.32', '$const320.33', '$322load_global.34'], 'res': '$324call_function.35'}), (326, {'res': '$const326.36'}), (328, {'index': '$const326.36', 'target': '$324call_function.35', 'res': '$328binary_subscr.37'}), (330, {'value': '$328binary_subscr.37', 'res': '$330format_value.39', 'strvar': '$330format_value.38'}), (332, {'strings': ['$const296.20', '$312format_value.29', '$const314.30', '$330format_value.39'], 'tmps': ['$332build_string.40', '$332build_string.41', '$332build_string.42']}), (334, {'res': '$334load_global.43'}), (336, {'res': '$const336.44'}), (338, {'res': '$const338.45'}), (340, {'func': '$334load_global.43', 'args': ['$const336.44', '$const338.45'], 'res': '$340call_function.46'}), (342, {'res': '$const342.47'}), (344, {'func': '$294load_attr.19', 'args': ['$332build_string.42', '$340call_function.46'], 'names': '$const342.47', 'res': '$344call_function_kw.48'}), (348, {'res': '$348load_global.49'}), (350, {'item': '$348load_global.49', 'res': '$350load_method.50'}), (352, {'res': '$const352.51'}), (354, {'func': '$350load_method.50', 'args': ['$const352.51'], 'res': '$354call_method.52'}), (356, {'value': '$354call_method.52'}), (358, {'res': '$358load_global.53'}), (360, {'item': '$358load_global.53', 'res': '$360load_method.54'}), (362, {'res': '$const362.55'}), (364, {'res': '$364load_global.56'}), (366, {'value': '$364load_global.56', 'res': '$366format_value.58', 'strvar': '$366format_value.57'}), (368, {'strings': ['$const362.55', '$366format_value.58'], 'tmps': ['$368build_string.59']}), (370, {'func': '$360load_method.54', 'args': ['$368build_string.59'], 'res': '$370call_method.60'}), (374, {'res': '$const374.61'}), (376, {'retval': '$const374.61', 'castval': '$376return_value.62'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+24-08-22  19:05:20 - DEBUG - label 0:
+    $2load_global.0 = global(JSON_read: <class 'backend.classes.file_class.JSON_read'>) ['$2load_global.0']
+    $4load_method.1 = getattr(value=$2load_global.0, attr=read_log_config) ['$2load_global.0', '$4load_method.1']
+    $6load_global.2 = global(conf_path: config/config.json) ['$6load_global.2']
+    $8call_method.3 = call $4load_method.1($6load_global.2, func=$4load_method.1, args=[Var($6load_global.2, __innit__.py:91)], kws=(), vararg=None, varkwarg=None, target=None) ['$4load_method.1', '$6load_global.2', '$8call_method.3']
+    $const10.4 = const(int, 5)               ['$const10.4']
+    $12binary_subscr.5 = getitem(value=$8call_method.3, index=$const10.4, fn=<built-in function getitem>) ['$12binary_subscr.5', '$8call_method.3', '$const10.4']
+    $const14.6 = const(NoneType, None)       ['$const14.6']
+    $16is_op.7 = $12binary_subscr.5 is $const14.6 ['$12binary_subscr.5', '$16is_op.7', '$const14.6']
+    bool18 = global(bool: <class 'bool'>)    ['bool18']
+    $18pred = call bool18($16is_op.7, func=bool18, args=(Var($16is_op.7, __innit__.py:91),), kws=(), vararg=None, varkwarg=None, target=None) ['$16is_op.7', '$18pred', 'bool18']
+    branch $18pred, 20, 34                   ['$18pred']
+label 20:
+    $20load_global.0 = global(z: <console width=209 ColorSystem.TRUECOLOR>) ['$20load_global.0']
+    $22load_attr.1 = getattr(value=$20load_global.0, attr=print) ['$20load_global.0', '$22load_attr.1']
+    $const24.2 = const(str, config file is missing information, please reinitialize config.json) ['$const24.2']
+    $const26.3 = const(str, red)             ['$const26.3']
+    $30call_function_kw.5 = call $22load_attr.1($const24.2, func=$22load_attr.1, args=[Var($const24.2, __innit__.py:91)], kws=[('style', Var($const26.3, __innit__.py:91))], vararg=None, varkwarg=None, target=None) ['$22load_attr.1', '$30call_function_kw.5', '$const24.2', '$const26.3']
+    $phi46.0 = $30call_function_kw.5         ['$30call_function_kw.5', '$phi46.0']
+    jump 46                                  []
+label 34:
+    $34load_global.0 = global(JSON_read: <class 'backend.classes.file_class.JSON_read'>) ['$34load_global.0']
+    $36load_method.1 = getattr(value=$34load_global.0, attr=read_log_config) ['$34load_global.0', '$36load_method.1']
+    $38load_global.2 = global(conf_path: config/config.json) ['$38load_global.2']
+    $40call_method.3 = call $36load_method.1($38load_global.2, func=$36load_method.1, args=[Var($38load_global.2, __innit__.py:91)], kws=(), vararg=None, varkwarg=None, target=None) ['$36load_method.1', '$38load_global.2', '$40call_method.3']
+    $const42.4 = const(int, 5)               ['$const42.4']
+    $44binary_subscr.5 = getitem(value=$40call_method.3, index=$const42.4, fn=<built-in function getitem>) ['$40call_method.3', '$44binary_subscr.5', '$const42.4']
+    $phi46.0 = $44binary_subscr.5            ['$44binary_subscr.5', '$phi46.0']
+    jump 46                                  []
+label 46:
+    logging_maxFiles = $phi46.0              ['$phi46.0', 'logging_maxFiles']
+    $48load_global.1 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>) ['$48load_global.1']
+    $50load_method.2 = getattr(value=$48load_global.1, attr=warning) ['$48load_global.1', '$50load_method.2']
+    $const52.3 = const(str, _main_ function is starting in file ) ['$const52.3']
+    $54load_global.4 = global(this_file: __innit__.py) ['$54load_global.4']
+    $56format_value.5 = global(str: <class 'str'>) ['$56format_value.5']
+    $56format_value.6 = call $56format_value.5($54load_global.4, func=$56format_value.5, args=(Var($54load_global.4, __innit__.py:94),), kws=(), vararg=None, varkwarg=None, target=None) ['$54load_global.4', '$56format_value.5', '$56format_value.6']
+    $58build_string.7 = $const52.3 + $56format_value.6 ['$56format_value.6', '$58build_string.7', '$const52.3']
+    $60call_method.8 = call $50load_method.2($58build_string.7, func=$50load_method.2, args=[Var($58build_string.7, __innit__.py:94)], kws=(), vararg=None, varkwarg=None, target=None) ['$50load_method.2', '$58build_string.7', '$60call_method.8']
+    $64load_global.9 = global(time: <module 'time' (built-in)>) ['$64load_global.9']
+    $66load_method.10 = getattr(value=$64load_global.9, attr=time) ['$64load_global.9', '$66load_method.10']
+    current_time = call $66load_method.10(func=$66load_method.10, args=[], kws=(), vararg=None, varkwarg=None, target=None) ['$66load_method.10', 'current_time']
+    $72load_global.12 = global(time: <module 'time' (built-in)>) ['$72load_global.12']
+    $74load_method.13 = getattr(value=$72load_global.12, attr=strftime) ['$72load_global.12', '$74load_method.13']
+    $const76.14 = const(str, It is currently the %d of %b, %Y, the time is %I:%M:%S %p) ['$const76.14']
+    $78load_global.15 = global(time: <module 'time' (built-in)>) ['$78load_global.15']
+    $80load_method.16 = getattr(value=$78load_global.15, attr=localtime) ['$78load_global.15', '$80load_method.16']
+    $84call_method.18 = call $80load_method.16(current_time, func=$80load_method.16, args=[Var(current_time, __innit__.py:96)], kws=(), vararg=None, varkwarg=None, target=None) ['$80load_method.16', '$84call_method.18', 'current_time']
+    current_time_date = call $74load_method.13($const76.14, $84call_method.18, func=$74load_method.13, args=[Var($const76.14, __innit__.py:97), Var($84call_method.18, __innit__.py:97)], kws=(), vararg=None, varkwarg=None, target=None) ['$74load_method.13', '$84call_method.18', '$const76.14', 'current_time_date']
+    $90load_global.20 = global(len: <built-in function len>) ['$90load_global.20']
+    $92load_global.21 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>) ['$92load_global.21']
+    $94load_method.22 = getattr(value=$92load_global.21, attr=count_log_files) ['$92load_global.21', '$94load_method.22']
+    $const96.23 = const(str, logs)           ['$const96.23']
+    $98call_method.24 = call $94load_method.22($const96.23, func=$94load_method.22, args=[Var($const96.23, __innit__.py:99)], kws=(), vararg=None, varkwarg=None, target=None) ['$94load_method.22', '$98call_method.24', '$const96.23']
+    $100call_function.25 = call $90load_global.20($98call_method.24, func=$90load_global.20, args=[Var($98call_method.24, __innit__.py:99)], kws=(), vararg=None, varkwarg=None, target=None) ['$100call_function.25', '$90load_global.20', '$98call_method.24']
+    $104compare_op.27 = $100call_function.25 >= logging_maxFiles ['$100call_function.25', '$104compare_op.27', 'logging_maxFiles']
+    bool106 = global(bool: <class 'bool'>)   ['bool106']
+    $106pred = call bool106($104compare_op.27, func=bool106, args=(Var($104compare_op.27, __innit__.py:99),), kws=(), vararg=None, varkwarg=None, target=None) ['$104compare_op.27', '$106pred', 'bool106']
+    branch $106pred, 108, 250                ['$106pred']
+label 108:
+    $108load_global.0 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>) ['$108load_global.0']
+    $110load_method.1 = getattr(value=$108load_global.0, attr=info) ['$108load_global.0', '$110load_method.1']
+    $const112.2 = const(str, Number of log files in ./logs is ) ['$const112.2']
+    $114load_global.3 = global(len: <built-in function len>) ['$114load_global.3']
+    $116load_global.4 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>) ['$116load_global.4']
+    $118load_method.5 = getattr(value=$116load_global.4, attr=count_log_files) ['$116load_global.4', '$118load_method.5']
+    $const120.6 = const(str, logs)           ['$const120.6']
+    $122call_method.7 = call $118load_method.5($const120.6, func=$118load_method.5, args=[Var($const120.6, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None) ['$118load_method.5', '$122call_method.7', '$const120.6']
+    $124call_function.8 = call $114load_global.3($122call_method.7, func=$114load_global.3, args=[Var($122call_method.7, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None) ['$114load_global.3', '$122call_method.7', '$124call_function.8']
+    $126format_value.9 = global(str: <class 'str'>) ['$126format_value.9']
+    $126format_value.10 = call $126format_value.9($124call_function.8, func=$126format_value.9, args=(Var($124call_function.8, __innit__.py:101),), kws=(), vararg=None, varkwarg=None, target=None) ['$124call_function.8', '$126format_value.10', '$126format_value.9']
+    $const128.11 = const(str,  before deletion) ['$const128.11']
+    $130build_string.12 = $const112.2 + $126format_value.10 ['$126format_value.10', '$130build_string.12', '$const112.2']
+    $130build_string.13 = $130build_string.12 + $const128.11 ['$130build_string.12', '$130build_string.13', '$const128.11']
+    $132call_method.14 = call $110load_method.1($130build_string.13, func=$110load_method.1, args=[Var($130build_string.13, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None) ['$110load_method.1', '$130build_string.13', '$132call_method.14']
+    $136load_global.15 = global(len: <built-in function len>) ['$136load_global.15']
+    $138load_global.16 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>) ['$138load_global.16']
+    $140load_method.17 = getattr(value=$138load_global.16, attr=count_log_files) ['$138load_global.16', '$140load_method.17']
+    $const142.18 = const(str, logs)          ['$const142.18']
+    $144call_method.19 = call $140load_method.17($const142.18, func=$140load_method.17, args=[Var($const142.18, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None) ['$140load_method.17', '$144call_method.19', '$const142.18']
+    $146call_function.20 = call $136load_global.15($144call_method.19, func=$136load_global.15, args=[Var($144call_method.19, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None) ['$136load_global.15', '$144call_method.19', '$146call_function.20']
+    $150compare_op.22 = $146call_function.20 > logging_maxFiles ['$146call_function.20', '$150compare_op.22', 'logging_maxFiles']
+    bool152 = global(bool: <class 'bool'>)   ['bool152']
+    $152pred = call bool152($150compare_op.22, func=bool152, args=(Var($150compare_op.22, __innit__.py:103),), kws=(), vararg=None, varkwarg=None, target=None) ['$150compare_op.22', '$152pred', 'bool152']
+    branch $152pred, 154, 222                ['$152pred']
+label 154:
+    $154load_global.0 = global(min: <built-in function min>) ['$154load_global.0']
+    $156load_global.1 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>) ['$156load_global.1']
+    $158load_method.2 = getattr(value=$156load_global.1, attr=count_log_files) ['$156load_global.1', '$158load_method.2']
+    $const160.3 = const(str, logs)           ['$const160.3']
+    $162call_method.4 = call $158load_method.2($const160.3, func=$158load_method.2, args=[Var($const160.3, __innit__.py:104)], kws=(), vararg=None, varkwarg=None, target=None) ['$158load_method.2', '$162call_method.4', '$const160.3']
+    $164load_global.5 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>) ['$164load_global.5']
+    $166load_attr.6 = getattr(value=$164load_global.5, attr=path) ['$164load_global.5', '$166load_attr.6']
+    $168load_attr.7 = getattr(value=$166load_attr.6, attr=getctime) ['$166load_attr.6', '$168load_attr.7']
+    oldest_file = call $154load_global.0($162call_method.4, func=$154load_global.0, args=[Var($162call_method.4, __innit__.py:104)], kws=[('key', Var($168load_attr.7, __innit__.py:104))], vararg=None, varkwarg=None, target=None) ['$154load_global.0', '$162call_method.4', '$168load_attr.7', 'oldest_file']
+    $176load_global.10 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>) ['$176load_global.10']
+    $178load_method.11 = getattr(value=$176load_global.10, attr=remove) ['$176load_global.10', '$178load_method.11']
+    $182call_method.13 = call $178load_method.11(oldest_file, func=$178load_method.11, args=[Var(oldest_file, __innit__.py:104)], kws=(), vararg=None, varkwarg=None, target=None) ['$178load_method.11', '$182call_method.13', 'oldest_file']
+    $186load_global.14 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>) ['$186load_global.14']
+    $188load_method.15 = getattr(value=$186load_global.14, attr=info) ['$186load_global.14', '$188load_method.15']
+    $const190.16 = const(str, Removed log file ) ['$const190.16']
+    $194format_value.18 = global(str: <class 'str'>) ['$194format_value.18']
+    $194format_value.19 = call $194format_value.18(oldest_file, func=$194format_value.18, args=(Var(oldest_file, __innit__.py:104),), kws=(), vararg=None, varkwarg=None, target=None) ['$194format_value.18', '$194format_value.19', 'oldest_file']
+    $const196.20 = const(str,  in ./logs)    ['$const196.20']
+    $198build_string.21 = $const190.16 + $194format_value.19 ['$194format_value.19', '$198build_string.21', '$const190.16']
+    $198build_string.22 = $198build_string.21 + $const196.20 ['$198build_string.21', '$198build_string.22', '$const196.20']
+    $200call_method.23 = call $188load_method.15($198build_string.22, func=$188load_method.15, args=[Var($198build_string.22, __innit__.py:106)], kws=(), vararg=None, varkwarg=None, target=None) ['$188load_method.15', '$198build_string.22', '$200call_method.23']
+    $204load_global.24 = global(len: <built-in function len>) ['$204load_global.24']
+    $206load_global.25 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>) ['$206load_global.25']
+    $208load_method.26 = getattr(value=$206load_global.25, attr=count_log_files) ['$206load_global.25', '$208load_method.26']
+    $const210.27 = const(str, logs)          ['$const210.27']
+    $212call_method.28 = call $208load_method.26($const210.27, func=$208load_method.26, args=[Var($const210.27, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None) ['$208load_method.26', '$212call_method.28', '$const210.27']
+    $214call_function.29 = call $204load_global.24($212call_method.28, func=$204load_global.24, args=[Var($212call_method.28, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None) ['$204load_global.24', '$212call_method.28', '$214call_function.29']
+    $218compare_op.31 = $214call_function.29 > logging_maxFiles ['$214call_function.29', '$218compare_op.31', 'logging_maxFiles']
+    bool220 = global(bool: <class 'bool'>)   ['bool220']
+    $220pred = call bool220($218compare_op.31, func=bool220, args=(Var($218compare_op.31, __innit__.py:103),), kws=(), vararg=None, varkwarg=None, target=None) ['$218compare_op.31', '$220pred', 'bool220']
+    branch $220pred, 154, 222                ['$220pred']
+label 222:
+    $222load_global.0 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>) ['$222load_global.0']
+    $224load_method.1 = getattr(value=$222load_global.0, attr=info) ['$222load_global.0', '$224load_method.1']
+    $const226.2 = const(str, Number of log files in ./logs is ) ['$const226.2']
+    $228load_global.3 = global(len: <built-in function len>) ['$228load_global.3']
+    $230load_global.4 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>) ['$230load_global.4']
+    $232load_method.5 = getattr(value=$230load_global.4, attr=count_log_files) ['$230load_global.4', '$232load_method.5']
+    $const234.6 = const(str, logs)           ['$const234.6']
+    $236call_method.7 = call $232load_method.5($const234.6, func=$232load_method.5, args=[Var($const234.6, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None) ['$232load_method.5', '$236call_method.7', '$const234.6']
+    $238call_function.8 = call $228load_global.3($236call_method.7, func=$228load_global.3, args=[Var($236call_method.7, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None) ['$228load_global.3', '$236call_method.7', '$238call_function.8']
+    $240format_value.9 = global(str: <class 'str'>) ['$240format_value.9']
+    $240format_value.10 = call $240format_value.9($238call_function.8, func=$240format_value.9, args=(Var($238call_function.8, __innit__.py:108),), kws=(), vararg=None, varkwarg=None, target=None) ['$238call_function.8', '$240format_value.10', '$240format_value.9']
+    $const242.11 = const(str,  after deletion) ['$const242.11']
+    $244build_string.12 = $const226.2 + $240format_value.10 ['$240format_value.10', '$244build_string.12', '$const226.2']
+    $244build_string.13 = $244build_string.12 + $const242.11 ['$244build_string.12', '$244build_string.13', '$const242.11']
+    $246call_method.14 = call $224load_method.1($244build_string.13, func=$224load_method.1, args=[Var($244build_string.13, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None) ['$224load_method.1', '$244build_string.13', '$246call_method.14']
+    jump 250                                 []
+label 250:
+    $250load_global.0 = global(ti: <function main.innit at 0x00000190066B3760>) ['$250load_global.0']
+    $const252.1 = const(int, 1)              ['$const252.1']
+    $const254.2 = const(int, 1)              ['$const254.2']
+    $256load_global.3 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s) ['$256load_global.3']
+    $258call_function.4 = call $250load_global.0($const252.1, $const254.2, $256load_global.3, func=$250load_global.0, args=[Var($const252.1, __innit__.py:111), Var($const254.2, __innit__.py:111), Var($256load_global.3, __innit__.py:111)], kws=(), vararg=None, varkwarg=None, target=None) ['$250load_global.0', '$256load_global.3', '$258call_function.4', '$const252.1', '$const254.2']
+    $262load_global.5 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>) ['$262load_global.5']
+    $264load_method.6 = getattr(value=$262load_global.5, attr=system) ['$262load_global.5', '$264load_method.6']
+    $266load_global.7 = global(clearcmd: cls) ['$266load_global.7']
+    $268call_method.8 = call $264load_method.6($266load_global.7, func=$264load_method.6, args=[Var($266load_global.7, __innit__.py:114)], kws=(), vararg=None, varkwarg=None, target=None) ['$264load_method.6', '$266load_global.7', '$268call_method.8']
+    $272load_global.9 = global(z: <console width=209 ColorSystem.TRUECOLOR>) ['$272load_global.9']
+    $274load_attr.10 = getattr(value=$272load_global.9, attr=print) ['$272load_global.9', '$274load_attr.10']
+    $278load_global.12 = global(color: <function JSON_read.read_color_hex at 0x00000190066B0A60>) ['$278load_global.12']
+    $const280.13 = const(str, main)          ['$const280.13']
+    $const282.14 = const(int, 0)             ['$const282.14']
+    $284call_function.15 = call $278load_global.12($const280.13, $const282.14, func=$278load_global.12, args=[Var($const280.13, __innit__.py:116), Var($const282.14, __innit__.py:116)], kws=(), vararg=None, varkwarg=None, target=None) ['$278load_global.12', '$284call_function.15', '$const280.13', '$const282.14']
+    $288call_function_kw.17 = call $274load_attr.10(current_time_date, func=$274load_attr.10, args=[Var(current_time_date, __innit__.py:97)], kws=[('style', Var($284call_function.15, __innit__.py:116))], vararg=None, varkwarg=None, target=None) ['$274load_attr.10', '$284call_function.15', '$288call_function_kw.17', 'current_time_date']
+    $292load_global.18 = global(z: <console width=209 ColorSystem.TRUECOLOR>) ['$292load_global.18']
+    $294load_attr.19 = getattr(value=$292load_global.18, attr=print) ['$292load_global.18', '$294load_attr.19']
+    $const296.20 = const(str, Boot time is: ) ['$const296.20']
+    $298load_global.21 = global(ti: <function main.innit at 0x00000190066B3760>) ['$298load_global.21']
+    $const300.22 = const(int, 0)             ['$const300.22']
+    $const302.23 = const(int, 2)             ['$const302.23']
+    $304load_global.24 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s) ['$304load_global.24']
+    $306call_function.25 = call $298load_global.21($const300.22, $const302.23, $304load_global.24, func=$298load_global.21, args=[Var($const300.22, __innit__.py:118), Var($const302.23, __innit__.py:118), Var($304load_global.24, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None) ['$298load_global.21', '$304load_global.24', '$306call_function.25', '$const300.22', '$const302.23']
+    $const308.26 = const(int, 0)             ['$const308.26']
+    $310binary_subscr.27 = getitem(value=$306call_function.25, index=$const308.26, fn=<built-in function getitem>) ['$306call_function.25', '$310binary_subscr.27', '$const308.26']
+    $312format_value.28 = global(str: <class 'str'>) ['$312format_value.28']
+    $312format_value.29 = call $312format_value.28($310binary_subscr.27, func=$312format_value.28, args=(Var($310binary_subscr.27, __innit__.py:118),), kws=(), vararg=None, varkwarg=None, target=None) ['$310binary_subscr.27', '$312format_value.28', '$312format_value.29']
+    $const314.30 = const(str,  )             ['$const314.30']
+    $316load_global.31 = global(ti: <function main.innit at 0x00000190066B3760>) ['$316load_global.31']
+    $const318.32 = const(int, 0)             ['$const318.32']
+    $const320.33 = const(int, 2)             ['$const320.33']
+    $322load_global.34 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s) ['$322load_global.34']
+    $324call_function.35 = call $316load_global.31($const318.32, $const320.33, $322load_global.34, func=$316load_global.31, args=[Var($const318.32, __innit__.py:118), Var($const320.33, __innit__.py:118), Var($322load_global.34, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None) ['$316load_global.31', '$322load_global.34', '$324call_function.35', '$const318.32', '$const320.33']
+    $const326.36 = const(int, 1)             ['$const326.36']
+    $328binary_subscr.37 = getitem(value=$324call_function.35, index=$const326.36, fn=<built-in function getitem>) ['$324call_function.35', '$328binary_subscr.37', '$const326.36']
+    $330format_value.38 = global(str: <class 'str'>) ['$330format_value.38']
+    $330format_value.39 = call $330format_value.38($328binary_subscr.37, func=$330format_value.38, args=(Var($328binary_subscr.37, __innit__.py:118),), kws=(), vararg=None, varkwarg=None, target=None) ['$328binary_subscr.37', '$330format_value.38', '$330format_value.39']
+    $332build_string.40 = $const296.20 + $312format_value.29 ['$312format_value.29', '$332build_string.40', '$const296.20']
+    $332build_string.41 = $332build_string.40 + $const314.30 ['$332build_string.40', '$332build_string.41', '$const314.30']
+    $332build_string.42 = $332build_string.41 + $330format_value.39 ['$330format_value.39', '$332build_string.41', '$332build_string.42']
+    $334load_global.43 = global(color: <function JSON_read.read_color_hex at 0x00000190066B0A60>) ['$334load_global.43']
+    $const336.44 = const(str, main)          ['$const336.44']
+    $const338.45 = const(int, 0)             ['$const338.45']
+    $340call_function.46 = call $334load_global.43($const336.44, $const338.45, func=$334load_global.43, args=[Var($const336.44, __innit__.py:118), Var($const338.45, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None) ['$334load_global.43', '$340call_function.46', '$const336.44', '$const338.45']
+    $344call_function_kw.48 = call $294load_attr.19($332build_string.42, func=$294load_attr.19, args=[Var($332build_string.42, __innit__.py:118)], kws=[('style', Var($340call_function.46, __innit__.py:118))], vararg=None, varkwarg=None, target=None) ['$294load_attr.19', '$332build_string.42', '$340call_function.46', '$344call_function_kw.48']
+    $348load_global.49 = global(cli: <class 'frontend.client.base_shell.CMDInterface'>) ['$348load_global.49']
+    $350load_method.50 = getattr(value=$348load_global.49, attr=Input_Interface) ['$348load_global.49', '$350load_method.50']
+    $const352.51 = const(str, dont clear)    ['$const352.51']
+    out = call $350load_method.50($const352.51, func=$350load_method.50, args=[Var($const352.51, __innit__.py:120)], kws=(), vararg=None, varkwarg=None, target=None) ['$350load_method.50', '$const352.51', 'out']
+    $358load_global.53 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>) ['$358load_global.53']
+    $360load_method.54 = getattr(value=$358load_global.53, attr=warning) ['$358load_global.53', '$360load_method.54']
+    $const362.55 = const(str, _main_ function is finished in file ) ['$const362.55']
+    $364load_global.56 = global(this_file: __innit__.py) ['$364load_global.56']
+    $366format_value.57 = global(str: <class 'str'>) ['$366format_value.57']
+    $366format_value.58 = call $366format_value.57($364load_global.56, func=$366format_value.57, args=(Var($364load_global.56, __innit__.py:122),), kws=(), vararg=None, varkwarg=None, target=None) ['$364load_global.56', '$366format_value.57', '$366format_value.58']
+    $368build_string.59 = $const362.55 + $366format_value.58 ['$366format_value.58', '$368build_string.59', '$const362.55']
+    $370call_method.60 = call $360load_method.54($368build_string.59, func=$360load_method.54, args=[Var($368build_string.59, __innit__.py:122)], kws=(), vararg=None, varkwarg=None, target=None) ['$360load_method.54', '$368build_string.59', '$370call_method.60']
+    $const374.61 = const(NoneType, None)     ['$const374.61']
+    $376return_value.62 = cast(value=$const374.61) ['$376return_value.62', '$const374.61']
+    return $376return_value.62               ['$376return_value.62']
+
+24-08-22  19:05:20 - DEBUG - ==== SSA block analysis pass on 0
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x000001903600A470>
+24-08-22  19:05:20 - DEBUG - on stmt: $2load_global.0 = global(JSON_read: <class 'backend.classes.file_class.JSON_read'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $4load_method.1 = getattr(value=$2load_global.0, attr=read_log_config)
+24-08-22  19:05:20 - DEBUG - on stmt: $6load_global.2 = global(conf_path: config/config.json)
+24-08-22  19:05:20 - DEBUG - on stmt: $8call_method.3 = call $4load_method.1($6load_global.2, func=$4load_method.1, args=[Var($6load_global.2, __innit__.py:91)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const10.4 = const(int, 5)
+24-08-22  19:05:20 - DEBUG - on stmt: $12binary_subscr.5 = static_getitem(value=$8call_method.3, index=5, index_var=$const10.4, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const14.6 = const(NoneType, None)
+24-08-22  19:05:20 - DEBUG - on stmt: $16is_op.7 = $12binary_subscr.5 is $const14.6
+24-08-22  19:05:20 - DEBUG - on stmt: bool18 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $18pred = call bool18($16is_op.7, func=bool18, args=(Var($16is_op.7, __innit__.py:91),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $18pred, 20, 34
+24-08-22  19:05:20 - DEBUG - ==== SSA block analysis pass on 20
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x000001903600A470>
+24-08-22  19:05:20 - DEBUG - on stmt: $20load_global.0 = global(z: <console width=209 ColorSystem.TRUECOLOR>)
+24-08-22  19:05:20 - DEBUG - on stmt: $22load_attr.1 = getattr(value=$20load_global.0, attr=print)
+24-08-22  19:05:20 - DEBUG - on stmt: $const24.2 = const(str, config file is missing information, please reinitialize config.json)
+24-08-22  19:05:20 - DEBUG - on stmt: $const26.3 = const(str, red)
+24-08-22  19:05:20 - DEBUG - on stmt: $30call_function_kw.5 = call $22load_attr.1($const24.2, func=$22load_attr.1, args=[Var($const24.2, __innit__.py:91)], kws=[('style', Var($const26.3, __innit__.py:91))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $phi46.0 = $30call_function_kw.5
+24-08-22  19:05:20 - DEBUG - on stmt: jump 46
+24-08-22  19:05:20 - DEBUG - ==== SSA block analysis pass on 34
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x000001903600A470>
+24-08-22  19:05:20 - DEBUG - on stmt: $34load_global.0 = global(JSON_read: <class 'backend.classes.file_class.JSON_read'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $36load_method.1 = getattr(value=$34load_global.0, attr=read_log_config)
+24-08-22  19:05:20 - DEBUG - on stmt: $38load_global.2 = global(conf_path: config/config.json)
+24-08-22  19:05:20 - DEBUG - on stmt: $40call_method.3 = call $36load_method.1($38load_global.2, func=$36load_method.1, args=[Var($38load_global.2, __innit__.py:91)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const42.4 = const(int, 5)
+24-08-22  19:05:20 - DEBUG - on stmt: $44binary_subscr.5 = static_getitem(value=$40call_method.3, index=5, index_var=$const42.4, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $phi46.0 = $44binary_subscr.5
+24-08-22  19:05:20 - DEBUG - on stmt: jump 46
+24-08-22  19:05:20 - DEBUG - ==== SSA block analysis pass on 46
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x000001903600A470>
+24-08-22  19:05:20 - DEBUG - on stmt: logging_maxFiles = $phi46.0
+24-08-22  19:05:20 - DEBUG - on stmt: $48load_global.1 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $50load_method.2 = getattr(value=$48load_global.1, attr=warning)
+24-08-22  19:05:20 - DEBUG - on stmt: $const52.3 = const(str, _main_ function is starting in file )
+24-08-22  19:05:20 - DEBUG - on stmt: $54load_global.4 = global(this_file: __innit__.py)
+24-08-22  19:05:20 - DEBUG - on stmt: $56format_value.5 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $56format_value.6 = call $56format_value.5($54load_global.4, func=$56format_value.5, args=(Var($54load_global.4, __innit__.py:94),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $58build_string.7 = $const52.3 + $56format_value.6
+24-08-22  19:05:20 - DEBUG - on stmt: $60call_method.8 = call $50load_method.2($58build_string.7, func=$50load_method.2, args=[Var($58build_string.7, __innit__.py:94)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $64load_global.9 = global(time: <module 'time' (built-in)>)
+24-08-22  19:05:20 - DEBUG - on stmt: $66load_method.10 = getattr(value=$64load_global.9, attr=time)
+24-08-22  19:05:20 - DEBUG - on stmt: current_time = call $66load_method.10(func=$66load_method.10, args=[], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $72load_global.12 = global(time: <module 'time' (built-in)>)
+24-08-22  19:05:20 - DEBUG - on stmt: $74load_method.13 = getattr(value=$72load_global.12, attr=strftime)
+24-08-22  19:05:20 - DEBUG - on stmt: $const76.14 = const(str, It is currently the %d of %b, %Y, the time is %I:%M:%S %p)
+24-08-22  19:05:20 - DEBUG - on stmt: $78load_global.15 = global(time: <module 'time' (built-in)>)
+24-08-22  19:05:20 - DEBUG - on stmt: $80load_method.16 = getattr(value=$78load_global.15, attr=localtime)
+24-08-22  19:05:20 - DEBUG - on stmt: $84call_method.18 = call $80load_method.16(current_time, func=$80load_method.16, args=[Var(current_time, __innit__.py:96)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: current_time_date = call $74load_method.13($const76.14, $84call_method.18, func=$74load_method.13, args=[Var($const76.14, __innit__.py:97), Var($84call_method.18, __innit__.py:97)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $90load_global.20 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $92load_global.21 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $94load_method.22 = getattr(value=$92load_global.21, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const96.23 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $98call_method.24 = call $94load_method.22($const96.23, func=$94load_method.22, args=[Var($const96.23, __innit__.py:99)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $100call_function.25 = call $90load_global.20($98call_method.24, func=$90load_global.20, args=[Var($98call_method.24, __innit__.py:99)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $104compare_op.27 = $100call_function.25 >= logging_maxFiles
+24-08-22  19:05:20 - DEBUG - on stmt: bool106 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $106pred = call bool106($104compare_op.27, func=bool106, args=(Var($104compare_op.27, __innit__.py:99),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $106pred, 108, 250
+24-08-22  19:05:20 - DEBUG - ==== SSA block analysis pass on 108
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x000001903600A470>
+24-08-22  19:05:20 - DEBUG - on stmt: $108load_global.0 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $110load_method.1 = getattr(value=$108load_global.0, attr=info)
+24-08-22  19:05:20 - DEBUG - on stmt: $const112.2 = const(str, Number of log files in ./logs is )
+24-08-22  19:05:20 - DEBUG - on stmt: $114load_global.3 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $116load_global.4 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $118load_method.5 = getattr(value=$116load_global.4, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const120.6 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $122call_method.7 = call $118load_method.5($const120.6, func=$118load_method.5, args=[Var($const120.6, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $124call_function.8 = call $114load_global.3($122call_method.7, func=$114load_global.3, args=[Var($122call_method.7, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $126format_value.9 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $126format_value.10 = call $126format_value.9($124call_function.8, func=$126format_value.9, args=(Var($124call_function.8, __innit__.py:101),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const128.11 = const(str,  before deletion)
+24-08-22  19:05:20 - DEBUG - on stmt: $130build_string.12 = $const112.2 + $126format_value.10
+24-08-22  19:05:20 - DEBUG - on stmt: $130build_string.13 = $130build_string.12 + $const128.11
+24-08-22  19:05:20 - DEBUG - on stmt: $132call_method.14 = call $110load_method.1($130build_string.13, func=$110load_method.1, args=[Var($130build_string.13, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $136load_global.15 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $138load_global.16 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $140load_method.17 = getattr(value=$138load_global.16, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const142.18 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $144call_method.19 = call $140load_method.17($const142.18, func=$140load_method.17, args=[Var($const142.18, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $146call_function.20 = call $136load_global.15($144call_method.19, func=$136load_global.15, args=[Var($144call_method.19, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $150compare_op.22 = $146call_function.20 > logging_maxFiles
+24-08-22  19:05:20 - DEBUG - on stmt: bool152 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $152pred = call bool152($150compare_op.22, func=bool152, args=(Var($150compare_op.22, __innit__.py:103),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $152pred, 154, 222
+24-08-22  19:05:20 - DEBUG - ==== SSA block analysis pass on 154
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x000001903600A470>
+24-08-22  19:05:20 - DEBUG - on stmt: $154load_global.0 = global(min: <built-in function min>)
+24-08-22  19:05:20 - DEBUG - on stmt: $156load_global.1 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $158load_method.2 = getattr(value=$156load_global.1, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const160.3 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $162call_method.4 = call $158load_method.2($const160.3, func=$158load_method.2, args=[Var($const160.3, __innit__.py:104)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $164load_global.5 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $166load_attr.6 = getattr(value=$164load_global.5, attr=path)
+24-08-22  19:05:20 - DEBUG - on stmt: $168load_attr.7 = getattr(value=$166load_attr.6, attr=getctime)
+24-08-22  19:05:20 - DEBUG - on stmt: oldest_file = call $154load_global.0($162call_method.4, func=$154load_global.0, args=[Var($162call_method.4, __innit__.py:104)], kws=[('key', Var($168load_attr.7, __innit__.py:104))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $176load_global.10 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $178load_method.11 = getattr(value=$176load_global.10, attr=remove)
+24-08-22  19:05:20 - DEBUG - on stmt: $182call_method.13 = call $178load_method.11(oldest_file, func=$178load_method.11, args=[Var(oldest_file, __innit__.py:104)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $186load_global.14 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $188load_method.15 = getattr(value=$186load_global.14, attr=info)
+24-08-22  19:05:20 - DEBUG - on stmt: $const190.16 = const(str, Removed log file )
+24-08-22  19:05:20 - DEBUG - on stmt: $194format_value.18 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $194format_value.19 = call $194format_value.18(oldest_file, func=$194format_value.18, args=(Var(oldest_file, __innit__.py:104),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const196.20 = const(str,  in ./logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $198build_string.21 = $const190.16 + $194format_value.19
+24-08-22  19:05:20 - DEBUG - on stmt: $198build_string.22 = $198build_string.21 + $const196.20
+24-08-22  19:05:20 - DEBUG - on stmt: $200call_method.23 = call $188load_method.15($198build_string.22, func=$188load_method.15, args=[Var($198build_string.22, __innit__.py:106)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $204load_global.24 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $206load_global.25 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $208load_method.26 = getattr(value=$206load_global.25, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const210.27 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $212call_method.28 = call $208load_method.26($const210.27, func=$208load_method.26, args=[Var($const210.27, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $214call_function.29 = call $204load_global.24($212call_method.28, func=$204load_global.24, args=[Var($212call_method.28, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $218compare_op.31 = $214call_function.29 > logging_maxFiles
+24-08-22  19:05:20 - DEBUG - on stmt: bool220 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $220pred = call bool220($218compare_op.31, func=bool220, args=(Var($218compare_op.31, __innit__.py:103),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $220pred, 154, 222
+24-08-22  19:05:20 - DEBUG - ==== SSA block analysis pass on 222
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x000001903600A470>
+24-08-22  19:05:20 - DEBUG - on stmt: $222load_global.0 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $224load_method.1 = getattr(value=$222load_global.0, attr=info)
+24-08-22  19:05:20 - DEBUG - on stmt: $const226.2 = const(str, Number of log files in ./logs is )
+24-08-22  19:05:20 - DEBUG - on stmt: $228load_global.3 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $230load_global.4 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $232load_method.5 = getattr(value=$230load_global.4, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const234.6 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $236call_method.7 = call $232load_method.5($const234.6, func=$232load_method.5, args=[Var($const234.6, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $238call_function.8 = call $228load_global.3($236call_method.7, func=$228load_global.3, args=[Var($236call_method.7, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $240format_value.9 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $240format_value.10 = call $240format_value.9($238call_function.8, func=$240format_value.9, args=(Var($238call_function.8, __innit__.py:108),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const242.11 = const(str,  after deletion)
+24-08-22  19:05:20 - DEBUG - on stmt: $244build_string.12 = $const226.2 + $240format_value.10
+24-08-22  19:05:20 - DEBUG - on stmt: $244build_string.13 = $244build_string.12 + $const242.11
+24-08-22  19:05:20 - DEBUG - on stmt: $246call_method.14 = call $224load_method.1($244build_string.13, func=$224load_method.1, args=[Var($244build_string.13, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: jump 250
+24-08-22  19:05:20 - DEBUG - ==== SSA block analysis pass on 250
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x000001903600A470>
+24-08-22  19:05:20 - DEBUG - on stmt: $250load_global.0 = global(ti: <function main.innit at 0x00000190066B3760>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const252.1 = const(int, 1)
+24-08-22  19:05:20 - DEBUG - on stmt: $const254.2 = const(int, 1)
+24-08-22  19:05:20 - DEBUG - on stmt: $256load_global.3 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s)
+24-08-22  19:05:20 - DEBUG - on stmt: $258call_function.4 = call $250load_global.0($const252.1, $const254.2, $256load_global.3, func=$250load_global.0, args=[Var($const252.1, __innit__.py:111), Var($const254.2, __innit__.py:111), Var($256load_global.3, __innit__.py:111)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $262load_global.5 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $264load_method.6 = getattr(value=$262load_global.5, attr=system)
+24-08-22  19:05:20 - DEBUG - on stmt: $266load_global.7 = global(clearcmd: cls)
+24-08-22  19:05:20 - DEBUG - on stmt: $268call_method.8 = call $264load_method.6($266load_global.7, func=$264load_method.6, args=[Var($266load_global.7, __innit__.py:114)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $272load_global.9 = global(z: <console width=209 ColorSystem.TRUECOLOR>)
+24-08-22  19:05:20 - DEBUG - on stmt: $274load_attr.10 = getattr(value=$272load_global.9, attr=print)
+24-08-22  19:05:20 - DEBUG - on stmt: $278load_global.12 = global(color: <function JSON_read.read_color_hex at 0x00000190066B0A60>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const280.13 = const(str, main)
+24-08-22  19:05:20 - DEBUG - on stmt: $const282.14 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $284call_function.15 = call $278load_global.12($const280.13, $const282.14, func=$278load_global.12, args=[Var($const280.13, __innit__.py:116), Var($const282.14, __innit__.py:116)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $288call_function_kw.17 = call $274load_attr.10(current_time_date, func=$274load_attr.10, args=[Var(current_time_date, __innit__.py:97)], kws=[('style', Var($284call_function.15, __innit__.py:116))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $292load_global.18 = global(z: <console width=209 ColorSystem.TRUECOLOR>)
+24-08-22  19:05:20 - DEBUG - on stmt: $294load_attr.19 = getattr(value=$292load_global.18, attr=print)
+24-08-22  19:05:20 - DEBUG - on stmt: $const296.20 = const(str, Boot time is: )
+24-08-22  19:05:20 - DEBUG - on stmt: $298load_global.21 = global(ti: <function main.innit at 0x00000190066B3760>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const300.22 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $const302.23 = const(int, 2)
+24-08-22  19:05:20 - DEBUG - on stmt: $304load_global.24 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s)
+24-08-22  19:05:20 - DEBUG - on stmt: $306call_function.25 = call $298load_global.21($const300.22, $const302.23, $304load_global.24, func=$298load_global.21, args=[Var($const300.22, __innit__.py:118), Var($const302.23, __innit__.py:118), Var($304load_global.24, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const308.26 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $310binary_subscr.27 = static_getitem(value=$306call_function.25, index=0, index_var=$const308.26, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $312format_value.28 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $312format_value.29 = call $312format_value.28($310binary_subscr.27, func=$312format_value.28, args=(Var($310binary_subscr.27, __innit__.py:118),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const314.30 = const(str,  )
+24-08-22  19:05:20 - DEBUG - on stmt: $316load_global.31 = global(ti: <function main.innit at 0x00000190066B3760>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const318.32 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $const320.33 = const(int, 2)
+24-08-22  19:05:20 - DEBUG - on stmt: $322load_global.34 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s)
+24-08-22  19:05:20 - DEBUG - on stmt: $324call_function.35 = call $316load_global.31($const318.32, $const320.33, $322load_global.34, func=$316load_global.31, args=[Var($const318.32, __innit__.py:118), Var($const320.33, __innit__.py:118), Var($322load_global.34, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const326.36 = const(int, 1)
+24-08-22  19:05:20 - DEBUG - on stmt: $328binary_subscr.37 = static_getitem(value=$324call_function.35, index=1, index_var=$const326.36, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $330format_value.38 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $330format_value.39 = call $330format_value.38($328binary_subscr.37, func=$330format_value.38, args=(Var($328binary_subscr.37, __innit__.py:118),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $332build_string.40 = $const296.20 + $312format_value.29
+24-08-22  19:05:20 - DEBUG - on stmt: $332build_string.41 = $332build_string.40 + $const314.30
+24-08-22  19:05:20 - DEBUG - on stmt: $332build_string.42 = $332build_string.41 + $330format_value.39
+24-08-22  19:05:20 - DEBUG - on stmt: $334load_global.43 = global(color: <function JSON_read.read_color_hex at 0x00000190066B0A60>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const336.44 = const(str, main)
+24-08-22  19:05:20 - DEBUG - on stmt: $const338.45 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $340call_function.46 = call $334load_global.43($const336.44, $const338.45, func=$334load_global.43, args=[Var($const336.44, __innit__.py:118), Var($const338.45, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $344call_function_kw.48 = call $294load_attr.19($332build_string.42, func=$294load_attr.19, args=[Var($332build_string.42, __innit__.py:118)], kws=[('style', Var($340call_function.46, __innit__.py:118))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $348load_global.49 = global(cli: <class 'frontend.client.base_shell.CMDInterface'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $350load_method.50 = getattr(value=$348load_global.49, attr=Input_Interface)
+24-08-22  19:05:20 - DEBUG - on stmt: $const352.51 = const(str, dont clear)
+24-08-22  19:05:20 - DEBUG - on stmt: out = call $350load_method.50($const352.51, func=$350load_method.50, args=[Var($const352.51, __innit__.py:120)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $358load_global.53 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $360load_method.54 = getattr(value=$358load_global.53, attr=warning)
+24-08-22  19:05:20 - DEBUG - on stmt: $const362.55 = const(str, _main_ function is finished in file )
+24-08-22  19:05:20 - DEBUG - on stmt: $364load_global.56 = global(this_file: __innit__.py)
+24-08-22  19:05:20 - DEBUG - on stmt: $366format_value.57 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $366format_value.58 = call $366format_value.57($364load_global.56, func=$366format_value.57, args=(Var($364load_global.56, __innit__.py:122),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $368build_string.59 = $const362.55 + $366format_value.58
+24-08-22  19:05:20 - DEBUG - on stmt: $370call_method.60 = call $360load_method.54($368build_string.59, func=$360load_method.54, args=[Var($368build_string.59, __innit__.py:122)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const374.61 = const(NoneType, None)
+24-08-22  19:05:20 - DEBUG - on stmt: $376return_value.62 = cast(value=$const374.61)
+24-08-22  19:05:20 - DEBUG - on stmt: return $376return_value.62
+24-08-22  19:05:20 - DEBUG - defs defaultdict(<class 'list'>,
+            {'$100call_function.25': [<numba.core.ir.Assign object at 0x0000019036067460>],
+             '$104compare_op.27': [<numba.core.ir.Assign object at 0x00000190360676D0>],
+             '$106pred': [<numba.core.ir.Assign object at 0x0000019036067940>],
+             '$108load_global.0': [<numba.core.ir.Assign object at 0x0000019036067A60>],
+             '$110load_method.1': [<numba.core.ir.Assign object at 0x0000019036067BE0>],
+             '$114load_global.3': [<numba.core.ir.Assign object at 0x0000019036067EE0>],
+             '$116load_global.4': [<numba.core.ir.Assign object at 0x000001903606C0A0>],
+             '$118load_method.5': [<numba.core.ir.Assign object at 0x000001903606C220>],
+             '$122call_method.7': [<numba.core.ir.Assign object at 0x000001903606C5B0>],
+             '$124call_function.8': [<numba.core.ir.Assign object at 0x000001903606C700>],
+             '$126format_value.10': [<numba.core.ir.Assign object at 0x000001903606C970>],
+             '$126format_value.9': [<numba.core.ir.Assign object at 0x000001903606C850>],
+             '$12binary_subscr.5': [<numba.core.ir.Assign object at 0x0000019036093B50>],
+             '$130build_string.12': [<numba.core.ir.Assign object at 0x000001903606CCD0>],
+             '$130build_string.13': [<numba.core.ir.Assign object at 0x000001903606CDF0>],
+             '$132call_method.14': [<numba.core.ir.Assign object at 0x000001903606CFA0>],
+             '$136load_global.15': [<numba.core.ir.Assign object at 0x000001903606D090>],
+             '$138load_global.16': [<numba.core.ir.Assign object at 0x000001903606D210>],
+             '$140load_method.17': [<numba.core.ir.Assign object at 0x000001903606D390>],
+             '$144call_method.19': [<numba.core.ir.Assign object at 0x000001903606D720>],
+             '$146call_function.20': [<numba.core.ir.Assign object at 0x000001903606D870>],
+             '$150compare_op.22': [<numba.core.ir.Assign object at 0x000001903606DAE0>],
+             '$152pred': [<numba.core.ir.Assign object at 0x000001903606DD50>],
+             '$154load_global.0': [<numba.core.ir.Assign object at 0x000001903606DF90>],
+             '$156load_global.1': [<numba.core.ir.Assign object at 0x000001903606E110>],
+             '$158load_method.2': [<numba.core.ir.Assign object at 0x000001903606E290>],
+             '$162call_method.4': [<numba.core.ir.Assign object at 0x000001903606E650>],
+             '$164load_global.5': [<numba.core.ir.Assign object at 0x000001903606E740>],
+             '$166load_attr.6': [<numba.core.ir.Assign object at 0x000001903606E8C0>],
+             '$168load_attr.7': [<numba.core.ir.Assign object at 0x000001903606EA40>],
+             '$16is_op.7': [<numba.core.ir.Assign object at 0x000001903600AB90>],
+             '$176load_global.10': [<numba.core.ir.Assign object at 0x000001903606F040>],
+             '$178load_method.11': [<numba.core.ir.Assign object at 0x000001903606F1C0>],
+             '$182call_method.13': [<numba.core.ir.Assign object at 0x000001903606F4F0>],
+             '$186load_global.14': [<numba.core.ir.Assign object at 0x000001903606F5E0>],
+             '$188load_method.15': [<numba.core.ir.Assign object at 0x000001903606F760>],
+             '$18pred': [<numba.core.ir.Assign object at 0x000001903600A6E0>],
+             '$194format_value.18': [<numba.core.ir.Assign object at 0x000001903606FBB0>],
+             '$194format_value.19': [<numba.core.ir.Assign object at 0x000001903606FCD0>],
+             '$198build_string.21': [<numba.core.ir.Assign object at 0x0000019036080070>],
+             '$198build_string.22': [<numba.core.ir.Assign object at 0x0000019036080190>],
+             '$200call_method.23': [<numba.core.ir.Assign object at 0x0000019036080340>],
+             '$204load_global.24': [<numba.core.ir.Assign object at 0x0000019036080430>],
+             '$206load_global.25': [<numba.core.ir.Assign object at 0x00000190360805B0>],
+             '$208load_method.26': [<numba.core.ir.Assign object at 0x0000019036080730>],
+             '$20load_global.0': [<numba.core.ir.Assign object at 0x000001903600B700>],
+             '$212call_method.28': [<numba.core.ir.Assign object at 0x0000019036080AC0>],
+             '$214call_function.29': [<numba.core.ir.Assign object at 0x0000019036080C10>],
+             '$218compare_op.31': [<numba.core.ir.Assign object at 0x0000019036080E80>],
+             '$220pred': [<numba.core.ir.Assign object at 0x00000190360810F0>],
+             '$222load_global.0': [<numba.core.ir.Assign object at 0x0000019036081210>],
+             '$224load_method.1': [<numba.core.ir.Assign object at 0x0000019036081390>],
+             '$228load_global.3': [<numba.core.ir.Assign object at 0x00000190360816C0>],
+             '$22load_attr.1': [<numba.core.ir.Assign object at 0x000001903600B880>],
+             '$230load_global.4': [<numba.core.ir.Assign object at 0x0000019036081840>],
+             '$232load_method.5': [<numba.core.ir.Assign object at 0x00000190360819C0>],
+             '$236call_method.7': [<numba.core.ir.Assign object at 0x0000019036081D50>],
+             '$238call_function.8': [<numba.core.ir.Assign object at 0x0000019036081EA0>],
+             '$240format_value.10': [<numba.core.ir.Assign object at 0x0000019036082110>],
+             '$240format_value.9': [<numba.core.ir.Assign object at 0x0000019036081FF0>],
+             '$244build_string.12': [<numba.core.ir.Assign object at 0x0000019036082470>],
+             '$244build_string.13': [<numba.core.ir.Assign object at 0x0000019036082590>],
+             '$246call_method.14': [<numba.core.ir.Assign object at 0x0000019036082740>],
+             '$250load_global.0': [<numba.core.ir.Assign object at 0x0000019036082950>],
+             '$256load_global.3': [<numba.core.ir.Assign object at 0x0000019036082DD0>],
+             '$258call_function.4': [<numba.core.ir.Assign object at 0x0000019036082FB0>],
+             '$262load_global.5': [<numba.core.ir.Assign object at 0x00000190360830D0>],
+             '$264load_method.6': [<numba.core.ir.Assign object at 0x0000019036083250>],
+             '$266load_global.7': [<numba.core.ir.Assign object at 0x00000190360833D0>],
+             '$268call_method.8': [<numba.core.ir.Assign object at 0x00000190360835E0>],
+             '$272load_global.9': [<numba.core.ir.Assign object at 0x00000190360836D0>],
+             '$274load_attr.10': [<numba.core.ir.Assign object at 0x0000019036083850>],
+             '$278load_global.12': [<numba.core.ir.Assign object at 0x0000019036083AF0>],
+             '$284call_function.15': [<numba.core.ir.Assign object at 0x0000019036083FD0>],
+             '$288call_function_kw.17': [<numba.core.ir.Assign object at 0x000001903607C430>],
+             '$292load_global.18': [<numba.core.ir.Assign object at 0x000001903607C2E0>],
+             '$294load_attr.19': [<numba.core.ir.Assign object at 0x000001903607C610>],
+             '$298load_global.21': [<numba.core.ir.Assign object at 0x000001903607C910>],
+             '$2load_global.0': [<numba.core.ir.Assign object at 0x000001903600B2B0>],
+             '$304load_global.24': [<numba.core.ir.Assign object at 0x000001903607CD90>],
+             '$306call_function.25': [<numba.core.ir.Assign object at 0x000001903607CF70>],
+             '$30call_function_kw.5': [<numba.core.ir.Assign object at 0x0000019036064040>],
+             '$310binary_subscr.27': [<numba.core.ir.Assign object at 0x0000019036093BB0>],
+             '$312format_value.28': [<numba.core.ir.Assign object at 0x000001903607D3C0>],
+             '$312format_value.29': [<numba.core.ir.Assign object at 0x000001903607D4E0>],
+             '$316load_global.31': [<numba.core.ir.Assign object at 0x000001903607D7E0>],
+             '$322load_global.34': [<numba.core.ir.Assign object at 0x000001903607DC60>],
+             '$324call_function.35': [<numba.core.ir.Assign object at 0x000001903607DE40>],
+             '$328binary_subscr.37': [<numba.core.ir.Assign object at 0x0000019036093F40>],
+             '$330format_value.38': [<numba.core.ir.Assign object at 0x000001903607E290>],
+             '$330format_value.39': [<numba.core.ir.Assign object at 0x000001903607E3B0>],
+             '$332build_string.40': [<numba.core.ir.Assign object at 0x000001903607E560>],
+             '$332build_string.41': [<numba.core.ir.Assign object at 0x000001903607E680>],
+             '$332build_string.42': [<numba.core.ir.Assign object at 0x000001903607E7A0>],
+             '$334load_global.43': [<numba.core.ir.Assign object at 0x000001903607E8C0>],
+             '$340call_function.46': [<numba.core.ir.Assign object at 0x000001903607EDD0>],
+             '$344call_function_kw.48': [<numba.core.ir.Assign object at 0x000001903607F1F0>],
+             '$348load_global.49': [<numba.core.ir.Assign object at 0x000001903607F0A0>],
+             '$34load_global.0': [<numba.core.ir.Assign object at 0x00000190360642E0>],
+             '$350load_method.50': [<numba.core.ir.Assign object at 0x000001903607F3D0>],
+             '$358load_global.53': [<numba.core.ir.Assign object at 0x000001903607F970>],
+             '$360load_method.54': [<numba.core.ir.Assign object at 0x000001903607FAF0>],
+             '$364load_global.56': [<numba.core.ir.Assign object at 0x000001903607FDF0>],
+             '$366format_value.57': [<numba.core.ir.Assign object at 0x000001903607FFA0>],
+             '$366format_value.58': [<numba.core.ir.Assign object at 0x0000019036090100>],
+             '$368build_string.59': [<numba.core.ir.Assign object at 0x00000190360902B0>],
+             '$36load_method.1': [<numba.core.ir.Assign object at 0x0000019036064460>],
+             '$370call_method.60': [<numba.core.ir.Assign object at 0x0000019036090460>],
+             '$376return_value.62': [<numba.core.ir.Assign object at 0x0000019036090700>],
+             '$38load_global.2': [<numba.core.ir.Assign object at 0x00000190360645E0>],
+             '$40call_method.3': [<numba.core.ir.Assign object at 0x00000190360647F0>],
+             '$44binary_subscr.5': [<numba.core.ir.Assign object at 0x0000019036093CA0>],
+             '$48load_global.1': [<numba.core.ir.Assign object at 0x0000019036064E80>],
+             '$4load_method.1': [<numba.core.ir.Assign object at 0x000001903600B520>],
+             '$50load_method.2': [<numba.core.ir.Assign object at 0x0000019036065000>],
+             '$54load_global.4': [<numba.core.ir.Assign object at 0x0000019036065300>],
+             '$56format_value.5': [<numba.core.ir.Assign object at 0x00000190360654B0>],
+             '$56format_value.6': [<numba.core.ir.Assign object at 0x00000190360655D0>],
+             '$58build_string.7': [<numba.core.ir.Assign object at 0x0000019036065780>],
+             '$60call_method.8': [<numba.core.ir.Assign object at 0x0000019036065930>],
+             '$64load_global.9': [<numba.core.ir.Assign object at 0x0000019036065A20>],
+             '$66load_method.10': [<numba.core.ir.Assign object at 0x0000019036065BA0>],
+             '$6load_global.2': [<numba.core.ir.Assign object at 0x000001903600B220>],
+             '$72load_global.12': [<numba.core.ir.Assign object at 0x0000019036065FC0>],
+             '$74load_method.13': [<numba.core.ir.Assign object at 0x0000019036066140>],
+             '$78load_global.15': [<numba.core.ir.Assign object at 0x0000019036066440>],
+             '$80load_method.16': [<numba.core.ir.Assign object at 0x00000190360665C0>],
+             '$84call_method.18': [<numba.core.ir.Assign object at 0x00000190360668F0>],
+             '$8call_method.3': [<numba.core.ir.Assign object at 0x000001903600AE00>],
+             '$90load_global.20': [<numba.core.ir.Assign object at 0x0000019036066C80>],
+             '$92load_global.21': [<numba.core.ir.Assign object at 0x0000019036066E00>],
+             '$94load_method.22': [<numba.core.ir.Assign object at 0x0000019036066F80>],
+             '$98call_method.24': [<numba.core.ir.Assign object at 0x0000019036067310>],
+             '$const10.4': [<numba.core.ir.Assign object at 0x000001903600A560>],
+             '$const112.2': [<numba.core.ir.Assign object at 0x0000019036067D60>],
+             '$const120.6': [<numba.core.ir.Assign object at 0x000001903606C3A0>],
+             '$const128.11': [<numba.core.ir.Assign object at 0x000001903606CAF0>],
+             '$const14.6': [<numba.core.ir.Assign object at 0x000001903600A200>],
+             '$const142.18': [<numba.core.ir.Assign object at 0x000001903606D510>],
+             '$const160.3': [<numba.core.ir.Assign object at 0x000001903606E440>],
+             '$const190.16': [<numba.core.ir.Assign object at 0x000001903606F8E0>],
+             '$const196.20': [<numba.core.ir.Assign object at 0x000001903606FE50>],
+             '$const210.27': [<numba.core.ir.Assign object at 0x00000190360808B0>],
+             '$const226.2': [<numba.core.ir.Assign object at 0x0000019036081540>],
+             '$const234.6': [<numba.core.ir.Assign object at 0x0000019036081B40>],
+             '$const24.2': [<numba.core.ir.Assign object at 0x000001903600BA00>],
+             '$const242.11': [<numba.core.ir.Assign object at 0x0000019036082290>],
+             '$const252.1': [<numba.core.ir.Assign object at 0x0000019036082AD0>],
+             '$const254.2': [<numba.core.ir.Assign object at 0x0000019036082C50>],
+             '$const26.3': [<numba.core.ir.Assign object at 0x000001903600BB80>],
+             '$const280.13': [<numba.core.ir.Assign object at 0x0000019036083C70>],
+             '$const282.14': [<numba.core.ir.Assign object at 0x0000019036083DF0>],
+             '$const296.20': [<numba.core.ir.Assign object at 0x000001903607C790>],
+             '$const300.22': [<numba.core.ir.Assign object at 0x000001903607CA90>],
+             '$const302.23': [<numba.core.ir.Assign object at 0x000001903607CC10>],
+             '$const308.26': [<numba.core.ir.Assign object at 0x000001903607D090>],
+             '$const314.30': [<numba.core.ir.Assign object at 0x000001903607D660>],
+             '$const318.32': [<numba.core.ir.Assign object at 0x000001903607D960>],
+             '$const320.33': [<numba.core.ir.Assign object at 0x000001903607DAE0>],
+             '$const326.36': [<numba.core.ir.Assign object at 0x000001903607DF60>],
+             '$const336.44': [<numba.core.ir.Assign object at 0x000001903607EA70>],
+             '$const338.45': [<numba.core.ir.Assign object at 0x000001903607EBF0>],
+             '$const352.51': [<numba.core.ir.Assign object at 0x000001903607F550>],
+             '$const362.55': [<numba.core.ir.Assign object at 0x000001903607FC70>],
+             '$const374.61': [<numba.core.ir.Assign object at 0x0000019036090580>],
+             '$const42.4': [<numba.core.ir.Assign object at 0x00000190360648E0>],
+             '$const52.3': [<numba.core.ir.Assign object at 0x0000019036065180>],
+             '$const76.14': [<numba.core.ir.Assign object at 0x00000190360662C0>],
+             '$const96.23': [<numba.core.ir.Assign object at 0x0000019036067100>],
+             '$phi46.0': [<numba.core.ir.Assign object at 0x000001903600BE20>,
+                          <numba.core.ir.Assign object at 0x000001903600B5E0>],
+             'bool106': [<numba.core.ir.Assign object at 0x0000019036067820>],
+             'bool152': [<numba.core.ir.Assign object at 0x000001903606DC30>],
+             'bool18': [<numba.core.ir.Assign object at 0x000001903600A980>],
+             'bool220': [<numba.core.ir.Assign object at 0x0000019036080FD0>],
+             'current_time': [<numba.core.ir.Assign object at 0x0000019036065DB0>],
+             'current_time_date': [<numba.core.ir.Assign object at 0x0000019036066A70>],
+             'logging_maxFiles': [<numba.core.ir.Assign object at 0x0000019036064D00>],
+             'oldest_file': [<numba.core.ir.Assign object at 0x000001903606EEC0>],
+             'out': [<numba.core.ir.Assign object at 0x000001903607F760>]})
+24-08-22  19:05:20 - DEBUG - SSA violators {'$phi46.0'}
+24-08-22  19:05:20 - DEBUG - Fix SSA violator on var $phi46.0
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 0
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $2load_global.0 = global(JSON_read: <class 'backend.classes.file_class.JSON_read'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $4load_method.1 = getattr(value=$2load_global.0, attr=read_log_config)
+24-08-22  19:05:20 - DEBUG - on stmt: $6load_global.2 = global(conf_path: config/config.json)
+24-08-22  19:05:20 - DEBUG - on stmt: $8call_method.3 = call $4load_method.1($6load_global.2, func=$4load_method.1, args=[Var($6load_global.2, __innit__.py:91)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const10.4 = const(int, 5)
+24-08-22  19:05:20 - DEBUG - on stmt: $12binary_subscr.5 = static_getitem(value=$8call_method.3, index=5, index_var=$const10.4, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const14.6 = const(NoneType, None)
+24-08-22  19:05:20 - DEBUG - on stmt: $16is_op.7 = $12binary_subscr.5 is $const14.6
+24-08-22  19:05:20 - DEBUG - on stmt: bool18 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $18pred = call bool18($16is_op.7, func=bool18, args=(Var($16is_op.7, __innit__.py:91),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $18pred, 20, 34
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 20
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $20load_global.0 = global(z: <console width=209 ColorSystem.TRUECOLOR>)
+24-08-22  19:05:20 - DEBUG - on stmt: $22load_attr.1 = getattr(value=$20load_global.0, attr=print)
+24-08-22  19:05:20 - DEBUG - on stmt: $const24.2 = const(str, config file is missing information, please reinitialize config.json)
+24-08-22  19:05:20 - DEBUG - on stmt: $const26.3 = const(str, red)
+24-08-22  19:05:20 - DEBUG - on stmt: $30call_function_kw.5 = call $22load_attr.1($const24.2, func=$22load_attr.1, args=[Var($const24.2, __innit__.py:91)], kws=[('style', Var($const26.3, __innit__.py:91))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $phi46.0 = $30call_function_kw.5
+24-08-22  19:05:20 - DEBUG - first assign: $phi46.0
+24-08-22  19:05:20 - DEBUG - replaced with: $phi46.0 = $30call_function_kw.5
+24-08-22  19:05:20 - DEBUG - on stmt: jump 46
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 34
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $34load_global.0 = global(JSON_read: <class 'backend.classes.file_class.JSON_read'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $36load_method.1 = getattr(value=$34load_global.0, attr=read_log_config)
+24-08-22  19:05:20 - DEBUG - on stmt: $38load_global.2 = global(conf_path: config/config.json)
+24-08-22  19:05:20 - DEBUG - on stmt: $40call_method.3 = call $36load_method.1($38load_global.2, func=$36load_method.1, args=[Var($38load_global.2, __innit__.py:91)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const42.4 = const(int, 5)
+24-08-22  19:05:20 - DEBUG - on stmt: $44binary_subscr.5 = static_getitem(value=$40call_method.3, index=5, index_var=$const42.4, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $phi46.0 = $44binary_subscr.5
+24-08-22  19:05:20 - DEBUG - replaced with: $phi46.0.1 = $44binary_subscr.5
+24-08-22  19:05:20 - DEBUG - on stmt: jump 46
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 46
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: logging_maxFiles = $phi46.0
+24-08-22  19:05:20 - DEBUG - on stmt: $48load_global.1 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $50load_method.2 = getattr(value=$48load_global.1, attr=warning)
+24-08-22  19:05:20 - DEBUG - on stmt: $const52.3 = const(str, _main_ function is starting in file )
+24-08-22  19:05:20 - DEBUG - on stmt: $54load_global.4 = global(this_file: __innit__.py)
+24-08-22  19:05:20 - DEBUG - on stmt: $56format_value.5 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $56format_value.6 = call $56format_value.5($54load_global.4, func=$56format_value.5, args=(Var($54load_global.4, __innit__.py:94),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $58build_string.7 = $const52.3 + $56format_value.6
+24-08-22  19:05:20 - DEBUG - on stmt: $60call_method.8 = call $50load_method.2($58build_string.7, func=$50load_method.2, args=[Var($58build_string.7, __innit__.py:94)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $64load_global.9 = global(time: <module 'time' (built-in)>)
+24-08-22  19:05:20 - DEBUG - on stmt: $66load_method.10 = getattr(value=$64load_global.9, attr=time)
+24-08-22  19:05:20 - DEBUG - on stmt: current_time = call $66load_method.10(func=$66load_method.10, args=[], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $72load_global.12 = global(time: <module 'time' (built-in)>)
+24-08-22  19:05:20 - DEBUG - on stmt: $74load_method.13 = getattr(value=$72load_global.12, attr=strftime)
+24-08-22  19:05:20 - DEBUG - on stmt: $const76.14 = const(str, It is currently the %d of %b, %Y, the time is %I:%M:%S %p)
+24-08-22  19:05:20 - DEBUG - on stmt: $78load_global.15 = global(time: <module 'time' (built-in)>)
+24-08-22  19:05:20 - DEBUG - on stmt: $80load_method.16 = getattr(value=$78load_global.15, attr=localtime)
+24-08-22  19:05:20 - DEBUG - on stmt: $84call_method.18 = call $80load_method.16(current_time, func=$80load_method.16, args=[Var(current_time, __innit__.py:96)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: current_time_date = call $74load_method.13($const76.14, $84call_method.18, func=$74load_method.13, args=[Var($const76.14, __innit__.py:97), Var($84call_method.18, __innit__.py:97)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $90load_global.20 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $92load_global.21 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $94load_method.22 = getattr(value=$92load_global.21, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const96.23 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $98call_method.24 = call $94load_method.22($const96.23, func=$94load_method.22, args=[Var($const96.23, __innit__.py:99)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $100call_function.25 = call $90load_global.20($98call_method.24, func=$90load_global.20, args=[Var($98call_method.24, __innit__.py:99)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $104compare_op.27 = $100call_function.25 >= logging_maxFiles
+24-08-22  19:05:20 - DEBUG - on stmt: bool106 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $106pred = call bool106($104compare_op.27, func=bool106, args=(Var($104compare_op.27, __innit__.py:99),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $106pred, 108, 250
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 108
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $108load_global.0 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $110load_method.1 = getattr(value=$108load_global.0, attr=info)
+24-08-22  19:05:20 - DEBUG - on stmt: $const112.2 = const(str, Number of log files in ./logs is )
+24-08-22  19:05:20 - DEBUG - on stmt: $114load_global.3 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $116load_global.4 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $118load_method.5 = getattr(value=$116load_global.4, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const120.6 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $122call_method.7 = call $118load_method.5($const120.6, func=$118load_method.5, args=[Var($const120.6, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $124call_function.8 = call $114load_global.3($122call_method.7, func=$114load_global.3, args=[Var($122call_method.7, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $126format_value.9 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $126format_value.10 = call $126format_value.9($124call_function.8, func=$126format_value.9, args=(Var($124call_function.8, __innit__.py:101),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const128.11 = const(str,  before deletion)
+24-08-22  19:05:20 - DEBUG - on stmt: $130build_string.12 = $const112.2 + $126format_value.10
+24-08-22  19:05:20 - DEBUG - on stmt: $130build_string.13 = $130build_string.12 + $const128.11
+24-08-22  19:05:20 - DEBUG - on stmt: $132call_method.14 = call $110load_method.1($130build_string.13, func=$110load_method.1, args=[Var($130build_string.13, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $136load_global.15 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $138load_global.16 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $140load_method.17 = getattr(value=$138load_global.16, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const142.18 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $144call_method.19 = call $140load_method.17($const142.18, func=$140load_method.17, args=[Var($const142.18, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $146call_function.20 = call $136load_global.15($144call_method.19, func=$136load_global.15, args=[Var($144call_method.19, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $150compare_op.22 = $146call_function.20 > logging_maxFiles
+24-08-22  19:05:20 - DEBUG - on stmt: bool152 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $152pred = call bool152($150compare_op.22, func=bool152, args=(Var($150compare_op.22, __innit__.py:103),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $152pred, 154, 222
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 154
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $154load_global.0 = global(min: <built-in function min>)
+24-08-22  19:05:20 - DEBUG - on stmt: $156load_global.1 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $158load_method.2 = getattr(value=$156load_global.1, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const160.3 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $162call_method.4 = call $158load_method.2($const160.3, func=$158load_method.2, args=[Var($const160.3, __innit__.py:104)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $164load_global.5 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $166load_attr.6 = getattr(value=$164load_global.5, attr=path)
+24-08-22  19:05:20 - DEBUG - on stmt: $168load_attr.7 = getattr(value=$166load_attr.6, attr=getctime)
+24-08-22  19:05:20 - DEBUG - on stmt: oldest_file = call $154load_global.0($162call_method.4, func=$154load_global.0, args=[Var($162call_method.4, __innit__.py:104)], kws=[('key', Var($168load_attr.7, __innit__.py:104))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $176load_global.10 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $178load_method.11 = getattr(value=$176load_global.10, attr=remove)
+24-08-22  19:05:20 - DEBUG - on stmt: $182call_method.13 = call $178load_method.11(oldest_file, func=$178load_method.11, args=[Var(oldest_file, __innit__.py:104)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $186load_global.14 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $188load_method.15 = getattr(value=$186load_global.14, attr=info)
+24-08-22  19:05:20 - DEBUG - on stmt: $const190.16 = const(str, Removed log file )
+24-08-22  19:05:20 - DEBUG - on stmt: $194format_value.18 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $194format_value.19 = call $194format_value.18(oldest_file, func=$194format_value.18, args=(Var(oldest_file, __innit__.py:104),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const196.20 = const(str,  in ./logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $198build_string.21 = $const190.16 + $194format_value.19
+24-08-22  19:05:20 - DEBUG - on stmt: $198build_string.22 = $198build_string.21 + $const196.20
+24-08-22  19:05:20 - DEBUG - on stmt: $200call_method.23 = call $188load_method.15($198build_string.22, func=$188load_method.15, args=[Var($198build_string.22, __innit__.py:106)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $204load_global.24 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $206load_global.25 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $208load_method.26 = getattr(value=$206load_global.25, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const210.27 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $212call_method.28 = call $208load_method.26($const210.27, func=$208load_method.26, args=[Var($const210.27, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $214call_function.29 = call $204load_global.24($212call_method.28, func=$204load_global.24, args=[Var($212call_method.28, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $218compare_op.31 = $214call_function.29 > logging_maxFiles
+24-08-22  19:05:20 - DEBUG - on stmt: bool220 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $220pred = call bool220($218compare_op.31, func=bool220, args=(Var($218compare_op.31, __innit__.py:103),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $220pred, 154, 222
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 222
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $222load_global.0 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $224load_method.1 = getattr(value=$222load_global.0, attr=info)
+24-08-22  19:05:20 - DEBUG - on stmt: $const226.2 = const(str, Number of log files in ./logs is )
+24-08-22  19:05:20 - DEBUG - on stmt: $228load_global.3 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $230load_global.4 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $232load_method.5 = getattr(value=$230load_global.4, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const234.6 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $236call_method.7 = call $232load_method.5($const234.6, func=$232load_method.5, args=[Var($const234.6, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $238call_function.8 = call $228load_global.3($236call_method.7, func=$228load_global.3, args=[Var($236call_method.7, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $240format_value.9 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $240format_value.10 = call $240format_value.9($238call_function.8, func=$240format_value.9, args=(Var($238call_function.8, __innit__.py:108),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const242.11 = const(str,  after deletion)
+24-08-22  19:05:20 - DEBUG - on stmt: $244build_string.12 = $const226.2 + $240format_value.10
+24-08-22  19:05:20 - DEBUG - on stmt: $244build_string.13 = $244build_string.12 + $const242.11
+24-08-22  19:05:20 - DEBUG - on stmt: $246call_method.14 = call $224load_method.1($244build_string.13, func=$224load_method.1, args=[Var($244build_string.13, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: jump 250
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 250
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FreshVarHandler object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $250load_global.0 = global(ti: <function main.innit at 0x00000190066B3760>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const252.1 = const(int, 1)
+24-08-22  19:05:20 - DEBUG - on stmt: $const254.2 = const(int, 1)
+24-08-22  19:05:20 - DEBUG - on stmt: $256load_global.3 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s)
+24-08-22  19:05:20 - DEBUG - on stmt: $258call_function.4 = call $250load_global.0($const252.1, $const254.2, $256load_global.3, func=$250load_global.0, args=[Var($const252.1, __innit__.py:111), Var($const254.2, __innit__.py:111), Var($256load_global.3, __innit__.py:111)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $262load_global.5 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $264load_method.6 = getattr(value=$262load_global.5, attr=system)
+24-08-22  19:05:20 - DEBUG - on stmt: $266load_global.7 = global(clearcmd: cls)
+24-08-22  19:05:20 - DEBUG - on stmt: $268call_method.8 = call $264load_method.6($266load_global.7, func=$264load_method.6, args=[Var($266load_global.7, __innit__.py:114)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $272load_global.9 = global(z: <console width=209 ColorSystem.TRUECOLOR>)
+24-08-22  19:05:20 - DEBUG - on stmt: $274load_attr.10 = getattr(value=$272load_global.9, attr=print)
+24-08-22  19:05:20 - DEBUG - on stmt: $278load_global.12 = global(color: <function JSON_read.read_color_hex at 0x00000190066B0A60>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const280.13 = const(str, main)
+24-08-22  19:05:20 - DEBUG - on stmt: $const282.14 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $284call_function.15 = call $278load_global.12($const280.13, $const282.14, func=$278load_global.12, args=[Var($const280.13, __innit__.py:116), Var($const282.14, __innit__.py:116)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $288call_function_kw.17 = call $274load_attr.10(current_time_date, func=$274load_attr.10, args=[Var(current_time_date, __innit__.py:97)], kws=[('style', Var($284call_function.15, __innit__.py:116))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $292load_global.18 = global(z: <console width=209 ColorSystem.TRUECOLOR>)
+24-08-22  19:05:20 - DEBUG - on stmt: $294load_attr.19 = getattr(value=$292load_global.18, attr=print)
+24-08-22  19:05:20 - DEBUG - on stmt: $const296.20 = const(str, Boot time is: )
+24-08-22  19:05:20 - DEBUG - on stmt: $298load_global.21 = global(ti: <function main.innit at 0x00000190066B3760>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const300.22 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $const302.23 = const(int, 2)
+24-08-22  19:05:20 - DEBUG - on stmt: $304load_global.24 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s)
+24-08-22  19:05:20 - DEBUG - on stmt: $306call_function.25 = call $298load_global.21($const300.22, $const302.23, $304load_global.24, func=$298load_global.21, args=[Var($const300.22, __innit__.py:118), Var($const302.23, __innit__.py:118), Var($304load_global.24, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const308.26 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $310binary_subscr.27 = static_getitem(value=$306call_function.25, index=0, index_var=$const308.26, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $312format_value.28 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $312format_value.29 = call $312format_value.28($310binary_subscr.27, func=$312format_value.28, args=(Var($310binary_subscr.27, __innit__.py:118),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const314.30 = const(str,  )
+24-08-22  19:05:20 - DEBUG - on stmt: $316load_global.31 = global(ti: <function main.innit at 0x00000190066B3760>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const318.32 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $const320.33 = const(int, 2)
+24-08-22  19:05:20 - DEBUG - on stmt: $322load_global.34 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s)
+24-08-22  19:05:20 - DEBUG - on stmt: $324call_function.35 = call $316load_global.31($const318.32, $const320.33, $322load_global.34, func=$316load_global.31, args=[Var($const318.32, __innit__.py:118), Var($const320.33, __innit__.py:118), Var($322load_global.34, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const326.36 = const(int, 1)
+24-08-22  19:05:20 - DEBUG - on stmt: $328binary_subscr.37 = static_getitem(value=$324call_function.35, index=1, index_var=$const326.36, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $330format_value.38 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $330format_value.39 = call $330format_value.38($328binary_subscr.37, func=$330format_value.38, args=(Var($328binary_subscr.37, __innit__.py:118),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $332build_string.40 = $const296.20 + $312format_value.29
+24-08-22  19:05:20 - DEBUG - on stmt: $332build_string.41 = $332build_string.40 + $const314.30
+24-08-22  19:05:20 - DEBUG - on stmt: $332build_string.42 = $332build_string.41 + $330format_value.39
+24-08-22  19:05:20 - DEBUG - on stmt: $334load_global.43 = global(color: <function JSON_read.read_color_hex at 0x00000190066B0A60>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const336.44 = const(str, main)
+24-08-22  19:05:20 - DEBUG - on stmt: $const338.45 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $340call_function.46 = call $334load_global.43($const336.44, $const338.45, func=$334load_global.43, args=[Var($const336.44, __innit__.py:118), Var($const338.45, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $344call_function_kw.48 = call $294load_attr.19($332build_string.42, func=$294load_attr.19, args=[Var($332build_string.42, __innit__.py:118)], kws=[('style', Var($340call_function.46, __innit__.py:118))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $348load_global.49 = global(cli: <class 'frontend.client.base_shell.CMDInterface'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $350load_method.50 = getattr(value=$348load_global.49, attr=Input_Interface)
+24-08-22  19:05:20 - DEBUG - on stmt: $const352.51 = const(str, dont clear)
+24-08-22  19:05:20 - DEBUG - on stmt: out = call $350load_method.50($const352.51, func=$350load_method.50, args=[Var($const352.51, __innit__.py:120)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $358load_global.53 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $360load_method.54 = getattr(value=$358load_global.53, attr=warning)
+24-08-22  19:05:20 - DEBUG - on stmt: $const362.55 = const(str, _main_ function is finished in file )
+24-08-22  19:05:20 - DEBUG - on stmt: $364load_global.56 = global(this_file: __innit__.py)
+24-08-22  19:05:20 - DEBUG - on stmt: $366format_value.57 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $366format_value.58 = call $366format_value.57($364load_global.56, func=$366format_value.57, args=(Var($364load_global.56, __innit__.py:122),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $368build_string.59 = $const362.55 + $366format_value.58
+24-08-22  19:05:20 - DEBUG - on stmt: $370call_method.60 = call $360load_method.54($368build_string.59, func=$360load_method.54, args=[Var($368build_string.59, __innit__.py:122)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const374.61 = const(NoneType, None)
+24-08-22  19:05:20 - DEBUG - on stmt: $376return_value.62 = cast(value=$const374.61)
+24-08-22  19:05:20 - DEBUG - on stmt: return $376return_value.62
+24-08-22  19:05:20 - DEBUG - Replaced assignments: defaultdict(<class 'list'>,
+            {20: [<numba.core.ir.Assign object at 0x0000019036093D00>],
+             34: [<numba.core.ir.Assign object at 0x00000190360926E0>]})
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 0
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $2load_global.0 = global(JSON_read: <class 'backend.classes.file_class.JSON_read'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $4load_method.1 = getattr(value=$2load_global.0, attr=read_log_config)
+24-08-22  19:05:20 - DEBUG - on stmt: $6load_global.2 = global(conf_path: config/config.json)
+24-08-22  19:05:20 - DEBUG - on stmt: $8call_method.3 = call $4load_method.1($6load_global.2, func=$4load_method.1, args=[Var($6load_global.2, __innit__.py:91)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const10.4 = const(int, 5)
+24-08-22  19:05:20 - DEBUG - on stmt: $12binary_subscr.5 = static_getitem(value=$8call_method.3, index=5, index_var=$const10.4, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const14.6 = const(NoneType, None)
+24-08-22  19:05:20 - DEBUG - on stmt: $16is_op.7 = $12binary_subscr.5 is $const14.6
+24-08-22  19:05:20 - DEBUG - on stmt: bool18 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $18pred = call bool18($16is_op.7, func=bool18, args=(Var($16is_op.7, __innit__.py:91),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $18pred, 20, 34
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 20
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $20load_global.0 = global(z: <console width=209 ColorSystem.TRUECOLOR>)
+24-08-22  19:05:20 - DEBUG - on stmt: $22load_attr.1 = getattr(value=$20load_global.0, attr=print)
+24-08-22  19:05:20 - DEBUG - on stmt: $const24.2 = const(str, config file is missing information, please reinitialize config.json)
+24-08-22  19:05:20 - DEBUG - on stmt: $const26.3 = const(str, red)
+24-08-22  19:05:20 - DEBUG - on stmt: $30call_function_kw.5 = call $22load_attr.1($const24.2, func=$22load_attr.1, args=[Var($const24.2, __innit__.py:91)], kws=[('style', Var($const26.3, __innit__.py:91))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $phi46.0 = $30call_function_kw.5
+24-08-22  19:05:20 - DEBUG - on stmt: jump 46
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 34
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $34load_global.0 = global(JSON_read: <class 'backend.classes.file_class.JSON_read'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $36load_method.1 = getattr(value=$34load_global.0, attr=read_log_config)
+24-08-22  19:05:20 - DEBUG - on stmt: $38load_global.2 = global(conf_path: config/config.json)
+24-08-22  19:05:20 - DEBUG - on stmt: $40call_method.3 = call $36load_method.1($38load_global.2, func=$36load_method.1, args=[Var($38load_global.2, __innit__.py:91)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const42.4 = const(int, 5)
+24-08-22  19:05:20 - DEBUG - on stmt: $44binary_subscr.5 = static_getitem(value=$40call_method.3, index=5, index_var=$const42.4, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $phi46.0.1 = $44binary_subscr.5
+24-08-22  19:05:20 - DEBUG - on stmt: jump 46
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 46
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: logging_maxFiles = $phi46.0
+24-08-22  19:05:20 - DEBUG - find_def var='$phi46.0' stmt=logging_maxFiles = $phi46.0
+24-08-22  19:05:20 - DEBUG - find_def_from_top label 46
+24-08-22  19:05:20 - DEBUG - insert phi node $phi46.0.2 = phi(incoming_values=[], incoming_blocks=[]) at 46
+24-08-22  19:05:20 - DEBUG - find_def_from_bottom label 34
+24-08-22  19:05:20 - DEBUG - incoming_def $phi46.0.1 = $44binary_subscr.5
+24-08-22  19:05:20 - DEBUG - find_def_from_bottom label 20
+24-08-22  19:05:20 - DEBUG - incoming_def $phi46.0 = $30call_function_kw.5
+24-08-22  19:05:20 - DEBUG - replaced with: logging_maxFiles = $phi46.0.2
+24-08-22  19:05:20 - DEBUG - on stmt: $48load_global.1 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $50load_method.2 = getattr(value=$48load_global.1, attr=warning)
+24-08-22  19:05:20 - DEBUG - on stmt: $const52.3 = const(str, _main_ function is starting in file )
+24-08-22  19:05:20 - DEBUG - on stmt: $54load_global.4 = global(this_file: __innit__.py)
+24-08-22  19:05:20 - DEBUG - on stmt: $56format_value.5 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $56format_value.6 = call $56format_value.5($54load_global.4, func=$56format_value.5, args=(Var($54load_global.4, __innit__.py:94),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $58build_string.7 = $const52.3 + $56format_value.6
+24-08-22  19:05:20 - DEBUG - on stmt: $60call_method.8 = call $50load_method.2($58build_string.7, func=$50load_method.2, args=[Var($58build_string.7, __innit__.py:94)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $64load_global.9 = global(time: <module 'time' (built-in)>)
+24-08-22  19:05:20 - DEBUG - on stmt: $66load_method.10 = getattr(value=$64load_global.9, attr=time)
+24-08-22  19:05:20 - DEBUG - on stmt: current_time = call $66load_method.10(func=$66load_method.10, args=[], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $72load_global.12 = global(time: <module 'time' (built-in)>)
+24-08-22  19:05:20 - DEBUG - on stmt: $74load_method.13 = getattr(value=$72load_global.12, attr=strftime)
+24-08-22  19:05:20 - DEBUG - on stmt: $const76.14 = const(str, It is currently the %d of %b, %Y, the time is %I:%M:%S %p)
+24-08-22  19:05:20 - DEBUG - on stmt: $78load_global.15 = global(time: <module 'time' (built-in)>)
+24-08-22  19:05:20 - DEBUG - on stmt: $80load_method.16 = getattr(value=$78load_global.15, attr=localtime)
+24-08-22  19:05:20 - DEBUG - on stmt: $84call_method.18 = call $80load_method.16(current_time, func=$80load_method.16, args=[Var(current_time, __innit__.py:96)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: current_time_date = call $74load_method.13($const76.14, $84call_method.18, func=$74load_method.13, args=[Var($const76.14, __innit__.py:97), Var($84call_method.18, __innit__.py:97)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $90load_global.20 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $92load_global.21 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $94load_method.22 = getattr(value=$92load_global.21, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const96.23 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $98call_method.24 = call $94load_method.22($const96.23, func=$94load_method.22, args=[Var($const96.23, __innit__.py:99)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $100call_function.25 = call $90load_global.20($98call_method.24, func=$90load_global.20, args=[Var($98call_method.24, __innit__.py:99)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $104compare_op.27 = $100call_function.25 >= logging_maxFiles
+24-08-22  19:05:20 - DEBUG - on stmt: bool106 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $106pred = call bool106($104compare_op.27, func=bool106, args=(Var($104compare_op.27, __innit__.py:99),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $106pred, 108, 250
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 108
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $108load_global.0 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $110load_method.1 = getattr(value=$108load_global.0, attr=info)
+24-08-22  19:05:20 - DEBUG - on stmt: $const112.2 = const(str, Number of log files in ./logs is )
+24-08-22  19:05:20 - DEBUG - on stmt: $114load_global.3 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $116load_global.4 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $118load_method.5 = getattr(value=$116load_global.4, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const120.6 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $122call_method.7 = call $118load_method.5($const120.6, func=$118load_method.5, args=[Var($const120.6, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $124call_function.8 = call $114load_global.3($122call_method.7, func=$114load_global.3, args=[Var($122call_method.7, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $126format_value.9 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $126format_value.10 = call $126format_value.9($124call_function.8, func=$126format_value.9, args=(Var($124call_function.8, __innit__.py:101),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const128.11 = const(str,  before deletion)
+24-08-22  19:05:20 - DEBUG - on stmt: $130build_string.12 = $const112.2 + $126format_value.10
+24-08-22  19:05:20 - DEBUG - on stmt: $130build_string.13 = $130build_string.12 + $const128.11
+24-08-22  19:05:20 - DEBUG - on stmt: $132call_method.14 = call $110load_method.1($130build_string.13, func=$110load_method.1, args=[Var($130build_string.13, __innit__.py:101)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $136load_global.15 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $138load_global.16 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $140load_method.17 = getattr(value=$138load_global.16, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const142.18 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $144call_method.19 = call $140load_method.17($const142.18, func=$140load_method.17, args=[Var($const142.18, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $146call_function.20 = call $136load_global.15($144call_method.19, func=$136load_global.15, args=[Var($144call_method.19, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $150compare_op.22 = $146call_function.20 > logging_maxFiles
+24-08-22  19:05:20 - DEBUG - on stmt: bool152 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $152pred = call bool152($150compare_op.22, func=bool152, args=(Var($150compare_op.22, __innit__.py:103),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $152pred, 154, 222
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 154
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $154load_global.0 = global(min: <built-in function min>)
+24-08-22  19:05:20 - DEBUG - on stmt: $156load_global.1 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $158load_method.2 = getattr(value=$156load_global.1, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const160.3 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $162call_method.4 = call $158load_method.2($const160.3, func=$158load_method.2, args=[Var($const160.3, __innit__.py:104)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $164load_global.5 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $166load_attr.6 = getattr(value=$164load_global.5, attr=path)
+24-08-22  19:05:20 - DEBUG - on stmt: $168load_attr.7 = getattr(value=$166load_attr.6, attr=getctime)
+24-08-22  19:05:20 - DEBUG - on stmt: oldest_file = call $154load_global.0($162call_method.4, func=$154load_global.0, args=[Var($162call_method.4, __innit__.py:104)], kws=[('key', Var($168load_attr.7, __innit__.py:104))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $176load_global.10 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $178load_method.11 = getattr(value=$176load_global.10, attr=remove)
+24-08-22  19:05:20 - DEBUG - on stmt: $182call_method.13 = call $178load_method.11(oldest_file, func=$178load_method.11, args=[Var(oldest_file, __innit__.py:104)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $186load_global.14 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $188load_method.15 = getattr(value=$186load_global.14, attr=info)
+24-08-22  19:05:20 - DEBUG - on stmt: $const190.16 = const(str, Removed log file )
+24-08-22  19:05:20 - DEBUG - on stmt: $194format_value.18 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $194format_value.19 = call $194format_value.18(oldest_file, func=$194format_value.18, args=(Var(oldest_file, __innit__.py:104),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const196.20 = const(str,  in ./logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $198build_string.21 = $const190.16 + $194format_value.19
+24-08-22  19:05:20 - DEBUG - on stmt: $198build_string.22 = $198build_string.21 + $const196.20
+24-08-22  19:05:20 - DEBUG - on stmt: $200call_method.23 = call $188load_method.15($198build_string.22, func=$188load_method.15, args=[Var($198build_string.22, __innit__.py:106)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $204load_global.24 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $206load_global.25 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $208load_method.26 = getattr(value=$206load_global.25, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const210.27 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $212call_method.28 = call $208load_method.26($const210.27, func=$208load_method.26, args=[Var($const210.27, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $214call_function.29 = call $204load_global.24($212call_method.28, func=$204load_global.24, args=[Var($212call_method.28, __innit__.py:103)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $218compare_op.31 = $214call_function.29 > logging_maxFiles
+24-08-22  19:05:20 - DEBUG - on stmt: bool220 = global(bool: <class 'bool'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $220pred = call bool220($218compare_op.31, func=bool220, args=(Var($218compare_op.31, __innit__.py:103),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: branch $220pred, 154, 222
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 222
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $222load_global.0 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $224load_method.1 = getattr(value=$222load_global.0, attr=info)
+24-08-22  19:05:20 - DEBUG - on stmt: $const226.2 = const(str, Number of log files in ./logs is )
+24-08-22  19:05:20 - DEBUG - on stmt: $228load_global.3 = global(len: <built-in function len>)
+24-08-22  19:05:20 - DEBUG - on stmt: $230load_global.4 = global(file_opperations: <class 'backend.classes.file_class.file_opperations'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $232load_method.5 = getattr(value=$230load_global.4, attr=count_log_files)
+24-08-22  19:05:20 - DEBUG - on stmt: $const234.6 = const(str, logs)
+24-08-22  19:05:20 - DEBUG - on stmt: $236call_method.7 = call $232load_method.5($const234.6, func=$232load_method.5, args=[Var($const234.6, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $238call_function.8 = call $228load_global.3($236call_method.7, func=$228load_global.3, args=[Var($236call_method.7, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $240format_value.9 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $240format_value.10 = call $240format_value.9($238call_function.8, func=$240format_value.9, args=(Var($238call_function.8, __innit__.py:108),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const242.11 = const(str,  after deletion)
+24-08-22  19:05:20 - DEBUG - on stmt: $244build_string.12 = $const226.2 + $240format_value.10
+24-08-22  19:05:20 - DEBUG - on stmt: $244build_string.13 = $244build_string.12 + $const242.11
+24-08-22  19:05:20 - DEBUG - on stmt: $246call_method.14 = call $224load_method.1($244build_string.13, func=$224load_method.1, args=[Var($244build_string.13, __innit__.py:108)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: jump 250
+24-08-22  19:05:20 - DEBUG - ==== SSA block rewrite pass on 250
+24-08-22  19:05:20 - DEBUG - Running <numba.core.ssa._FixSSAVars object at 0x000001903600B5B0>
+24-08-22  19:05:20 - DEBUG - on stmt: $250load_global.0 = global(ti: <function main.innit at 0x00000190066B3760>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const252.1 = const(int, 1)
+24-08-22  19:05:20 - DEBUG - on stmt: $const254.2 = const(int, 1)
+24-08-22  19:05:20 - DEBUG - on stmt: $256load_global.3 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s)
+24-08-22  19:05:20 - DEBUG - on stmt: $258call_function.4 = call $250load_global.0($const252.1, $const254.2, $256load_global.3, func=$250load_global.0, args=[Var($const252.1, __innit__.py:111), Var($const254.2, __innit__.py:111), Var($256load_global.3, __innit__.py:111)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $262load_global.5 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $264load_method.6 = getattr(value=$262load_global.5, attr=system)
+24-08-22  19:05:20 - DEBUG - on stmt: $266load_global.7 = global(clearcmd: cls)
+24-08-22  19:05:20 - DEBUG - on stmt: $268call_method.8 = call $264load_method.6($266load_global.7, func=$264load_method.6, args=[Var($266load_global.7, __innit__.py:114)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $272load_global.9 = global(z: <console width=209 ColorSystem.TRUECOLOR>)
+24-08-22  19:05:20 - DEBUG - on stmt: $274load_attr.10 = getattr(value=$272load_global.9, attr=print)
+24-08-22  19:05:20 - DEBUG - on stmt: $278load_global.12 = global(color: <function JSON_read.read_color_hex at 0x00000190066B0A60>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const280.13 = const(str, main)
+24-08-22  19:05:20 - DEBUG - on stmt: $const282.14 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $284call_function.15 = call $278load_global.12($const280.13, $const282.14, func=$278load_global.12, args=[Var($const280.13, __innit__.py:116), Var($const282.14, __innit__.py:116)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $288call_function_kw.17 = call $274load_attr.10(current_time_date, func=$274load_attr.10, args=[Var(current_time_date, __innit__.py:97)], kws=[('style', Var($284call_function.15, __innit__.py:116))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $292load_global.18 = global(z: <console width=209 ColorSystem.TRUECOLOR>)
+24-08-22  19:05:20 - DEBUG - on stmt: $294load_attr.19 = getattr(value=$292load_global.18, attr=print)
+24-08-22  19:05:20 - DEBUG - on stmt: $const296.20 = const(str, Boot time is: )
+24-08-22  19:05:20 - DEBUG - on stmt: $298load_global.21 = global(ti: <function main.innit at 0x00000190066B3760>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const300.22 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $const302.23 = const(int, 2)
+24-08-22  19:05:20 - DEBUG - on stmt: $304load_global.24 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s)
+24-08-22  19:05:20 - DEBUG - on stmt: $306call_function.25 = call $298load_global.21($const300.22, $const302.23, $304load_global.24, func=$298load_global.21, args=[Var($const300.22, __innit__.py:118), Var($const302.23, __innit__.py:118), Var($304load_global.24, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const308.26 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $310binary_subscr.27 = static_getitem(value=$306call_function.25, index=0, index_var=$const308.26, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $312format_value.28 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $312format_value.29 = call $312format_value.28($310binary_subscr.27, func=$312format_value.28, args=(Var($310binary_subscr.27, __innit__.py:118),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const314.30 = const(str,  )
+24-08-22  19:05:20 - DEBUG - on stmt: $316load_global.31 = global(ti: <function main.innit at 0x00000190066B3760>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const318.32 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $const320.33 = const(int, 2)
+24-08-22  19:05:20 - DEBUG - on stmt: $322load_global.34 = global(runtime_path: frontend/data/24-08-2022 19-05-20.s)
+24-08-22  19:05:20 - DEBUG - on stmt: $324call_function.35 = call $316load_global.31($const318.32, $const320.33, $322load_global.34, func=$316load_global.31, args=[Var($const318.32, __innit__.py:118), Var($const320.33, __innit__.py:118), Var($322load_global.34, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const326.36 = const(int, 1)
+24-08-22  19:05:20 - DEBUG - on stmt: $328binary_subscr.37 = static_getitem(value=$324call_function.35, index=1, index_var=$const326.36, fn=<built-in function getitem>)
+24-08-22  19:05:20 - DEBUG - on stmt: $330format_value.38 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $330format_value.39 = call $330format_value.38($328binary_subscr.37, func=$330format_value.38, args=(Var($328binary_subscr.37, __innit__.py:118),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $332build_string.40 = $const296.20 + $312format_value.29
+24-08-22  19:05:20 - DEBUG - on stmt: $332build_string.41 = $332build_string.40 + $const314.30
+24-08-22  19:05:20 - DEBUG - on stmt: $332build_string.42 = $332build_string.41 + $330format_value.39
+24-08-22  19:05:20 - DEBUG - on stmt: $334load_global.43 = global(color: <function JSON_read.read_color_hex at 0x00000190066B0A60>)
+24-08-22  19:05:20 - DEBUG - on stmt: $const336.44 = const(str, main)
+24-08-22  19:05:20 - DEBUG - on stmt: $const338.45 = const(int, 0)
+24-08-22  19:05:20 - DEBUG - on stmt: $340call_function.46 = call $334load_global.43($const336.44, $const338.45, func=$334load_global.43, args=[Var($const336.44, __innit__.py:118), Var($const338.45, __innit__.py:118)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $344call_function_kw.48 = call $294load_attr.19($332build_string.42, func=$294load_attr.19, args=[Var($332build_string.42, __innit__.py:118)], kws=[('style', Var($340call_function.46, __innit__.py:118))], vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $348load_global.49 = global(cli: <class 'frontend.client.base_shell.CMDInterface'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $350load_method.50 = getattr(value=$348load_global.49, attr=Input_Interface)
+24-08-22  19:05:20 - DEBUG - on stmt: $const352.51 = const(str, dont clear)
+24-08-22  19:05:20 - DEBUG - on stmt: out = call $350load_method.50($const352.51, func=$350load_method.50, args=[Var($const352.51, __innit__.py:120)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $358load_global.53 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $360load_method.54 = getattr(value=$358load_global.53, attr=warning)
+24-08-22  19:05:20 - DEBUG - on stmt: $const362.55 = const(str, _main_ function is finished in file )
+24-08-22  19:05:20 - DEBUG - on stmt: $364load_global.56 = global(this_file: __innit__.py)
+24-08-22  19:05:20 - DEBUG - on stmt: $366format_value.57 = global(str: <class 'str'>)
+24-08-22  19:05:20 - DEBUG - on stmt: $366format_value.58 = call $366format_value.57($364load_global.56, func=$366format_value.57, args=(Var($364load_global.56, __innit__.py:122),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $368build_string.59 = $const362.55 + $366format_value.58
+24-08-22  19:05:20 - DEBUG - on stmt: $370call_method.60 = call $360load_method.54($368build_string.59, func=$360load_method.54, args=[Var($368build_string.59, __innit__.py:122)], kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:05:20 - DEBUG - on stmt: $const374.61 = const(NoneType, None)
+24-08-22  19:05:20 - DEBUG - on stmt: $376return_value.62 = cast(value=$const374.61)
+24-08-22  19:05:20 - DEBUG - on stmt: return $376return_value.62

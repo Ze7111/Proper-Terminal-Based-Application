@@ -1,0 +1,1011 @@
+24-08-22  19:04:19 - WARNING - _innit_ function is starting in file __innit__.py
+24-08-22  19:04:19 - INFO - sucessfully loaded the logging config file with values:
+'Logging Status': True 
+'Logging Path': 'logs\24-08-2022 19-04-19.log' 
+'Logging Level': 'logging.NOTSET' 
+'Logging Date Format': '%d-%m-%y  %H:%M:%S' 
+'Max Number of Log Files Allowed': 5
+
+24-08-22  19:04:19 - WARNING - __innit__ is starting in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:04:19 - INFO - read_runtime_config function is starting in file file_class.py
+24-08-22  19:04:19 - INFO - openning config file config\config.json in file file_class.py
+24-08-22  19:04:19 - INFO - Successfully read base indentation from config file
+24-08-22  19:04:19 - INFO - runtime config data loaded with values:
+'Start Text' = 'Start Time                 :'
+'End Text' = 'End Time                   :'
+'Recent Runtime Text' = 'Unit Coverted Runtime  :'
+'File Name Format' = '%d-%m-%y  %H-%M-%S'
+'File Path' = 'frontend/data/24-08-2022 19-04-19.s'
+'File Name' = '24-08-2022 19-04-19.s'
+'Max Runtime Files' = 5
+'Make Runtime File' = True
+24-08-22  19:04:19 - INFO - count_log_files function is starting in file file_class.py
+24-08-22  19:04:19 - INFO - count_lruntime_files function is finsihed in file file_class.py
+24-08-22  19:04:19 - INFO - Number of runtime files in .\frontend/data/ is 5 before deletion
+24-08-22  19:04:19 - INFO - Number of runtime files in .\frontend/data/ is 6 after deletion
+24-08-22  19:04:19 - INFO - read_runtime_config function is finished in file file_class.py
+24-08-22  19:04:19 - INFO - W_S function is called in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:04:19 - INFO - file frontend/data/24-08-2022 19-04-19.s is opened
+24-08-22  19:04:19 - INFO - file frontend/data/24-08-2022 19-04-19.s is closed
+24-08-22  19:04:19 - INFO - W_S function is finished in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:04:19 - WARNING - _innit_ function is finished in file __innit__.py
+24-08-22  19:04:19 - DEBUG - bytecode dump:
+>          0	NOP(arg=None, lineno=63)
+           2	LOAD_GLOBAL(arg=0, lineno=63)
+           4	LOAD_CONST(arg=1, lineno=63)
+           6	IS_OP(arg=0, lineno=63)
+           8	POP_JUMP_IF_FALSE(arg=8, lineno=63)
+          10	LOAD_CONST(arg=0, lineno=64)
+          12	RETURN_VALUE(arg=None, lineno=64)
+>         14	LOAD_GLOBAL(arg=1, lineno=67)
+          16	LOAD_METHOD(arg=2, lineno=67)
+          18	LOAD_GLOBAL(arg=3, lineno=67)
+          20	CALL_METHOD(arg=1, lineno=67)
+          22	POP_TOP(arg=None, lineno=67)
+          24	LOAD_GLOBAL(arg=4, lineno=68)
+          26	LOAD_ATTR(arg=5, lineno=68)
+          28	LOAD_CONST(arg=2, lineno=68)
+          30	LOAD_GLOBAL(arg=6, lineno=68)
+          32	LOAD_CONST(arg=3, lineno=68)
+          34	LOAD_CONST(arg=4, lineno=68)
+          36	CALL_FUNCTION(arg=2, lineno=68)
+          38	LOAD_CONST(arg=5, lineno=68)
+          40	CALL_FUNCTION_KW(arg=2, lineno=68)
+          42	POP_TOP(arg=None, lineno=68)
+          44	LOAD_GLOBAL(arg=7, lineno=69)
+          46	LOAD_METHOD(arg=8, lineno=69)
+          48	LOAD_CONST(arg=6, lineno=69)
+          50	LOAD_GLOBAL(arg=9, lineno=69)
+          52	FORMAT_VALUE(arg=0, lineno=69)
+          54	BUILD_STRING(arg=2, lineno=69)
+          56	CALL_METHOD(arg=1, lineno=69)
+          58	POP_TOP(arg=None, lineno=69)
+          60	LOAD_GLOBAL(arg=10, lineno=70)
+          62	LOAD_METHOD(arg=11, lineno=70)
+          64	LOAD_CONST(arg=7, lineno=70)
+          66	CALL_METHOD(arg=1, lineno=70)
+          68	POP_TOP(arg=None, lineno=70)
+          70	LOAD_GLOBAL(arg=4, lineno=71)
+          72	LOAD_ATTR(arg=5, lineno=71)
+          74	LOAD_CONST(arg=8, lineno=71)
+          76	LOAD_GLOBAL(arg=12, lineno=71)
+          78	FORMAT_VALUE(arg=0, lineno=71)
+          80	BUILD_STRING(arg=2, lineno=71)
+          82	LOAD_GLOBAL(arg=6, lineno=71)
+          84	LOAD_CONST(arg=9, lineno=71)
+          86	LOAD_CONST(arg=4, lineno=71)
+          88	CALL_FUNCTION(arg=2, lineno=71)
+          90	LOAD_CONST(arg=5, lineno=71)
+          92	CALL_FUNCTION_KW(arg=2, lineno=71)
+          94	POP_TOP(arg=None, lineno=71)
+          96	LOAD_GLOBAL(arg=10, lineno=72)
+          98	LOAD_METHOD(arg=11, lineno=72)
+         100	LOAD_CONST(arg=10, lineno=72)
+         102	CALL_METHOD(arg=1, lineno=72)
+         104	POP_TOP(arg=None, lineno=72)
+         106	LOAD_GLOBAL(arg=4, lineno=73)
+         108	LOAD_ATTR(arg=5, lineno=73)
+         110	LOAD_CONST(arg=11, lineno=73)
+         112	LOAD_GLOBAL(arg=10, lineno=73)
+         114	LOAD_METHOD(arg=13, lineno=73)
+         116	LOAD_CONST(arg=12, lineno=73)
+         118	LOAD_GLOBAL(arg=10, lineno=73)
+         120	LOAD_METHOD(arg=14, lineno=73)
+         122	LOAD_GLOBAL(arg=10, lineno=73)
+         124	LOAD_METHOD(arg=10, lineno=73)
+         126	CALL_METHOD(arg=0, lineno=73)
+         128	CALL_METHOD(arg=1, lineno=73)
+         130	CALL_METHOD(arg=2, lineno=73)
+         132	FORMAT_VALUE(arg=0, lineno=73)
+         134	BUILD_STRING(arg=2, lineno=73)
+         136	LOAD_GLOBAL(arg=6, lineno=73)
+         138	LOAD_CONST(arg=9, lineno=73)
+         140	LOAD_CONST(arg=4, lineno=73)
+         142	CALL_FUNCTION(arg=2, lineno=73)
+         144	LOAD_CONST(arg=5, lineno=73)
+         146	CALL_FUNCTION_KW(arg=2, lineno=73)
+         148	POP_TOP(arg=None, lineno=73)
+         150	LOAD_GLOBAL(arg=10, lineno=74)
+         152	LOAD_METHOD(arg=11, lineno=74)
+         154	LOAD_CONST(arg=10, lineno=74)
+         156	CALL_METHOD(arg=1, lineno=74)
+         158	POP_TOP(arg=None, lineno=74)
+         160	LOAD_GLOBAL(arg=4, lineno=75)
+         162	LOAD_ATTR(arg=5, lineno=75)
+         164	LOAD_CONST(arg=13, lineno=75)
+         166	LOAD_GLOBAL(arg=10, lineno=75)
+         168	LOAD_METHOD(arg=13, lineno=75)
+         170	LOAD_CONST(arg=14, lineno=75)
+         172	LOAD_GLOBAL(arg=10, lineno=75)
+         174	LOAD_METHOD(arg=14, lineno=75)
+         176	LOAD_GLOBAL(arg=10, lineno=75)
+         178	LOAD_METHOD(arg=10, lineno=75)
+         180	CALL_METHOD(arg=0, lineno=75)
+         182	CALL_METHOD(arg=1, lineno=75)
+         184	CALL_METHOD(arg=2, lineno=75)
+         186	FORMAT_VALUE(arg=0, lineno=75)
+         188	BUILD_STRING(arg=2, lineno=75)
+         190	LOAD_GLOBAL(arg=6, lineno=75)
+         192	LOAD_CONST(arg=9, lineno=75)
+         194	LOAD_CONST(arg=4, lineno=75)
+         196	CALL_FUNCTION(arg=2, lineno=75)
+         198	LOAD_CONST(arg=5, lineno=75)
+         200	CALL_FUNCTION_KW(arg=2, lineno=75)
+         202	POP_TOP(arg=None, lineno=75)
+         204	LOAD_GLOBAL(arg=10, lineno=76)
+         206	LOAD_METHOD(arg=11, lineno=76)
+         208	LOAD_CONST(arg=10, lineno=76)
+         210	CALL_METHOD(arg=1, lineno=76)
+         212	POP_TOP(arg=None, lineno=76)
+         214	LOAD_GLOBAL(arg=4, lineno=77)
+         216	LOAD_ATTR(arg=5, lineno=77)
+         218	LOAD_CONST(arg=15, lineno=77)
+         220	LOAD_GLOBAL(arg=15, lineno=77)
+         222	LOAD_METHOD(arg=16, lineno=77)
+         224	LOAD_GLOBAL(arg=17, lineno=77)
+         226	CALL_METHOD(arg=1, lineno=77)
+         228	LOAD_CONST(arg=4, lineno=77)
+         230	BINARY_SUBSCR(arg=None, lineno=77)
+         232	FORMAT_VALUE(arg=0, lineno=77)
+         234	BUILD_STRING(arg=2, lineno=77)
+         236	LOAD_GLOBAL(arg=6, lineno=77)
+         238	LOAD_CONST(arg=9, lineno=77)
+         240	LOAD_CONST(arg=4, lineno=77)
+         242	CALL_FUNCTION(arg=2, lineno=77)
+         244	LOAD_CONST(arg=5, lineno=77)
+         246	CALL_FUNCTION_KW(arg=2, lineno=77)
+         248	POP_TOP(arg=None, lineno=77)
+         250	LOAD_GLOBAL(arg=10, lineno=78)
+         252	LOAD_METHOD(arg=11, lineno=78)
+         254	LOAD_CONST(arg=16, lineno=78)
+         256	CALL_METHOD(arg=1, lineno=78)
+         258	POP_TOP(arg=None, lineno=78)
+         260	LOAD_GLOBAL(arg=1, lineno=79)
+         262	LOAD_METHOD(arg=2, lineno=79)
+         264	LOAD_GLOBAL(arg=3, lineno=79)
+         266	CALL_METHOD(arg=1, lineno=79)
+         268	POP_TOP(arg=None, lineno=79)
+         270	LOAD_GLOBAL(arg=4, lineno=80)
+         272	LOAD_ATTR(arg=5, lineno=80)
+         274	LOAD_CONST(arg=17, lineno=80)
+         276	LOAD_GLOBAL(arg=6, lineno=80)
+         278	LOAD_CONST(arg=18, lineno=80)
+         280	LOAD_CONST(arg=4, lineno=80)
+         282	CALL_FUNCTION(arg=2, lineno=80)
+         284	LOAD_CONST(arg=5, lineno=80)
+         286	CALL_FUNCTION_KW(arg=2, lineno=80)
+         288	POP_TOP(arg=None, lineno=80)
+         290	LOAD_GLOBAL(arg=10, lineno=81)
+         292	LOAD_METHOD(arg=11, lineno=81)
+         294	LOAD_CONST(arg=10, lineno=81)
+         296	CALL_METHOD(arg=1, lineno=81)
+         298	POP_TOP(arg=None, lineno=81)
+         300	LOAD_GLOBAL(arg=4, lineno=82)
+         302	LOAD_ATTR(arg=5, lineno=82)
+         304	LOAD_CONST(arg=19, lineno=82)
+         306	LOAD_GLOBAL(arg=6, lineno=82)
+         308	LOAD_CONST(arg=9, lineno=82)
+         310	LOAD_CONST(arg=4, lineno=82)
+         312	CALL_FUNCTION(arg=2, lineno=82)
+         314	LOAD_CONST(arg=5, lineno=82)
+         316	CALL_FUNCTION_KW(arg=2, lineno=82)
+         318	POP_TOP(arg=None, lineno=82)
+         320	LOAD_GLOBAL(arg=10, lineno=83)
+         322	LOAD_METHOD(arg=11, lineno=83)
+         324	LOAD_GLOBAL(arg=18, lineno=83)
+         326	LOAD_METHOD(arg=19, lineno=83)
+         328	LOAD_CONST(arg=20, lineno=83)
+         330	LOAD_CONST(arg=21, lineno=83)
+         332	CALL_METHOD(arg=2, lineno=83)
+         334	CALL_METHOD(arg=1, lineno=83)
+         336	POP_TOP(arg=None, lineno=83)
+         338	LOAD_GLOBAL(arg=1, lineno=84)
+         340	LOAD_METHOD(arg=2, lineno=84)
+         342	LOAD_GLOBAL(arg=3, lineno=84)
+         344	CALL_METHOD(arg=1, lineno=84)
+         346	POP_TOP(arg=None, lineno=84)
+         348	LOAD_GLOBAL(arg=20, lineno=85)
+         350	LOAD_GLOBAL(arg=21, lineno=85)
+         352	LOAD_GLOBAL(arg=18, lineno=85)
+         354	LOAD_METHOD(arg=19, lineno=85)
+         356	LOAD_CONST(arg=22, lineno=85)
+         358	LOAD_CONST(arg=23, lineno=85)
+         360	CALL_METHOD(arg=2, lineno=85)
+         362	CALL_FUNCTION(arg=1, lineno=85)
+         364	LOAD_CONST(arg=24, lineno=85)
+         366	LOAD_GLOBAL(arg=6, lineno=85)
+         368	LOAD_CONST(arg=25, lineno=85)
+         370	LOAD_CONST(arg=20, lineno=85)
+         372	CALL_FUNCTION(arg=2, lineno=85)
+         374	LOAD_CONST(arg=26, lineno=85)
+         376	CALL_FUNCTION_KW(arg=3, lineno=85)
+         378	GET_ITER(arg=None, lineno=85)
+>        380	FOR_ITER(arg=7, lineno=85)
+         382	STORE_FAST(arg=1, lineno=85)
+         384	LOAD_GLOBAL(arg=10, lineno=86)
+         386	LOAD_METHOD(arg=11, lineno=86)
+         388	LOAD_FAST(arg=0, lineno=86)
+         390	CALL_METHOD(arg=1, lineno=86)
+         392	POP_TOP(arg=None, lineno=86)
+         394	JUMP_ABSOLUTE(arg=191, lineno=86)
+>        396	LOAD_GLOBAL(arg=7, lineno=87)
+         398	LOAD_METHOD(arg=8, lineno=87)
+         400	LOAD_CONST(arg=27, lineno=87)
+         402	LOAD_GLOBAL(arg=9, lineno=87)
+         404	FORMAT_VALUE(arg=0, lineno=87)
+         406	BUILD_STRING(arg=2, lineno=87)
+         408	CALL_METHOD(arg=1, lineno=87)
+         410	POP_TOP(arg=None, lineno=87)
+         412	LOAD_CONST(arg=0, lineno=87)
+         414	RETURN_VALUE(arg=None, lineno=87)
+24-08-22  19:04:19 - DEBUG - pending: deque([State(pc_initial=0 nstack_initial=0)])
+24-08-22  19:04:19 - DEBUG - stack: []
+24-08-22  19:04:19 - DEBUG - dispatch pc=0, inst=NOP(arg=None, lineno=63)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=2, inst=LOAD_GLOBAL(arg=0, lineno=63)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=4, inst=LOAD_CONST(arg=1, lineno=63)
+24-08-22  19:04:19 - DEBUG - stack ['$2load_global.0']
+24-08-22  19:04:19 - DEBUG - dispatch pc=6, inst=IS_OP(arg=0, lineno=63)
+24-08-22  19:04:19 - DEBUG - stack ['$2load_global.0', '$const4.1']
+24-08-22  19:04:19 - DEBUG - dispatch pc=8, inst=POP_JUMP_IF_FALSE(arg=8, lineno=63)
+24-08-22  19:04:19 - DEBUG - stack ['$6is_op.2']
+24-08-22  19:04:19 - DEBUG - end state. edges=[Edge(pc=10, stack=(), blockstack=(), npush=0), Edge(pc=14, stack=(), blockstack=(), npush=0)]
+24-08-22  19:04:19 - DEBUG - pending: deque([State(pc_initial=10 nstack_initial=0), State(pc_initial=14 nstack_initial=0)])
+24-08-22  19:04:19 - DEBUG - stack: []
+24-08-22  19:04:19 - DEBUG - dispatch pc=10, inst=LOAD_CONST(arg=0, lineno=64)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=12, inst=RETURN_VALUE(arg=None, lineno=64)
+24-08-22  19:04:19 - DEBUG - stack ['$const10.0']
+24-08-22  19:04:19 - DEBUG - end state. edges=[]
+24-08-22  19:04:19 - DEBUG - pending: deque([State(pc_initial=14 nstack_initial=0)])
+24-08-22  19:04:19 - DEBUG - stack: []
+24-08-22  19:04:19 - DEBUG - dispatch pc=14, inst=LOAD_GLOBAL(arg=1, lineno=67)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=16, inst=LOAD_METHOD(arg=2, lineno=67)
+24-08-22  19:04:19 - DEBUG - stack ['$14load_global.0']
+24-08-22  19:04:19 - DEBUG - dispatch pc=18, inst=LOAD_GLOBAL(arg=3, lineno=67)
+24-08-22  19:04:19 - DEBUG - stack ['$16load_method.1']
+24-08-22  19:04:19 - DEBUG - dispatch pc=20, inst=CALL_METHOD(arg=1, lineno=67)
+24-08-22  19:04:19 - DEBUG - stack ['$16load_method.1', '$18load_global.2']
+24-08-22  19:04:19 - DEBUG - dispatch pc=22, inst=POP_TOP(arg=None, lineno=67)
+24-08-22  19:04:19 - DEBUG - stack ['$20call_method.3']
+24-08-22  19:04:19 - DEBUG - dispatch pc=24, inst=LOAD_GLOBAL(arg=4, lineno=68)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=26, inst=LOAD_ATTR(arg=5, lineno=68)
+24-08-22  19:04:19 - DEBUG - stack ['$24load_global.4']
+24-08-22  19:04:19 - DEBUG - dispatch pc=28, inst=LOAD_CONST(arg=2, lineno=68)
+24-08-22  19:04:19 - DEBUG - stack ['$26load_attr.5']
+24-08-22  19:04:19 - DEBUG - dispatch pc=30, inst=LOAD_GLOBAL(arg=6, lineno=68)
+24-08-22  19:04:19 - DEBUG - stack ['$26load_attr.5', '$const28.6']
+24-08-22  19:04:19 - DEBUG - dispatch pc=32, inst=LOAD_CONST(arg=3, lineno=68)
+24-08-22  19:04:19 - DEBUG - stack ['$26load_attr.5', '$const28.6', '$30load_global.7']
+24-08-22  19:04:19 - DEBUG - dispatch pc=34, inst=LOAD_CONST(arg=4, lineno=68)
+24-08-22  19:04:19 - DEBUG - stack ['$26load_attr.5', '$const28.6', '$30load_global.7', '$const32.8']
+24-08-22  19:04:19 - DEBUG - dispatch pc=36, inst=CALL_FUNCTION(arg=2, lineno=68)
+24-08-22  19:04:19 - DEBUG - stack ['$26load_attr.5', '$const28.6', '$30load_global.7', '$const32.8', '$const34.9']
+24-08-22  19:04:19 - DEBUG - dispatch pc=38, inst=LOAD_CONST(arg=5, lineno=68)
+24-08-22  19:04:19 - DEBUG - stack ['$26load_attr.5', '$const28.6', '$36call_function.10']
+24-08-22  19:04:19 - DEBUG - dispatch pc=40, inst=CALL_FUNCTION_KW(arg=2, lineno=68)
+24-08-22  19:04:19 - DEBUG - stack ['$26load_attr.5', '$const28.6', '$36call_function.10', '$const38.11']
+24-08-22  19:04:19 - DEBUG - dispatch pc=42, inst=POP_TOP(arg=None, lineno=68)
+24-08-22  19:04:19 - DEBUG - stack ['$40call_function_kw.12']
+24-08-22  19:04:19 - DEBUG - dispatch pc=44, inst=LOAD_GLOBAL(arg=7, lineno=69)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=46, inst=LOAD_METHOD(arg=8, lineno=69)
+24-08-22  19:04:19 - DEBUG - stack ['$44load_global.13']
+24-08-22  19:04:19 - DEBUG - dispatch pc=48, inst=LOAD_CONST(arg=6, lineno=69)
+24-08-22  19:04:19 - DEBUG - stack ['$46load_method.14']
+24-08-22  19:04:19 - DEBUG - dispatch pc=50, inst=LOAD_GLOBAL(arg=9, lineno=69)
+24-08-22  19:04:19 - DEBUG - stack ['$46load_method.14', '$const48.15']
+24-08-22  19:04:19 - DEBUG - dispatch pc=52, inst=FORMAT_VALUE(arg=0, lineno=69)
+24-08-22  19:04:19 - DEBUG - stack ['$46load_method.14', '$const48.15', '$50load_global.16']
+24-08-22  19:04:19 - DEBUG - dispatch pc=54, inst=BUILD_STRING(arg=2, lineno=69)
+24-08-22  19:04:19 - DEBUG - stack ['$46load_method.14', '$const48.15', '$52format_value.18']
+24-08-22  19:04:19 - DEBUG - dispatch pc=56, inst=CALL_METHOD(arg=1, lineno=69)
+24-08-22  19:04:19 - DEBUG - stack ['$46load_method.14', '$54build_string.19']
+24-08-22  19:04:19 - DEBUG - dispatch pc=58, inst=POP_TOP(arg=None, lineno=69)
+24-08-22  19:04:19 - DEBUG - stack ['$56call_method.20']
+24-08-22  19:04:19 - DEBUG - dispatch pc=60, inst=LOAD_GLOBAL(arg=10, lineno=70)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=62, inst=LOAD_METHOD(arg=11, lineno=70)
+24-08-22  19:04:19 - DEBUG - stack ['$60load_global.21']
+24-08-22  19:04:19 - DEBUG - dispatch pc=64, inst=LOAD_CONST(arg=7, lineno=70)
+24-08-22  19:04:19 - DEBUG - stack ['$62load_method.22']
+24-08-22  19:04:19 - DEBUG - dispatch pc=66, inst=CALL_METHOD(arg=1, lineno=70)
+24-08-22  19:04:19 - DEBUG - stack ['$62load_method.22', '$const64.23']
+24-08-22  19:04:19 - DEBUG - dispatch pc=68, inst=POP_TOP(arg=None, lineno=70)
+24-08-22  19:04:19 - DEBUG - stack ['$66call_method.24']
+24-08-22  19:04:19 - DEBUG - dispatch pc=70, inst=LOAD_GLOBAL(arg=4, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=72, inst=LOAD_ATTR(arg=5, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$70load_global.25']
+24-08-22  19:04:19 - DEBUG - dispatch pc=74, inst=LOAD_CONST(arg=8, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$72load_attr.26']
+24-08-22  19:04:19 - DEBUG - dispatch pc=76, inst=LOAD_GLOBAL(arg=12, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$72load_attr.26', '$const74.27']
+24-08-22  19:04:19 - DEBUG - dispatch pc=78, inst=FORMAT_VALUE(arg=0, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$72load_attr.26', '$const74.27', '$76load_global.28']
+24-08-22  19:04:19 - DEBUG - dispatch pc=80, inst=BUILD_STRING(arg=2, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$72load_attr.26', '$const74.27', '$78format_value.30']
+24-08-22  19:04:19 - DEBUG - dispatch pc=82, inst=LOAD_GLOBAL(arg=6, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$72load_attr.26', '$80build_string.31']
+24-08-22  19:04:19 - DEBUG - dispatch pc=84, inst=LOAD_CONST(arg=9, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$72load_attr.26', '$80build_string.31', '$82load_global.32']
+24-08-22  19:04:19 - DEBUG - dispatch pc=86, inst=LOAD_CONST(arg=4, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$72load_attr.26', '$80build_string.31', '$82load_global.32', '$const84.33']
+24-08-22  19:04:19 - DEBUG - dispatch pc=88, inst=CALL_FUNCTION(arg=2, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$72load_attr.26', '$80build_string.31', '$82load_global.32', '$const84.33', '$const86.34']
+24-08-22  19:04:19 - DEBUG - dispatch pc=90, inst=LOAD_CONST(arg=5, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$72load_attr.26', '$80build_string.31', '$88call_function.35']
+24-08-22  19:04:19 - DEBUG - dispatch pc=92, inst=CALL_FUNCTION_KW(arg=2, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$72load_attr.26', '$80build_string.31', '$88call_function.35', '$const90.36']
+24-08-22  19:04:19 - DEBUG - dispatch pc=94, inst=POP_TOP(arg=None, lineno=71)
+24-08-22  19:04:19 - DEBUG - stack ['$92call_function_kw.37']
+24-08-22  19:04:19 - DEBUG - dispatch pc=96, inst=LOAD_GLOBAL(arg=10, lineno=72)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=98, inst=LOAD_METHOD(arg=11, lineno=72)
+24-08-22  19:04:19 - DEBUG - stack ['$96load_global.38']
+24-08-22  19:04:19 - DEBUG - dispatch pc=100, inst=LOAD_CONST(arg=10, lineno=72)
+24-08-22  19:04:19 - DEBUG - stack ['$98load_method.39']
+24-08-22  19:04:19 - DEBUG - dispatch pc=102, inst=CALL_METHOD(arg=1, lineno=72)
+24-08-22  19:04:19 - DEBUG - stack ['$98load_method.39', '$const100.40']
+24-08-22  19:04:19 - DEBUG - dispatch pc=104, inst=POP_TOP(arg=None, lineno=72)
+24-08-22  19:04:19 - DEBUG - stack ['$102call_method.41']
+24-08-22  19:04:19 - DEBUG - dispatch pc=106, inst=LOAD_GLOBAL(arg=4, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=108, inst=LOAD_ATTR(arg=5, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$106load_global.42']
+24-08-22  19:04:19 - DEBUG - dispatch pc=110, inst=LOAD_CONST(arg=11, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43']
+24-08-22  19:04:19 - DEBUG - dispatch pc=112, inst=LOAD_GLOBAL(arg=10, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44']
+24-08-22  19:04:19 - DEBUG - dispatch pc=114, inst=LOAD_METHOD(arg=13, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44', '$112load_global.45']
+24-08-22  19:04:19 - DEBUG - dispatch pc=116, inst=LOAD_CONST(arg=12, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44', '$114load_method.46']
+24-08-22  19:04:19 - DEBUG - dispatch pc=118, inst=LOAD_GLOBAL(arg=10, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44', '$114load_method.46', '$const116.47']
+24-08-22  19:04:19 - DEBUG - dispatch pc=120, inst=LOAD_METHOD(arg=14, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44', '$114load_method.46', '$const116.47', '$118load_global.48']
+24-08-22  19:04:19 - DEBUG - dispatch pc=122, inst=LOAD_GLOBAL(arg=10, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44', '$114load_method.46', '$const116.47', '$120load_method.49']
+24-08-22  19:04:19 - DEBUG - dispatch pc=124, inst=LOAD_METHOD(arg=10, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44', '$114load_method.46', '$const116.47', '$120load_method.49', '$122load_global.50']
+24-08-22  19:04:19 - DEBUG - dispatch pc=126, inst=CALL_METHOD(arg=0, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44', '$114load_method.46', '$const116.47', '$120load_method.49', '$124load_method.51']
+24-08-22  19:04:19 - DEBUG - dispatch pc=128, inst=CALL_METHOD(arg=1, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44', '$114load_method.46', '$const116.47', '$120load_method.49', '$126call_method.52']
+24-08-22  19:04:19 - DEBUG - dispatch pc=130, inst=CALL_METHOD(arg=2, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44', '$114load_method.46', '$const116.47', '$128call_method.53']
+24-08-22  19:04:19 - DEBUG - dispatch pc=132, inst=FORMAT_VALUE(arg=0, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44', '$130call_method.54']
+24-08-22  19:04:19 - DEBUG - dispatch pc=134, inst=BUILD_STRING(arg=2, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$const110.44', '$132format_value.56']
+24-08-22  19:04:19 - DEBUG - dispatch pc=136, inst=LOAD_GLOBAL(arg=6, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$134build_string.57']
+24-08-22  19:04:19 - DEBUG - dispatch pc=138, inst=LOAD_CONST(arg=9, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$134build_string.57', '$136load_global.58']
+24-08-22  19:04:19 - DEBUG - dispatch pc=140, inst=LOAD_CONST(arg=4, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$134build_string.57', '$136load_global.58', '$const138.59']
+24-08-22  19:04:19 - DEBUG - dispatch pc=142, inst=CALL_FUNCTION(arg=2, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$134build_string.57', '$136load_global.58', '$const138.59', '$const140.60']
+24-08-22  19:04:19 - DEBUG - dispatch pc=144, inst=LOAD_CONST(arg=5, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$134build_string.57', '$142call_function.61']
+24-08-22  19:04:19 - DEBUG - dispatch pc=146, inst=CALL_FUNCTION_KW(arg=2, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$108load_attr.43', '$134build_string.57', '$142call_function.61', '$const144.62']
+24-08-22  19:04:19 - DEBUG - dispatch pc=148, inst=POP_TOP(arg=None, lineno=73)
+24-08-22  19:04:19 - DEBUG - stack ['$146call_function_kw.63']
+24-08-22  19:04:19 - DEBUG - dispatch pc=150, inst=LOAD_GLOBAL(arg=10, lineno=74)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=152, inst=LOAD_METHOD(arg=11, lineno=74)
+24-08-22  19:04:19 - DEBUG - stack ['$150load_global.64']
+24-08-22  19:04:19 - DEBUG - dispatch pc=154, inst=LOAD_CONST(arg=10, lineno=74)
+24-08-22  19:04:19 - DEBUG - stack ['$152load_method.65']
+24-08-22  19:04:19 - DEBUG - dispatch pc=156, inst=CALL_METHOD(arg=1, lineno=74)
+24-08-22  19:04:19 - DEBUG - stack ['$152load_method.65', '$const154.66']
+24-08-22  19:04:19 - DEBUG - dispatch pc=158, inst=POP_TOP(arg=None, lineno=74)
+24-08-22  19:04:19 - DEBUG - stack ['$156call_method.67']
+24-08-22  19:04:19 - DEBUG - dispatch pc=160, inst=LOAD_GLOBAL(arg=4, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=162, inst=LOAD_ATTR(arg=5, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$160load_global.68']
+24-08-22  19:04:19 - DEBUG - dispatch pc=164, inst=LOAD_CONST(arg=13, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69']
+24-08-22  19:04:19 - DEBUG - dispatch pc=166, inst=LOAD_GLOBAL(arg=10, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70']
+24-08-22  19:04:19 - DEBUG - dispatch pc=168, inst=LOAD_METHOD(arg=13, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70', '$166load_global.71']
+24-08-22  19:04:19 - DEBUG - dispatch pc=170, inst=LOAD_CONST(arg=14, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70', '$168load_method.72']
+24-08-22  19:04:19 - DEBUG - dispatch pc=172, inst=LOAD_GLOBAL(arg=10, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70', '$168load_method.72', '$const170.73']
+24-08-22  19:04:19 - DEBUG - dispatch pc=174, inst=LOAD_METHOD(arg=14, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70', '$168load_method.72', '$const170.73', '$172load_global.74']
+24-08-22  19:04:19 - DEBUG - dispatch pc=176, inst=LOAD_GLOBAL(arg=10, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70', '$168load_method.72', '$const170.73', '$174load_method.75']
+24-08-22  19:04:19 - DEBUG - dispatch pc=178, inst=LOAD_METHOD(arg=10, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70', '$168load_method.72', '$const170.73', '$174load_method.75', '$176load_global.76']
+24-08-22  19:04:19 - DEBUG - dispatch pc=180, inst=CALL_METHOD(arg=0, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70', '$168load_method.72', '$const170.73', '$174load_method.75', '$178load_method.77']
+24-08-22  19:04:19 - DEBUG - dispatch pc=182, inst=CALL_METHOD(arg=1, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70', '$168load_method.72', '$const170.73', '$174load_method.75', '$180call_method.78']
+24-08-22  19:04:19 - DEBUG - dispatch pc=184, inst=CALL_METHOD(arg=2, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70', '$168load_method.72', '$const170.73', '$182call_method.79']
+24-08-22  19:04:19 - DEBUG - dispatch pc=186, inst=FORMAT_VALUE(arg=0, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70', '$184call_method.80']
+24-08-22  19:04:19 - DEBUG - dispatch pc=188, inst=BUILD_STRING(arg=2, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$const164.70', '$186format_value.82']
+24-08-22  19:04:19 - DEBUG - dispatch pc=190, inst=LOAD_GLOBAL(arg=6, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$188build_string.83']
+24-08-22  19:04:19 - DEBUG - dispatch pc=192, inst=LOAD_CONST(arg=9, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$188build_string.83', '$190load_global.84']
+24-08-22  19:04:19 - DEBUG - dispatch pc=194, inst=LOAD_CONST(arg=4, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$188build_string.83', '$190load_global.84', '$const192.85']
+24-08-22  19:04:19 - DEBUG - dispatch pc=196, inst=CALL_FUNCTION(arg=2, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$188build_string.83', '$190load_global.84', '$const192.85', '$const194.86']
+24-08-22  19:04:19 - DEBUG - dispatch pc=198, inst=LOAD_CONST(arg=5, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$188build_string.83', '$196call_function.87']
+24-08-22  19:04:19 - DEBUG - dispatch pc=200, inst=CALL_FUNCTION_KW(arg=2, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$162load_attr.69', '$188build_string.83', '$196call_function.87', '$const198.88']
+24-08-22  19:04:19 - DEBUG - dispatch pc=202, inst=POP_TOP(arg=None, lineno=75)
+24-08-22  19:04:19 - DEBUG - stack ['$200call_function_kw.89']
+24-08-22  19:04:19 - DEBUG - dispatch pc=204, inst=LOAD_GLOBAL(arg=10, lineno=76)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=206, inst=LOAD_METHOD(arg=11, lineno=76)
+24-08-22  19:04:19 - DEBUG - stack ['$204load_global.90']
+24-08-22  19:04:19 - DEBUG - dispatch pc=208, inst=LOAD_CONST(arg=10, lineno=76)
+24-08-22  19:04:19 - DEBUG - stack ['$206load_method.91']
+24-08-22  19:04:19 - DEBUG - dispatch pc=210, inst=CALL_METHOD(arg=1, lineno=76)
+24-08-22  19:04:19 - DEBUG - stack ['$206load_method.91', '$const208.92']
+24-08-22  19:04:19 - DEBUG - dispatch pc=212, inst=POP_TOP(arg=None, lineno=76)
+24-08-22  19:04:19 - DEBUG - stack ['$210call_method.93']
+24-08-22  19:04:19 - DEBUG - dispatch pc=214, inst=LOAD_GLOBAL(arg=4, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=216, inst=LOAD_ATTR(arg=5, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$214load_global.94']
+24-08-22  19:04:19 - DEBUG - dispatch pc=218, inst=LOAD_CONST(arg=15, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95']
+24-08-22  19:04:19 - DEBUG - dispatch pc=220, inst=LOAD_GLOBAL(arg=15, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$const218.96']
+24-08-22  19:04:19 - DEBUG - dispatch pc=222, inst=LOAD_METHOD(arg=16, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$const218.96', '$220load_global.97']
+24-08-22  19:04:19 - DEBUG - dispatch pc=224, inst=LOAD_GLOBAL(arg=17, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$const218.96', '$222load_method.98']
+24-08-22  19:04:19 - DEBUG - dispatch pc=226, inst=CALL_METHOD(arg=1, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$const218.96', '$222load_method.98', '$224load_global.99']
+24-08-22  19:04:19 - DEBUG - dispatch pc=228, inst=LOAD_CONST(arg=4, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$const218.96', '$226call_method.100']
+24-08-22  19:04:19 - DEBUG - dispatch pc=230, inst=BINARY_SUBSCR(arg=None, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$const218.96', '$226call_method.100', '$const228.101']
+24-08-22  19:04:19 - DEBUG - dispatch pc=232, inst=FORMAT_VALUE(arg=0, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$const218.96', '$230binary_subscr.102']
+24-08-22  19:04:19 - DEBUG - dispatch pc=234, inst=BUILD_STRING(arg=2, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$const218.96', '$232format_value.104']
+24-08-22  19:04:19 - DEBUG - dispatch pc=236, inst=LOAD_GLOBAL(arg=6, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$234build_string.105']
+24-08-22  19:04:19 - DEBUG - dispatch pc=238, inst=LOAD_CONST(arg=9, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$234build_string.105', '$236load_global.106']
+24-08-22  19:04:19 - DEBUG - dispatch pc=240, inst=LOAD_CONST(arg=4, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$234build_string.105', '$236load_global.106', '$const238.107']
+24-08-22  19:04:19 - DEBUG - dispatch pc=242, inst=CALL_FUNCTION(arg=2, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$234build_string.105', '$236load_global.106', '$const238.107', '$const240.108']
+24-08-22  19:04:19 - DEBUG - dispatch pc=244, inst=LOAD_CONST(arg=5, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$234build_string.105', '$242call_function.109']
+24-08-22  19:04:19 - DEBUG - dispatch pc=246, inst=CALL_FUNCTION_KW(arg=2, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$216load_attr.95', '$234build_string.105', '$242call_function.109', '$const244.110']
+24-08-22  19:04:19 - DEBUG - dispatch pc=248, inst=POP_TOP(arg=None, lineno=77)
+24-08-22  19:04:19 - DEBUG - stack ['$246call_function_kw.111']
+24-08-22  19:04:19 - DEBUG - dispatch pc=250, inst=LOAD_GLOBAL(arg=10, lineno=78)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=252, inst=LOAD_METHOD(arg=11, lineno=78)
+24-08-22  19:04:19 - DEBUG - stack ['$250load_global.112']
+24-08-22  19:04:19 - DEBUG - dispatch pc=254, inst=LOAD_CONST(arg=16, lineno=78)
+24-08-22  19:04:19 - DEBUG - stack ['$252load_method.113']
+24-08-22  19:04:19 - DEBUG - dispatch pc=256, inst=CALL_METHOD(arg=1, lineno=78)
+24-08-22  19:04:19 - DEBUG - stack ['$252load_method.113', '$const254.114']
+24-08-22  19:04:19 - DEBUG - dispatch pc=258, inst=POP_TOP(arg=None, lineno=78)
+24-08-22  19:04:19 - DEBUG - stack ['$256call_method.115']
+24-08-22  19:04:19 - DEBUG - dispatch pc=260, inst=LOAD_GLOBAL(arg=1, lineno=79)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=262, inst=LOAD_METHOD(arg=2, lineno=79)
+24-08-22  19:04:19 - DEBUG - stack ['$260load_global.116']
+24-08-22  19:04:19 - DEBUG - dispatch pc=264, inst=LOAD_GLOBAL(arg=3, lineno=79)
+24-08-22  19:04:19 - DEBUG - stack ['$262load_method.117']
+24-08-22  19:04:19 - DEBUG - dispatch pc=266, inst=CALL_METHOD(arg=1, lineno=79)
+24-08-22  19:04:19 - DEBUG - stack ['$262load_method.117', '$264load_global.118']
+24-08-22  19:04:19 - DEBUG - dispatch pc=268, inst=POP_TOP(arg=None, lineno=79)
+24-08-22  19:04:19 - DEBUG - stack ['$266call_method.119']
+24-08-22  19:04:19 - DEBUG - dispatch pc=270, inst=LOAD_GLOBAL(arg=4, lineno=80)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=272, inst=LOAD_ATTR(arg=5, lineno=80)
+24-08-22  19:04:19 - DEBUG - stack ['$270load_global.120']
+24-08-22  19:04:19 - DEBUG - dispatch pc=274, inst=LOAD_CONST(arg=17, lineno=80)
+24-08-22  19:04:19 - DEBUG - stack ['$272load_attr.121']
+24-08-22  19:04:19 - DEBUG - dispatch pc=276, inst=LOAD_GLOBAL(arg=6, lineno=80)
+24-08-22  19:04:19 - DEBUG - stack ['$272load_attr.121', '$const274.122']
+24-08-22  19:04:19 - DEBUG - dispatch pc=278, inst=LOAD_CONST(arg=18, lineno=80)
+24-08-22  19:04:19 - DEBUG - stack ['$272load_attr.121', '$const274.122', '$276load_global.123']
+24-08-22  19:04:19 - DEBUG - dispatch pc=280, inst=LOAD_CONST(arg=4, lineno=80)
+24-08-22  19:04:19 - DEBUG - stack ['$272load_attr.121', '$const274.122', '$276load_global.123', '$const278.124']
+24-08-22  19:04:19 - DEBUG - dispatch pc=282, inst=CALL_FUNCTION(arg=2, lineno=80)
+24-08-22  19:04:19 - DEBUG - stack ['$272load_attr.121', '$const274.122', '$276load_global.123', '$const278.124', '$const280.125']
+24-08-22  19:04:19 - DEBUG - dispatch pc=284, inst=LOAD_CONST(arg=5, lineno=80)
+24-08-22  19:04:19 - DEBUG - stack ['$272load_attr.121', '$const274.122', '$282call_function.126']
+24-08-22  19:04:19 - DEBUG - dispatch pc=286, inst=CALL_FUNCTION_KW(arg=2, lineno=80)
+24-08-22  19:04:19 - DEBUG - stack ['$272load_attr.121', '$const274.122', '$282call_function.126', '$const284.127']
+24-08-22  19:04:19 - DEBUG - dispatch pc=288, inst=POP_TOP(arg=None, lineno=80)
+24-08-22  19:04:19 - DEBUG - stack ['$286call_function_kw.128']
+24-08-22  19:04:19 - DEBUG - dispatch pc=290, inst=LOAD_GLOBAL(arg=10, lineno=81)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=292, inst=LOAD_METHOD(arg=11, lineno=81)
+24-08-22  19:04:19 - DEBUG - stack ['$290load_global.129']
+24-08-22  19:04:19 - DEBUG - dispatch pc=294, inst=LOAD_CONST(arg=10, lineno=81)
+24-08-22  19:04:19 - DEBUG - stack ['$292load_method.130']
+24-08-22  19:04:19 - DEBUG - dispatch pc=296, inst=CALL_METHOD(arg=1, lineno=81)
+24-08-22  19:04:19 - DEBUG - stack ['$292load_method.130', '$const294.131']
+24-08-22  19:04:19 - DEBUG - dispatch pc=298, inst=POP_TOP(arg=None, lineno=81)
+24-08-22  19:04:19 - DEBUG - stack ['$296call_method.132']
+24-08-22  19:04:19 - DEBUG - dispatch pc=300, inst=LOAD_GLOBAL(arg=4, lineno=82)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=302, inst=LOAD_ATTR(arg=5, lineno=82)
+24-08-22  19:04:19 - DEBUG - stack ['$300load_global.133']
+24-08-22  19:04:19 - DEBUG - dispatch pc=304, inst=LOAD_CONST(arg=19, lineno=82)
+24-08-22  19:04:19 - DEBUG - stack ['$302load_attr.134']
+24-08-22  19:04:19 - DEBUG - dispatch pc=306, inst=LOAD_GLOBAL(arg=6, lineno=82)
+24-08-22  19:04:19 - DEBUG - stack ['$302load_attr.134', '$const304.135']
+24-08-22  19:04:19 - DEBUG - dispatch pc=308, inst=LOAD_CONST(arg=9, lineno=82)
+24-08-22  19:04:19 - DEBUG - stack ['$302load_attr.134', '$const304.135', '$306load_global.136']
+24-08-22  19:04:19 - DEBUG - dispatch pc=310, inst=LOAD_CONST(arg=4, lineno=82)
+24-08-22  19:04:19 - DEBUG - stack ['$302load_attr.134', '$const304.135', '$306load_global.136', '$const308.137']
+24-08-22  19:04:19 - DEBUG - dispatch pc=312, inst=CALL_FUNCTION(arg=2, lineno=82)
+24-08-22  19:04:19 - DEBUG - stack ['$302load_attr.134', '$const304.135', '$306load_global.136', '$const308.137', '$const310.138']
+24-08-22  19:04:19 - DEBUG - dispatch pc=314, inst=LOAD_CONST(arg=5, lineno=82)
+24-08-22  19:04:19 - DEBUG - stack ['$302load_attr.134', '$const304.135', '$312call_function.139']
+24-08-22  19:04:19 - DEBUG - dispatch pc=316, inst=CALL_FUNCTION_KW(arg=2, lineno=82)
+24-08-22  19:04:19 - DEBUG - stack ['$302load_attr.134', '$const304.135', '$312call_function.139', '$const314.140']
+24-08-22  19:04:19 - DEBUG - dispatch pc=318, inst=POP_TOP(arg=None, lineno=82)
+24-08-22  19:04:19 - DEBUG - stack ['$316call_function_kw.141']
+24-08-22  19:04:19 - DEBUG - dispatch pc=320, inst=LOAD_GLOBAL(arg=10, lineno=83)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=322, inst=LOAD_METHOD(arg=11, lineno=83)
+24-08-22  19:04:19 - DEBUG - stack ['$320load_global.142']
+24-08-22  19:04:19 - DEBUG - dispatch pc=324, inst=LOAD_GLOBAL(arg=18, lineno=83)
+24-08-22  19:04:19 - DEBUG - stack ['$322load_method.143']
+24-08-22  19:04:19 - DEBUG - dispatch pc=326, inst=LOAD_METHOD(arg=19, lineno=83)
+24-08-22  19:04:19 - DEBUG - stack ['$322load_method.143', '$324load_global.144']
+24-08-22  19:04:19 - DEBUG - dispatch pc=328, inst=LOAD_CONST(arg=20, lineno=83)
+24-08-22  19:04:19 - DEBUG - stack ['$322load_method.143', '$326load_method.145']
+24-08-22  19:04:19 - DEBUG - dispatch pc=330, inst=LOAD_CONST(arg=21, lineno=83)
+24-08-22  19:04:19 - DEBUG - stack ['$322load_method.143', '$326load_method.145', '$const328.146']
+24-08-22  19:04:19 - DEBUG - dispatch pc=332, inst=CALL_METHOD(arg=2, lineno=83)
+24-08-22  19:04:19 - DEBUG - stack ['$322load_method.143', '$326load_method.145', '$const328.146', '$const330.147']
+24-08-22  19:04:19 - DEBUG - dispatch pc=334, inst=CALL_METHOD(arg=1, lineno=83)
+24-08-22  19:04:19 - DEBUG - stack ['$322load_method.143', '$332call_method.148']
+24-08-22  19:04:19 - DEBUG - dispatch pc=336, inst=POP_TOP(arg=None, lineno=83)
+24-08-22  19:04:19 - DEBUG - stack ['$334call_method.149']
+24-08-22  19:04:19 - DEBUG - dispatch pc=338, inst=LOAD_GLOBAL(arg=1, lineno=84)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=340, inst=LOAD_METHOD(arg=2, lineno=84)
+24-08-22  19:04:19 - DEBUG - stack ['$338load_global.150']
+24-08-22  19:04:19 - DEBUG - dispatch pc=342, inst=LOAD_GLOBAL(arg=3, lineno=84)
+24-08-22  19:04:19 - DEBUG - stack ['$340load_method.151']
+24-08-22  19:04:19 - DEBUG - dispatch pc=344, inst=CALL_METHOD(arg=1, lineno=84)
+24-08-22  19:04:19 - DEBUG - stack ['$340load_method.151', '$342load_global.152']
+24-08-22  19:04:19 - DEBUG - dispatch pc=346, inst=POP_TOP(arg=None, lineno=84)
+24-08-22  19:04:19 - DEBUG - stack ['$344call_method.153']
+24-08-22  19:04:19 - DEBUG - dispatch pc=348, inst=LOAD_GLOBAL(arg=20, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=350, inst=LOAD_GLOBAL(arg=21, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154']
+24-08-22  19:04:19 - DEBUG - dispatch pc=352, inst=LOAD_GLOBAL(arg=18, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$350load_global.155']
+24-08-22  19:04:19 - DEBUG - dispatch pc=354, inst=LOAD_METHOD(arg=19, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$350load_global.155', '$352load_global.156']
+24-08-22  19:04:19 - DEBUG - dispatch pc=356, inst=LOAD_CONST(arg=22, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$350load_global.155', '$354load_method.157']
+24-08-22  19:04:19 - DEBUG - dispatch pc=358, inst=LOAD_CONST(arg=23, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$350load_global.155', '$354load_method.157', '$const356.158']
+24-08-22  19:04:19 - DEBUG - dispatch pc=360, inst=CALL_METHOD(arg=2, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$350load_global.155', '$354load_method.157', '$const356.158', '$const358.159']
+24-08-22  19:04:19 - DEBUG - dispatch pc=362, inst=CALL_FUNCTION(arg=1, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$350load_global.155', '$360call_method.160']
+24-08-22  19:04:19 - DEBUG - dispatch pc=364, inst=LOAD_CONST(arg=24, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$362call_function.161']
+24-08-22  19:04:19 - DEBUG - dispatch pc=366, inst=LOAD_GLOBAL(arg=6, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$362call_function.161', '$const364.162']
+24-08-22  19:04:19 - DEBUG - dispatch pc=368, inst=LOAD_CONST(arg=25, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$362call_function.161', '$const364.162', '$366load_global.163']
+24-08-22  19:04:19 - DEBUG - dispatch pc=370, inst=LOAD_CONST(arg=20, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$362call_function.161', '$const364.162', '$366load_global.163', '$const368.164']
+24-08-22  19:04:19 - DEBUG - dispatch pc=372, inst=CALL_FUNCTION(arg=2, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$362call_function.161', '$const364.162', '$366load_global.163', '$const368.164', '$const370.165']
+24-08-22  19:04:19 - DEBUG - dispatch pc=374, inst=LOAD_CONST(arg=26, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$362call_function.161', '$const364.162', '$372call_function.166']
+24-08-22  19:04:19 - DEBUG - dispatch pc=376, inst=CALL_FUNCTION_KW(arg=3, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$348load_global.154', '$362call_function.161', '$const364.162', '$372call_function.166', '$const374.167']
+24-08-22  19:04:19 - DEBUG - dispatch pc=378, inst=GET_ITER(arg=None, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$376call_function_kw.168']
+24-08-22  19:04:19 - DEBUG - end state. edges=[Edge(pc=380, stack=('$378get_iter.169',), blockstack=(), npush=0)]
+24-08-22  19:04:19 - DEBUG - pending: deque([State(pc_initial=380 nstack_initial=1)])
+24-08-22  19:04:19 - DEBUG - stack: ['$phi380.0']
+24-08-22  19:04:19 - DEBUG - dispatch pc=380, inst=FOR_ITER(arg=7, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$phi380.0']
+24-08-22  19:04:19 - DEBUG - end state. edges=[Edge(pc=396, stack=(), blockstack=(), npush=0), Edge(pc=382, stack=('$phi380.0', '$380for_iter.2'), blockstack=(), npush=0)]
+24-08-22  19:04:19 - DEBUG - pending: deque([State(pc_initial=396 nstack_initial=0), State(pc_initial=382 nstack_initial=2)])
+24-08-22  19:04:19 - DEBUG - stack: []
+24-08-22  19:04:19 - DEBUG - dispatch pc=396, inst=LOAD_GLOBAL(arg=7, lineno=87)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=398, inst=LOAD_METHOD(arg=8, lineno=87)
+24-08-22  19:04:19 - DEBUG - stack ['$396load_global.0']
+24-08-22  19:04:19 - DEBUG - dispatch pc=400, inst=LOAD_CONST(arg=27, lineno=87)
+24-08-22  19:04:19 - DEBUG - stack ['$398load_method.1']
+24-08-22  19:04:19 - DEBUG - dispatch pc=402, inst=LOAD_GLOBAL(arg=9, lineno=87)
+24-08-22  19:04:19 - DEBUG - stack ['$398load_method.1', '$const400.2']
+24-08-22  19:04:19 - DEBUG - dispatch pc=404, inst=FORMAT_VALUE(arg=0, lineno=87)
+24-08-22  19:04:19 - DEBUG - stack ['$398load_method.1', '$const400.2', '$402load_global.3']
+24-08-22  19:04:19 - DEBUG - dispatch pc=406, inst=BUILD_STRING(arg=2, lineno=87)
+24-08-22  19:04:19 - DEBUG - stack ['$398load_method.1', '$const400.2', '$404format_value.5']
+24-08-22  19:04:19 - DEBUG - dispatch pc=408, inst=CALL_METHOD(arg=1, lineno=87)
+24-08-22  19:04:19 - DEBUG - stack ['$398load_method.1', '$406build_string.6']
+24-08-22  19:04:19 - DEBUG - dispatch pc=410, inst=POP_TOP(arg=None, lineno=87)
+24-08-22  19:04:19 - DEBUG - stack ['$408call_method.7']
+24-08-22  19:04:19 - DEBUG - dispatch pc=412, inst=LOAD_CONST(arg=0, lineno=87)
+24-08-22  19:04:19 - DEBUG - stack []
+24-08-22  19:04:19 - DEBUG - dispatch pc=414, inst=RETURN_VALUE(arg=None, lineno=87)
+24-08-22  19:04:19 - DEBUG - stack ['$const412.8']
+24-08-22  19:04:19 - DEBUG - end state. edges=[]
+24-08-22  19:04:19 - DEBUG - pending: deque([State(pc_initial=382 nstack_initial=2)])
+24-08-22  19:04:19 - DEBUG - stack: ['$phi382.0', '$phi382.1']
+24-08-22  19:04:19 - DEBUG - dispatch pc=382, inst=STORE_FAST(arg=1, lineno=85)
+24-08-22  19:04:19 - DEBUG - stack ['$phi382.0', '$phi382.1']
+24-08-22  19:04:19 - DEBUG - dispatch pc=384, inst=LOAD_GLOBAL(arg=10, lineno=86)
+24-08-22  19:04:19 - DEBUG - stack ['$phi382.0']
+24-08-22  19:04:19 - DEBUG - dispatch pc=386, inst=LOAD_METHOD(arg=11, lineno=86)
+24-08-22  19:04:19 - DEBUG - stack ['$phi382.0', '$384load_global.2']
+24-08-22  19:04:19 - DEBUG - dispatch pc=388, inst=LOAD_FAST(arg=0, lineno=86)
+24-08-22  19:04:19 - DEBUG - stack ['$phi382.0', '$386load_method.3']
+24-08-22  19:04:19 - DEBUG - dispatch pc=390, inst=CALL_METHOD(arg=1, lineno=86)
+24-08-22  19:04:19 - DEBUG - stack ['$phi382.0', '$386load_method.3', '$speed388.4']
+24-08-22  19:04:19 - DEBUG - dispatch pc=392, inst=POP_TOP(arg=None, lineno=86)
+24-08-22  19:04:19 - DEBUG - stack ['$phi382.0', '$390call_method.5']
+24-08-22  19:04:19 - DEBUG - dispatch pc=394, inst=JUMP_ABSOLUTE(arg=191, lineno=86)
+24-08-22  19:04:19 - DEBUG - stack ['$phi382.0']
+24-08-22  19:04:19 - DEBUG - end state. edges=[Edge(pc=380, stack=('$phi382.0',), blockstack=(), npush=0)]
+24-08-22  19:04:19 - DEBUG - pending: deque([State(pc_initial=380 nstack_initial=1)])
+24-08-22  19:04:19 - DEBUG - -------------------------Prune PHIs-------------------------
+24-08-22  19:04:19 - DEBUG - Used_phis: defaultdict(<class 'set'>,
+            {State(pc_initial=0 nstack_initial=0): set(),
+             State(pc_initial=10 nstack_initial=0): set(),
+             State(pc_initial=14 nstack_initial=0): set(),
+             State(pc_initial=380 nstack_initial=1): {'$phi380.0'},
+             State(pc_initial=382 nstack_initial=2): {'$phi382.1'},
+             State(pc_initial=396 nstack_initial=0): set()})
+24-08-22  19:04:19 - DEBUG - defmap: {'$phi380.0': State(pc_initial=14 nstack_initial=0),
+ '$phi382.1': State(pc_initial=380 nstack_initial=1)}
+24-08-22  19:04:19 - DEBUG - phismap: defaultdict(<class 'set'>,
+            {'$phi380.0': {('$378get_iter.169',
+                            State(pc_initial=14 nstack_initial=0)),
+                           ('$phi382.0',
+                            State(pc_initial=382 nstack_initial=2))},
+             '$phi382.0': {('$phi380.0',
+                            State(pc_initial=380 nstack_initial=1))},
+             '$phi382.1': {('$380for_iter.2',
+                            State(pc_initial=380 nstack_initial=1))}})
+24-08-22  19:04:19 - DEBUG - changing phismap: defaultdict(<class 'set'>,
+            {'$phi380.0': {('$378get_iter.169',
+                            State(pc_initial=14 nstack_initial=0)),
+                           ('$phi380.0',
+                            State(pc_initial=380 nstack_initial=1))},
+             '$phi382.0': {('$378get_iter.169',
+                            State(pc_initial=14 nstack_initial=0))},
+             '$phi382.1': {('$380for_iter.2',
+                            State(pc_initial=380 nstack_initial=1))}})
+24-08-22  19:04:19 - DEBUG - changing phismap: defaultdict(<class 'set'>,
+            {'$phi380.0': {('$378get_iter.169',
+                            State(pc_initial=14 nstack_initial=0))},
+             '$phi382.0': {('$378get_iter.169',
+                            State(pc_initial=14 nstack_initial=0))},
+             '$phi382.1': {('$380for_iter.2',
+                            State(pc_initial=380 nstack_initial=1))}})
+24-08-22  19:04:19 - DEBUG - changing phismap: defaultdict(<class 'set'>,
+            {'$phi380.0': {('$378get_iter.169',
+                            State(pc_initial=14 nstack_initial=0))},
+             '$phi382.0': {('$378get_iter.169',
+                            State(pc_initial=14 nstack_initial=0))},
+             '$phi382.1': {('$380for_iter.2',
+                            State(pc_initial=380 nstack_initial=1))}})
+24-08-22  19:04:19 - DEBUG - keep phismap: {'$phi380.0': {('$378get_iter.169', State(pc_initial=14 nstack_initial=0))},
+ '$phi382.1': {('$380for_iter.2', State(pc_initial=380 nstack_initial=1))}}
+24-08-22  19:04:19 - DEBUG - new_out: defaultdict(<class 'dict'>,
+            {State(pc_initial=14 nstack_initial=0): {'$phi380.0': '$378get_iter.169'},
+             State(pc_initial=380 nstack_initial=1): {'$phi382.1': '$380for_iter.2'}})
+24-08-22  19:04:19 - DEBUG - ----------------------DONE Prune PHIs-----------------------
+24-08-22  19:04:19 - DEBUG - block_infos State(pc_initial=0 nstack_initial=0):
+AdaptBlockInfo(insts=((0, {}), (2, {'res': '$2load_global.0'}), (4, {'res': '$const4.1'}), (6, {'lhs': '$2load_global.0', 'rhs': '$const4.1', 'res': '$6is_op.2'}), (8, {'pred': '$6is_op.2'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={10: (), 14: ()})
+24-08-22  19:04:19 - DEBUG - block_infos State(pc_initial=10 nstack_initial=0):
+AdaptBlockInfo(insts=((10, {'res': '$const10.0'}), (12, {'retval': '$const10.0', 'castval': '$12return_value.1'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+24-08-22  19:04:19 - DEBUG - block_infos State(pc_initial=14 nstack_initial=0):
+AdaptBlockInfo(insts=((14, {'res': '$14load_global.0'}), (16, {'item': '$14load_global.0', 'res': '$16load_method.1'}), (18, {'res': '$18load_global.2'}), (20, {'func': '$16load_method.1', 'args': ['$18load_global.2'], 'res': '$20call_method.3'}), (24, {'res': '$24load_global.4'}), (26, {'item': '$24load_global.4', 'res': '$26load_attr.5'}), (28, {'res': '$const28.6'}), (30, {'res': '$30load_global.7'}), (32, {'res': '$const32.8'}), (34, {'res': '$const34.9'}), (36, {'func': '$30load_global.7', 'args': ['$const32.8', '$const34.9'], 'res': '$36call_function.10'}), (38, {'res': '$const38.11'}), (40, {'func': '$26load_attr.5', 'args': ['$const28.6', '$36call_function.10'], 'names': '$const38.11', 'res': '$40call_function_kw.12'}), (44, {'res': '$44load_global.13'}), (46, {'item': '$44load_global.13', 'res': '$46load_method.14'}), (48, {'res': '$const48.15'}), (50, {'res': '$50load_global.16'}), (52, {'value': '$50load_global.16', 'res': '$52format_value.18', 'strvar': '$52format_value.17'}), (54, {'strings': ['$const48.15', '$52format_value.18'], 'tmps': ['$54build_string.19']}), (56, {'func': '$46load_method.14', 'args': ['$54build_string.19'], 'res': '$56call_method.20'}), (60, {'res': '$60load_global.21'}), (62, {'item': '$60load_global.21', 'res': '$62load_method.22'}), (64, {'res': '$const64.23'}), (66, {'func': '$62load_method.22', 'args': ['$const64.23'], 'res': '$66call_method.24'}), (70, {'res': '$70load_global.25'}), (72, {'item': '$70load_global.25', 'res': '$72load_attr.26'}), (74, {'res': '$const74.27'}), (76, {'res': '$76load_global.28'}), (78, {'value': '$76load_global.28', 'res': '$78format_value.30', 'strvar': '$78format_value.29'}), (80, {'strings': ['$const74.27', '$78format_value.30'], 'tmps': ['$80build_string.31']}), (82, {'res': '$82load_global.32'}), (84, {'res': '$const84.33'}), (86, {'res': '$const86.34'}), (88, {'func': '$82load_global.32', 'args': ['$const84.33', '$const86.34'], 'res': '$88call_function.35'}), (90, {'res': '$const90.36'}), (92, {'func': '$72load_attr.26', 'args': ['$80build_string.31', '$88call_function.35'], 'names': '$const90.36', 'res': '$92call_function_kw.37'}), (96, {'res': '$96load_global.38'}), (98, {'item': '$96load_global.38', 'res': '$98load_method.39'}), (100, {'res': '$const100.40'}), (102, {'func': '$98load_method.39', 'args': ['$const100.40'], 'res': '$102call_method.41'}), (106, {'res': '$106load_global.42'}), (108, {'item': '$106load_global.42', 'res': '$108load_attr.43'}), (110, {'res': '$const110.44'}), (112, {'res': '$112load_global.45'}), (114, {'item': '$112load_global.45', 'res': '$114load_method.46'}), (116, {'res': '$const116.47'}), (118, {'res': '$118load_global.48'}), (120, {'item': '$118load_global.48', 'res': '$120load_method.49'}), (122, {'res': '$122load_global.50'}), (124, {'item': '$122load_global.50', 'res': '$124load_method.51'}), (126, {'func': '$124load_method.51', 'args': [], 'res': '$126call_method.52'}), (128, {'func': '$120load_method.49', 'args': ['$126call_method.52'], 'res': '$128call_method.53'}), (130, {'func': '$114load_method.46', 'args': ['$const116.47', '$128call_method.53'], 'res': '$130call_method.54'}), (132, {'value': '$130call_method.54', 'res': '$132format_value.56', 'strvar': '$132format_value.55'}), (134, {'strings': ['$const110.44', '$132format_value.56'], 'tmps': ['$134build_string.57']}), (136, {'res': '$136load_global.58'}), (138, {'res': '$const138.59'}), (140, {'res': '$const140.60'}), (142, {'func': '$136load_global.58', 'args': ['$const138.59', '$const140.60'], 'res': '$142call_function.61'}), (144, {'res': '$const144.62'}), (146, {'func': '$108load_attr.43', 'args': ['$134build_string.57', '$142call_function.61'], 'names': '$const144.62', 'res': '$146call_function_kw.63'}), (150, {'res': '$150load_global.64'}), (152, {'item': '$150load_global.64', 'res': '$152load_method.65'}), (154, {'res': '$const154.66'}), (156, {'func': '$152load_method.65', 'args': ['$const154.66'], 'res': '$156call_method.67'}), (160, {'res': '$160load_global.68'}), (162, {'item': '$160load_global.68', 'res': '$162load_attr.69'}), (164, {'res': '$const164.70'}), (166, {'res': '$166load_global.71'}), (168, {'item': '$166load_global.71', 'res': '$168load_method.72'}), (170, {'res': '$const170.73'}), (172, {'res': '$172load_global.74'}), (174, {'item': '$172load_global.74', 'res': '$174load_method.75'}), (176, {'res': '$176load_global.76'}), (178, {'item': '$176load_global.76', 'res': '$178load_method.77'}), (180, {'func': '$178load_method.77', 'args': [], 'res': '$180call_method.78'}), (182, {'func': '$174load_method.75', 'args': ['$180call_method.78'], 'res': '$182call_method.79'}), (184, {'func': '$168load_method.72', 'args': ['$const170.73', '$182call_method.79'], 'res': '$184call_method.80'}), (186, {'value': '$184call_method.80', 'res': '$186format_value.82', 'strvar': '$186format_value.81'}), (188, {'strings': ['$const164.70', '$186format_value.82'], 'tmps': ['$188build_string.83']}), (190, {'res': '$190load_global.84'}), (192, {'res': '$const192.85'}), (194, {'res': '$const194.86'}), (196, {'func': '$190load_global.84', 'args': ['$const192.85', '$const194.86'], 'res': '$196call_function.87'}), (198, {'res': '$const198.88'}), (200, {'func': '$162load_attr.69', 'args': ['$188build_string.83', '$196call_function.87'], 'names': '$const198.88', 'res': '$200call_function_kw.89'}), (204, {'res': '$204load_global.90'}), (206, {'item': '$204load_global.90', 'res': '$206load_method.91'}), (208, {'res': '$const208.92'}), (210, {'func': '$206load_method.91', 'args': ['$const208.92'], 'res': '$210call_method.93'}), (214, {'res': '$214load_global.94'}), (216, {'item': '$214load_global.94', 'res': '$216load_attr.95'}), (218, {'res': '$const218.96'}), (220, {'res': '$220load_global.97'}), (222, {'item': '$220load_global.97', 'res': '$222load_method.98'}), (224, {'res': '$224load_global.99'}), (226, {'func': '$222load_method.98', 'args': ['$224load_global.99'], 'res': '$226call_method.100'}), (228, {'res': '$const228.101'}), (230, {'index': '$const228.101', 'target': '$226call_method.100', 'res': '$230binary_subscr.102'}), (232, {'value': '$230binary_subscr.102', 'res': '$232format_value.104', 'strvar': '$232format_value.103'}), (234, {'strings': ['$const218.96', '$232format_value.104'], 'tmps': ['$234build_string.105']}), (236, {'res': '$236load_global.106'}), (238, {'res': '$const238.107'}), (240, {'res': '$const240.108'}), (242, {'func': '$236load_global.106', 'args': ['$const238.107', '$const240.108'], 'res': '$242call_function.109'}), (244, {'res': '$const244.110'}), (246, {'func': '$216load_attr.95', 'args': ['$234build_string.105', '$242call_function.109'], 'names': '$const244.110', 'res': '$246call_function_kw.111'}), (250, {'res': '$250load_global.112'}), (252, {'item': '$250load_global.112', 'res': '$252load_method.113'}), (254, {'res': '$const254.114'}), (256, {'func': '$252load_method.113', 'args': ['$const254.114'], 'res': '$256call_method.115'}), (260, {'res': '$260load_global.116'}), (262, {'item': '$260load_global.116', 'res': '$262load_method.117'}), (264, {'res': '$264load_global.118'}), (266, {'func': '$262load_method.117', 'args': ['$264load_global.118'], 'res': '$266call_method.119'}), (270, {'res': '$270load_global.120'}), (272, {'item': '$270load_global.120', 'res': '$272load_attr.121'}), (274, {'res': '$const274.122'}), (276, {'res': '$276load_global.123'}), (278, {'res': '$const278.124'}), (280, {'res': '$const280.125'}), (282, {'func': '$276load_global.123', 'args': ['$const278.124', '$const280.125'], 'res': '$282call_function.126'}), (284, {'res': '$const284.127'}), (286, {'func': '$272load_attr.121', 'args': ['$const274.122', '$282call_function.126'], 'names': '$const284.127', 'res': '$286call_function_kw.128'}), (290, {'res': '$290load_global.129'}), (292, {'item': '$290load_global.129', 'res': '$292load_method.130'}), (294, {'res': '$const294.131'}), (296, {'func': '$292load_method.130', 'args': ['$const294.131'], 'res': '$296call_method.132'}), (300, {'res': '$300load_global.133'}), (302, {'item': '$300load_global.133', 'res': '$302load_attr.134'}), (304, {'res': '$const304.135'}), (306, {'res': '$306load_global.136'}), (308, {'res': '$const308.137'}), (310, {'res': '$const310.138'}), (312, {'func': '$306load_global.136', 'args': ['$const308.137', '$const310.138'], 'res': '$312call_function.139'}), (314, {'res': '$const314.140'}), (316, {'func': '$302load_attr.134', 'args': ['$const304.135', '$312call_function.139'], 'names': '$const314.140', 'res': '$316call_function_kw.141'}), (320, {'res': '$320load_global.142'}), (322, {'item': '$320load_global.142', 'res': '$322load_method.143'}), (324, {'res': '$324load_global.144'}), (326, {'item': '$324load_global.144', 'res': '$326load_method.145'}), (328, {'res': '$const328.146'}), (330, {'res': '$const330.147'}), (332, {'func': '$326load_method.145', 'args': ['$const328.146', '$const330.147'], 'res': '$332call_method.148'}), (334, {'func': '$322load_method.143', 'args': ['$332call_method.148'], 'res': '$334call_method.149'}), (338, {'res': '$338load_global.150'}), (340, {'item': '$338load_global.150', 'res': '$340load_method.151'}), (342, {'res': '$342load_global.152'}), (344, {'func': '$340load_method.151', 'args': ['$342load_global.152'], 'res': '$344call_method.153'}), (348, {'res': '$348load_global.154'}), (350, {'res': '$350load_global.155'}), (352, {'res': '$352load_global.156'}), (354, {'item': '$352load_global.156', 'res': '$354load_method.157'}), (356, {'res': '$const356.158'}), (358, {'res': '$const358.159'}), (360, {'func': '$354load_method.157', 'args': ['$const356.158', '$const358.159'], 'res': '$360call_method.160'}), (362, {'func': '$350load_global.155', 'args': ['$360call_method.160'], 'res': '$362call_function.161'}), (364, {'res': '$const364.162'}), (366, {'res': '$366load_global.163'}), (368, {'res': '$const368.164'}), (370, {'res': '$const370.165'}), (372, {'func': '$366load_global.163', 'args': ['$const368.164', '$const370.165'], 'res': '$372call_function.166'}), (374, {'res': '$const374.167'}), (376, {'func': '$348load_global.154', 'args': ['$362call_function.161', '$const364.162', '$372call_function.166'], 'names': '$const374.167', 'res': '$376call_function_kw.168'}), (378, {'value': '$376call_function_kw.168', 'res': '$378get_iter.169'})), outgoing_phis={'$phi380.0': '$378get_iter.169'}, blockstack=(), active_try_block=None, outgoing_edgepushed={380: ('$378get_iter.169',)})
+24-08-22  19:04:19 - DEBUG - block_infos State(pc_initial=380 nstack_initial=1):
+AdaptBlockInfo(insts=((380, {'iterator': '$phi380.0', 'pair': '$380for_iter.1', 'indval': '$380for_iter.2', 'pred': '$380for_iter.3'}),), outgoing_phis={'$phi382.1': '$380for_iter.2'}, blockstack=(), active_try_block=None, outgoing_edgepushed={396: (), 382: ('$phi380.0', '$380for_iter.2')})
+24-08-22  19:04:19 - DEBUG - block_infos State(pc_initial=382 nstack_initial=2):
+AdaptBlockInfo(insts=((382, {'value': '$phi382.1'}), (384, {'res': '$384load_global.2'}), (386, {'item': '$384load_global.2', 'res': '$386load_method.3'}), (388, {'res': '$speed388.4'}), (390, {'func': '$386load_method.3', 'args': ['$speed388.4'], 'res': '$390call_method.5'}), (394, {})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={380: ('$phi382.0',)})
+24-08-22  19:04:19 - DEBUG - block_infos State(pc_initial=396 nstack_initial=0):
+AdaptBlockInfo(insts=((396, {'res': '$396load_global.0'}), (398, {'item': '$396load_global.0', 'res': '$398load_method.1'}), (400, {'res': '$const400.2'}), (402, {'res': '$402load_global.3'}), (404, {'value': '$402load_global.3', 'res': '$404format_value.5', 'strvar': '$404format_value.4'}), (406, {'strings': ['$const400.2', '$404format_value.5'], 'tmps': ['$406build_string.6']}), (408, {'func': '$398load_method.1', 'args': ['$406build_string.6'], 'res': '$408call_method.7'}), (412, {'res': '$const412.8'}), (414, {'retval': '$const412.8', 'castval': '$414return_value.9'})), outgoing_phis={}, blockstack=(), active_try_block=None, outgoing_edgepushed={})
+24-08-22  19:04:19 - DEBUG - label 0:
+    speed = arg(0, name=speed)               ['speed']
+    $2load_global.0 = global(skipbootloader: True) ['$2load_global.0']
+    $const4.1 = const(bool, True)            ['$const4.1']
+    $6is_op.2 = $2load_global.0 is $const4.1 ['$2load_global.0', '$6is_op.2', '$const4.1']
+    bool8 = global(bool: <class 'bool'>)     ['bool8']
+    $8pred = call bool8($6is_op.2, func=bool8, args=(Var($6is_op.2, __innit__.py:63),), kws=(), vararg=None, varkwarg=None, target=None) ['$6is_op.2', '$8pred', 'bool8']
+    branch $8pred, 10, 14                    ['$8pred']
+label 10:
+    $const10.0 = const(NoneType, None)       ['$const10.0']
+    $12return_value.1 = cast(value=$const10.0) ['$12return_value.1', '$const10.0']
+    return $12return_value.1                 ['$12return_value.1']
+label 14:
+    $14load_global.0 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>) ['$14load_global.0']
+    $16load_method.1 = getattr(value=$14load_global.0, attr=system) ['$14load_global.0', '$16load_method.1']
+    $18load_global.2 = global(clearcmd: cls) ['$18load_global.2']
+    $20call_method.3 = call $16load_method.1($18load_global.2, func=$16load_method.1, args=[Var($18load_global.2, __innit__.py:67)], kws=(), vararg=None, varkwarg=None, target=None) ['$16load_method.1', '$18load_global.2', '$20call_method.3']
+    $24load_global.4 = global(z: <console width=209 ColorSystem.TRUECOLOR>) ['$24load_global.4']
+    $26load_attr.5 = getattr(value=$24load_global.4, attr=print) ['$24load_global.4', '$26load_attr.5']
+    $const28.6 = const(str, OMEGA BOOTLOADER) ['$const28.6']
+    $30load_global.7 = global(color: <function JSON_read.read_color_hex at 0x000001B0B99B4A60>) ['$30load_global.7']
+    $const32.8 = const(str, tertiary)        ['$const32.8']
+    $const34.9 = const(int, 0)               ['$const34.9']
+    $36call_function.10 = call $30load_global.7($const32.8, $const34.9, func=$30load_global.7, args=[Var($const32.8, __innit__.py:68), Var($const34.9, __innit__.py:68)], kws=(), vararg=None, varkwarg=None, target=None) ['$30load_global.7', '$36call_function.10', '$const32.8', '$const34.9']
+    $40call_function_kw.12 = call $26load_attr.5($const28.6, func=$26load_attr.5, args=[Var($const28.6, __innit__.py:68)], kws=[('style', Var($36call_function.10, __innit__.py:68))], vararg=None, varkwarg=None, target=None) ['$26load_attr.5', '$36call_function.10', '$40call_function_kw.12', '$const28.6']
+    $44load_global.13 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>) ['$44load_global.13']
+    $46load_method.14 = getattr(value=$44load_global.13, attr=debug) ['$44load_global.13', '$46load_method.14']
+    $const48.15 = const(str, bootloader function is starting in file ) ['$const48.15']
+    $50load_global.16 = global(this_file: __innit__.py) ['$50load_global.16']
+    $52format_value.17 = global(str: <class 'str'>) ['$52format_value.17']
+    $52format_value.18 = call $52format_value.17($50load_global.16, func=$52format_value.17, args=(Var($50load_global.16, __innit__.py:69),), kws=(), vararg=None, varkwarg=None, target=None) ['$50load_global.16', '$52format_value.17', '$52format_value.18']
+    $54build_string.19 = $const48.15 + $52format_value.18 ['$52format_value.18', '$54build_string.19', '$const48.15']
+    $56call_method.20 = call $46load_method.14($54build_string.19, func=$46load_method.14, args=[Var($54build_string.19, __innit__.py:69)], kws=(), vararg=None, varkwarg=None, target=None) ['$46load_method.14', '$54build_string.19', '$56call_method.20']
+    $60load_global.21 = global(time: <module 'time' (built-in)>) ['$60load_global.21']
+    $62load_method.22 = getattr(value=$60load_global.21, attr=sleep) ['$60load_global.21', '$62load_method.22']
+    $const64.23 = const(float, 0.8)          ['$const64.23']
+    $66call_method.24 = call $62load_method.22($const64.23, func=$62load_method.22, args=[Var($const64.23, __innit__.py:70)], kws=(), vararg=None, varkwarg=None, target=None) ['$62load_method.22', '$66call_method.24', '$const64.23']
+    $70load_global.25 = global(z: <console width=209 ColorSystem.TRUECOLOR>) ['$70load_global.25']
+    $72load_attr.26 = getattr(value=$70load_global.25, attr=print) ['$70load_global.25', '$72load_attr.26']
+    $const74.27 = const(str, - Version )     ['$const74.27']
+    $76load_global.28 = global(ver: 0.8)     ['$76load_global.28']
+    $78format_value.29 = global(str: <class 'str'>) ['$78format_value.29']
+    $78format_value.30 = call $78format_value.29($76load_global.28, func=$78format_value.29, args=(Var($76load_global.28, __innit__.py:71),), kws=(), vararg=None, varkwarg=None, target=None) ['$76load_global.28', '$78format_value.29', '$78format_value.30']
+    $80build_string.31 = $const74.27 + $78format_value.30 ['$78format_value.30', '$80build_string.31', '$const74.27']
+    $82load_global.32 = global(color: <function JSON_read.read_color_hex at 0x000001B0B99B4A60>) ['$82load_global.32']
+    $const84.33 = const(str, main)           ['$const84.33']
+    $const86.34 = const(int, 0)              ['$const86.34']
+    $88call_function.35 = call $82load_global.32($const84.33, $const86.34, func=$82load_global.32, args=[Var($const84.33, __innit__.py:71), Var($const86.34, __innit__.py:71)], kws=(), vararg=None, varkwarg=None, target=None) ['$82load_global.32', '$88call_function.35', '$const84.33', '$const86.34']
+    $92call_function_kw.37 = call $72load_attr.26($80build_string.31, func=$72load_attr.26, args=[Var($80build_string.31, __innit__.py:71)], kws=[('style', Var($88call_function.35, __innit__.py:71))], vararg=None, varkwarg=None, target=None) ['$72load_attr.26', '$80build_string.31', '$88call_function.35', '$92call_function_kw.37']
+    $96load_global.38 = global(time: <module 'time' (built-in)>) ['$96load_global.38']
+    $98load_method.39 = getattr(value=$96load_global.38, attr=sleep) ['$96load_global.38', '$98load_method.39']
+    $const100.40 = const(float, 0.1)         ['$const100.40']
+    $102call_method.41 = call $98load_method.39($const100.40, func=$98load_method.39, args=[Var($const100.40, __innit__.py:72)], kws=(), vararg=None, varkwarg=None, target=None) ['$102call_method.41', '$98load_method.39', '$const100.40']
+    $106load_global.42 = global(z: <console width=209 ColorSystem.TRUECOLOR>) ['$106load_global.42']
+    $108load_attr.43 = getattr(value=$106load_global.42, attr=print) ['$106load_global.42', '$108load_attr.43']
+    $const110.44 = const(str, - Date: )      ['$const110.44']
+    $112load_global.45 = global(time: <module 'time' (built-in)>) ['$112load_global.45']
+    $114load_method.46 = getattr(value=$112load_global.45, attr=strftime) ['$112load_global.45', '$114load_method.46']
+    $const116.47 = const(str, %d-%m-%Y)      ['$const116.47']
+    $118load_global.48 = global(time: <module 'time' (built-in)>) ['$118load_global.48']
+    $120load_method.49 = getattr(value=$118load_global.48, attr=localtime) ['$118load_global.48', '$120load_method.49']
+    $122load_global.50 = global(time: <module 'time' (built-in)>) ['$122load_global.50']
+    $124load_method.51 = getattr(value=$122load_global.50, attr=time) ['$122load_global.50', '$124load_method.51']
+    $126call_method.52 = call $124load_method.51(func=$124load_method.51, args=[], kws=(), vararg=None, varkwarg=None, target=None) ['$124load_method.51', '$126call_method.52']
+    $128call_method.53 = call $120load_method.49($126call_method.52, func=$120load_method.49, args=[Var($126call_method.52, __innit__.py:73)], kws=(), vararg=None, varkwarg=None, target=None) ['$120load_method.49', '$126call_method.52', '$128call_method.53']
+    $130call_method.54 = call $114load_method.46($const116.47, $128call_method.53, func=$114load_method.46, args=[Var($const116.47, __innit__.py:73), Var($128call_method.53, __innit__.py:73)], kws=(), vararg=None, varkwarg=None, target=None) ['$114load_method.46', '$128call_method.53', '$130call_method.54', '$const116.47']
+    $132format_value.55 = global(str: <class 'str'>) ['$132format_value.55']
+    $132format_value.56 = call $132format_value.55($130call_method.54, func=$132format_value.55, args=(Var($130call_method.54, __innit__.py:73),), kws=(), vararg=None, varkwarg=None, target=None) ['$130call_method.54', '$132format_value.55', '$132format_value.56']
+    $134build_string.57 = $const110.44 + $132format_value.56 ['$132format_value.56', '$134build_string.57', '$const110.44']
+    $136load_global.58 = global(color: <function JSON_read.read_color_hex at 0x000001B0B99B4A60>) ['$136load_global.58']
+    $const138.59 = const(str, main)          ['$const138.59']
+    $const140.60 = const(int, 0)             ['$const140.60']
+    $142call_function.61 = call $136load_global.58($const138.59, $const140.60, func=$136load_global.58, args=[Var($const138.59, __innit__.py:73), Var($const140.60, __innit__.py:73)], kws=(), vararg=None, varkwarg=None, target=None) ['$136load_global.58', '$142call_function.61', '$const138.59', '$const140.60']
+    $146call_function_kw.63 = call $108load_attr.43($134build_string.57, func=$108load_attr.43, args=[Var($134build_string.57, __innit__.py:73)], kws=[('style', Var($142call_function.61, __innit__.py:73))], vararg=None, varkwarg=None, target=None) ['$108load_attr.43', '$134build_string.57', '$142call_function.61', '$146call_function_kw.63']
+    $150load_global.64 = global(time: <module 'time' (built-in)>) ['$150load_global.64']
+    $152load_method.65 = getattr(value=$150load_global.64, attr=sleep) ['$150load_global.64', '$152load_method.65']
+    $const154.66 = const(float, 0.1)         ['$const154.66']
+    $156call_method.67 = call $152load_method.65($const154.66, func=$152load_method.65, args=[Var($const154.66, __innit__.py:74)], kws=(), vararg=None, varkwarg=None, target=None) ['$152load_method.65', '$156call_method.67', '$const154.66']
+    $160load_global.68 = global(z: <console width=209 ColorSystem.TRUECOLOR>) ['$160load_global.68']
+    $162load_attr.69 = getattr(value=$160load_global.68, attr=print) ['$160load_global.68', '$162load_attr.69']
+    $const164.70 = const(str, - Time: )      ['$const164.70']
+    $166load_global.71 = global(time: <module 'time' (built-in)>) ['$166load_global.71']
+    $168load_method.72 = getattr(value=$166load_global.71, attr=strftime) ['$166load_global.71', '$168load_method.72']
+    $const170.73 = const(str, %H:%M:%S)      ['$const170.73']
+    $172load_global.74 = global(time: <module 'time' (built-in)>) ['$172load_global.74']
+    $174load_method.75 = getattr(value=$172load_global.74, attr=localtime) ['$172load_global.74', '$174load_method.75']
+    $176load_global.76 = global(time: <module 'time' (built-in)>) ['$176load_global.76']
+    $178load_method.77 = getattr(value=$176load_global.76, attr=time) ['$176load_global.76', '$178load_method.77']
+    $180call_method.78 = call $178load_method.77(func=$178load_method.77, args=[], kws=(), vararg=None, varkwarg=None, target=None) ['$178load_method.77', '$180call_method.78']
+    $182call_method.79 = call $174load_method.75($180call_method.78, func=$174load_method.75, args=[Var($180call_method.78, __innit__.py:75)], kws=(), vararg=None, varkwarg=None, target=None) ['$174load_method.75', '$180call_method.78', '$182call_method.79']
+    $184call_method.80 = call $168load_method.72($const170.73, $182call_method.79, func=$168load_method.72, args=[Var($const170.73, __innit__.py:75), Var($182call_method.79, __innit__.py:75)], kws=(), vararg=None, varkwarg=None, target=None) ['$168load_method.72', '$182call_method.79', '$184call_method.80', '$const170.73']
+    $186format_value.81 = global(str: <class 'str'>) ['$186format_value.81']
+    $186format_value.82 = call $186format_value.81($184call_method.80, func=$186format_value.81, args=(Var($184call_method.80, __innit__.py:75),), kws=(), vararg=None, varkwarg=None, target=None) ['$184call_method.80', '$186format_value.81', '$186format_value.82']
+    $188build_string.83 = $const164.70 + $186format_value.82 ['$186format_value.82', '$188build_string.83', '$const164.70']
+    $190load_global.84 = global(color: <function JSON_read.read_color_hex at 0x000001B0B99B4A60>) ['$190load_global.84']
+    $const192.85 = const(str, main)          ['$const192.85']
+    $const194.86 = const(int, 0)             ['$const194.86']
+    $196call_function.87 = call $190load_global.84($const192.85, $const194.86, func=$190load_global.84, args=[Var($const192.85, __innit__.py:75), Var($const194.86, __innit__.py:75)], kws=(), vararg=None, varkwarg=None, target=None) ['$190load_global.84', '$196call_function.87', '$const192.85', '$const194.86']
+    $200call_function_kw.89 = call $162load_attr.69($188build_string.83, func=$162load_attr.69, args=[Var($188build_string.83, __innit__.py:75)], kws=[('style', Var($196call_function.87, __innit__.py:75))], vararg=None, varkwarg=None, target=None) ['$162load_attr.69', '$188build_string.83', '$196call_function.87', '$200call_function_kw.89']
+    $204load_global.90 = global(time: <module 'time' (built-in)>) ['$204load_global.90']
+    $206load_method.91 = getattr(value=$204load_global.90, attr=sleep) ['$204load_global.90', '$206load_method.91']
+    $const208.92 = const(float, 0.1)         ['$const208.92']
+    $210call_method.93 = call $206load_method.91($const208.92, func=$206load_method.91, args=[Var($const208.92, __innit__.py:76)], kws=(), vararg=None, varkwarg=None, target=None) ['$206load_method.91', '$210call_method.93', '$const208.92']
+    $214load_global.94 = global(z: <console width=209 ColorSystem.TRUECOLOR>) ['$214load_global.94']
+    $216load_attr.95 = getattr(value=$214load_global.94, attr=print) ['$214load_global.94', '$216load_attr.95']
+    $const218.96 = const(str, - Logging: )   ['$const218.96']
+    $220load_global.97 = global(JSON_read: <class 'backend.classes.file_class.JSON_read'>) ['$220load_global.97']
+    $222load_method.98 = getattr(value=$220load_global.97, attr=read_log_config) ['$220load_global.97', '$222load_method.98']
+    $224load_global.99 = global(conf_path: config/config.json) ['$224load_global.99']
+    $226call_method.100 = call $222load_method.98($224load_global.99, func=$222load_method.98, args=[Var($224load_global.99, __innit__.py:77)], kws=(), vararg=None, varkwarg=None, target=None) ['$222load_method.98', '$224load_global.99', '$226call_method.100']
+    $const228.101 = const(int, 0)            ['$const228.101']
+    $230binary_subscr.102 = getitem(value=$226call_method.100, index=$const228.101, fn=<built-in function getitem>) ['$226call_method.100', '$230binary_subscr.102', '$const228.101']
+    $232format_value.103 = global(str: <class 'str'>) ['$232format_value.103']
+    $232format_value.104 = call $232format_value.103($230binary_subscr.102, func=$232format_value.103, args=(Var($230binary_subscr.102, __innit__.py:77),), kws=(), vararg=None, varkwarg=None, target=None) ['$230binary_subscr.102', '$232format_value.103', '$232format_value.104']
+    $234build_string.105 = $const218.96 + $232format_value.104 ['$232format_value.104', '$234build_string.105', '$const218.96']
+    $236load_global.106 = global(color: <function JSON_read.read_color_hex at 0x000001B0B99B4A60>) ['$236load_global.106']
+    $const238.107 = const(str, main)         ['$const238.107']
+    $const240.108 = const(int, 0)            ['$const240.108']
+    $242call_function.109 = call $236load_global.106($const238.107, $const240.108, func=$236load_global.106, args=[Var($const238.107, __innit__.py:77), Var($const240.108, __innit__.py:77)], kws=(), vararg=None, varkwarg=None, target=None) ['$236load_global.106', '$242call_function.109', '$const238.107', '$const240.108']
+    $246call_function_kw.111 = call $216load_attr.95($234build_string.105, func=$216load_attr.95, args=[Var($234build_string.105, __innit__.py:77)], kws=[('style', Var($242call_function.109, __innit__.py:77))], vararg=None, varkwarg=None, target=None) ['$216load_attr.95', '$234build_string.105', '$242call_function.109', '$246call_function_kw.111']
+    $250load_global.112 = global(time: <module 'time' (built-in)>) ['$250load_global.112']
+    $252load_method.113 = getattr(value=$250load_global.112, attr=sleep) ['$250load_global.112', '$252load_method.113']
+    $const254.114 = const(int, 2)            ['$const254.114']
+    $256call_method.115 = call $252load_method.113($const254.114, func=$252load_method.113, args=[Var($const254.114, __innit__.py:78)], kws=(), vararg=None, varkwarg=None, target=None) ['$252load_method.113', '$256call_method.115', '$const254.114']
+    $260load_global.116 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>) ['$260load_global.116']
+    $262load_method.117 = getattr(value=$260load_global.116, attr=system) ['$260load_global.116', '$262load_method.117']
+    $264load_global.118 = global(clearcmd: cls) ['$264load_global.118']
+    $266call_method.119 = call $262load_method.117($264load_global.118, func=$262load_method.117, args=[Var($264load_global.118, __innit__.py:79)], kws=(), vararg=None, varkwarg=None, target=None) ['$262load_method.117', '$264load_global.118', '$266call_method.119']
+    $270load_global.120 = global(z: <console width=209 ColorSystem.TRUECOLOR>) ['$270load_global.120']
+    $272load_attr.121 = getattr(value=$270load_global.120, attr=print) ['$270load_global.120', '$272load_attr.121']
+    $const274.122 = const(str, - Beginning bootloader initalization...) ['$const274.122']
+    $276load_global.123 = global(color: <function JSON_read.read_color_hex at 0x000001B0B99B4A60>) ['$276load_global.123']
+    $const278.124 = const(str, secondary)    ['$const278.124']
+    $const280.125 = const(int, 0)            ['$const280.125']
+    $282call_function.126 = call $276load_global.123($const278.124, $const280.125, func=$276load_global.123, args=[Var($const278.124, __innit__.py:80), Var($const280.125, __innit__.py:80)], kws=(), vararg=None, varkwarg=None, target=None) ['$276load_global.123', '$282call_function.126', '$const278.124', '$const280.125']
+    $286call_function_kw.128 = call $272load_attr.121($const274.122, func=$272load_attr.121, args=[Var($const274.122, __innit__.py:80)], kws=[('style', Var($282call_function.126, __innit__.py:80))], vararg=None, varkwarg=None, target=None) ['$272load_attr.121', '$282call_function.126', '$286call_function_kw.128', '$const274.122']
+    $290load_global.129 = global(time: <module 'time' (built-in)>) ['$290load_global.129']
+    $292load_method.130 = getattr(value=$290load_global.129, attr=sleep) ['$290load_global.129', '$292load_method.130']
+    $const294.131 = const(float, 0.1)        ['$const294.131']
+    $296call_method.132 = call $292load_method.130($const294.131, func=$292load_method.130, args=[Var($const294.131, __innit__.py:81)], kws=(), vararg=None, varkwarg=None, target=None) ['$292load_method.130', '$296call_method.132', '$const294.131']
+    $300load_global.133 = global(z: <console width=209 ColorSystem.TRUECOLOR>) ['$300load_global.133']
+    $302load_attr.134 = getattr(value=$300load_global.133, attr=print) ['$300load_global.133', '$302load_attr.134']
+    $const304.135 = const(str, [blink]Initializing...) ['$const304.135']
+    $306load_global.136 = global(color: <function JSON_read.read_color_hex at 0x000001B0B99B4A60>) ['$306load_global.136']
+    $const308.137 = const(str, main)         ['$const308.137']
+    $const310.138 = const(int, 0)            ['$const310.138']
+    $312call_function.139 = call $306load_global.136($const308.137, $const310.138, func=$306load_global.136, args=[Var($const308.137, __innit__.py:82), Var($const310.138, __innit__.py:82)], kws=(), vararg=None, varkwarg=None, target=None) ['$306load_global.136', '$312call_function.139', '$const308.137', '$const310.138']
+    $316call_function_kw.141 = call $302load_attr.134($const304.135, func=$302load_attr.134, args=[Var($const304.135, __innit__.py:82)], kws=[('style', Var($312call_function.139, __innit__.py:82))], vararg=None, varkwarg=None, target=None) ['$302load_attr.134', '$312call_function.139', '$316call_function_kw.141', '$const304.135']
+    $320load_global.142 = global(time: <module 'time' (built-in)>) ['$320load_global.142']
+    $322load_method.143 = getattr(value=$320load_global.142, attr=sleep) ['$320load_global.142', '$322load_method.143']
+    $324load_global.144 = global(random: <module 'random' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\random.py'>) ['$324load_global.144']
+    $326load_method.145 = getattr(value=$324load_global.144, attr=randint) ['$324load_global.144', '$326load_method.145']
+    $const328.146 = const(int, 1)            ['$const328.146']
+    $const330.147 = const(int, 5)            ['$const330.147']
+    $332call_method.148 = call $326load_method.145($const328.146, $const330.147, func=$326load_method.145, args=[Var($const328.146, __innit__.py:83), Var($const330.147, __innit__.py:83)], kws=(), vararg=None, varkwarg=None, target=None) ['$326load_method.145', '$332call_method.148', '$const328.146', '$const330.147']
+    $334call_method.149 = call $322load_method.143($332call_method.148, func=$322load_method.143, args=[Var($332call_method.148, __innit__.py:83)], kws=(), vararg=None, varkwarg=None, target=None) ['$322load_method.143', '$332call_method.148', '$334call_method.149']
+    $338load_global.150 = global(os: <module 'os' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\os.py'>) ['$338load_global.150']
+    $340load_method.151 = getattr(value=$338load_global.150, attr=system) ['$338load_global.150', '$340load_method.151']
+    $342load_global.152 = global(clearcmd: cls) ['$342load_global.152']
+    $344call_method.153 = call $340load_method.151($342load_global.152, func=$340load_method.151, args=[Var($342load_global.152, __innit__.py:84)], kws=(), vararg=None, varkwarg=None, target=None) ['$340load_method.151', '$342load_global.152', '$344call_method.153']
+    $348load_global.154 = global(track: <function track at 0x000001B0B9C10160>) ['$348load_global.154']
+    $350load_global.155 = global(range: <class 'range'>) ['$350load_global.155']
+    $352load_global.156 = global(random: <module 'random' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\random.py'>) ['$352load_global.156']
+    $354load_method.157 = getattr(value=$352load_global.156, attr=randint) ['$352load_global.156', '$354load_method.157']
+    $const356.158 = const(int, 15)           ['$const356.158']
+    $const358.159 = const(int, 38)           ['$const358.159']
+    $360call_method.160 = call $354load_method.157($const356.158, $const358.159, func=$354load_method.157, args=[Var($const356.158, __innit__.py:85), Var($const358.159, __innit__.py:85)], kws=(), vararg=None, varkwarg=None, target=None) ['$354load_method.157', '$360call_method.160', '$const356.158', '$const358.159']
+    $362call_function.161 = call $350load_global.155($360call_method.160, func=$350load_global.155, args=[Var($360call_method.160, __innit__.py:85)], kws=(), vararg=None, varkwarg=None, target=None) ['$350load_global.155', '$360call_method.160', '$362call_function.161']
+    $const364.162 = const(str, [red][bold]Loading Shell..) ['$const364.162']
+    $366load_global.163 = global(color: <function JSON_read.read_color_hex at 0x000001B0B99B4A60>) ['$366load_global.163']
+    $const368.164 = const(str, gray)         ['$const368.164']
+    $const370.165 = const(int, 1)            ['$const370.165']
+    $372call_function.166 = call $366load_global.163($const368.164, $const370.165, func=$366load_global.163, args=[Var($const368.164, __innit__.py:85), Var($const370.165, __innit__.py:85)], kws=(), vararg=None, varkwarg=None, target=None) ['$366load_global.163', '$372call_function.166', '$const368.164', '$const370.165']
+    $376call_function_kw.168 = call $348load_global.154($362call_function.161, func=$348load_global.154, args=[Var($362call_function.161, __innit__.py:85)], kws=[('description', Var($const364.162, __innit__.py:85)), ('style', Var($372call_function.166, __innit__.py:85))], vararg=None, varkwarg=None, target=None) ['$348load_global.154', '$362call_function.161', '$372call_function.166', '$376call_function_kw.168', '$const364.162']
+    $378get_iter.169 = getiter(value=$376call_function_kw.168) ['$376call_function_kw.168', '$378get_iter.169']
+    $phi380.0 = $378get_iter.169             ['$378get_iter.169', '$phi380.0']
+    jump 380                                 []
+label 380:
+    $380for_iter.1 = iternext(value=$phi380.0) ['$380for_iter.1', '$phi380.0']
+    $380for_iter.2 = pair_first(value=$380for_iter.1) ['$380for_iter.1', '$380for_iter.2']
+    $380for_iter.3 = pair_second(value=$380for_iter.1) ['$380for_iter.1', '$380for_iter.3']
+    $phi382.1 = $380for_iter.2               ['$380for_iter.2', '$phi382.1']
+    branch $380for_iter.3, 382, 396          ['$380for_iter.3']
+label 382:
+    i = $phi382.1                            ['$phi382.1', 'i']
+    $384load_global.2 = global(time: <module 'time' (built-in)>) ['$384load_global.2']
+    $386load_method.3 = getattr(value=$384load_global.2, attr=sleep) ['$384load_global.2', '$386load_method.3']
+    $390call_method.5 = call $386load_method.3(speed, func=$386load_method.3, args=[Var(speed, __innit__.py:63)], kws=(), vararg=None, varkwarg=None, target=None) ['$386load_method.3', '$390call_method.5', 'speed']
+    jump 380                                 []
+label 396:
+    $396load_global.0 = global(logging: <module 'logging' from 'C:\\Program Files\\WindowsApps\\PythonSoftwareFoundation.Python.3.10_3.10.1776.0_x64__qbz5n2kfra8p0\\lib\\logging\\__init__.py'>) ['$396load_global.0']
+    $398load_method.1 = getattr(value=$396load_global.0, attr=debug) ['$396load_global.0', '$398load_method.1']
+    $const400.2 = const(str, bootloader function is finished in file ) ['$const400.2']
+    $402load_global.3 = global(this_file: __innit__.py) ['$402load_global.3']
+    $404format_value.4 = global(str: <class 'str'>) ['$404format_value.4']
+    $404format_value.5 = call $404format_value.4($402load_global.3, func=$404format_value.4, args=(Var($402load_global.3, __innit__.py:87),), kws=(), vararg=None, varkwarg=None, target=None) ['$402load_global.3', '$404format_value.4', '$404format_value.5']
+    $406build_string.6 = $const400.2 + $404format_value.5 ['$404format_value.5', '$406build_string.6', '$const400.2']
+    $408call_method.7 = call $398load_method.1($406build_string.6, func=$398load_method.1, args=[Var($406build_string.6, __innit__.py:87)], kws=(), vararg=None, varkwarg=None, target=None) ['$398load_method.1', '$406build_string.6', '$408call_method.7']
+    $const412.8 = const(NoneType, None)      ['$const412.8']
+    $414return_value.9 = cast(value=$const412.8) ['$414return_value.9', '$const412.8']
+    return $414return_value.9                ['$414return_value.9']
+
+24-08-22  19:04:19 - DEBUG - ==== SSA block analysis pass on 0
+24-08-22  19:04:19 - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x000001B0E943AC20>
+24-08-22  19:04:19 - DEBUG - on stmt: speed = arg(0, name=speed)
+24-08-22  19:04:19 - DEBUG - on stmt: $2load_global.0 = global(skipbootloader: True)
+24-08-22  19:04:19 - DEBUG - on stmt: $const4.1 = const(bool, True)
+24-08-22  19:04:19 - DEBUG - on stmt: $6is_op.2 = const(int, 1)
+24-08-22  19:04:19 - DEBUG - on stmt: bool8 = global(bool: <class 'bool'>)
+24-08-22  19:04:19 - DEBUG - on stmt: $8pred = call bool8($6is_op.2, func=bool8, args=(Var($6is_op.2, __innit__.py:63),), kws=(), vararg=None, varkwarg=None, target=None)
+24-08-22  19:04:19 - DEBUG - on stmt: jump 10
+24-08-22  19:04:19 - DEBUG - ==== SSA block analysis pass on 10
+24-08-22  19:04:19 - DEBUG - Running <numba.core.ssa._GatherDefsHandler object at 0x000001B0E943AC20>
+24-08-22  19:04:19 - DEBUG - on stmt: $const10.0 = const(NoneType, None)
+24-08-22  19:04:19 - DEBUG - on stmt: $12return_value.1 = cast(value=$const10.0)
+24-08-22  19:04:19 - DEBUG - on stmt: return $12return_value.1
+24-08-22  19:04:19 - DEBUG - defs defaultdict(<class 'list'>,
+            {'$12return_value.1': [<numba.core.ir.Assign object at 0x000001B0E943B160>],
+             '$2load_global.0': [<numba.core.ir.Assign object at 0x000001B0E943BA90>],
+             '$6is_op.2': [<numba.core.ir.Assign object at 0x000001B0E943B5E0>],
+             '$8pred': [<numba.core.ir.Assign object at 0x000001B0E943A110>],
+             '$const10.0': [<numba.core.ir.Assign object at 0x000001B0E943A7A0>],
+             '$const4.1': [<numba.core.ir.Assign object at 0x000001B0E943B940>],
+             'bool8': [<numba.core.ir.Assign object at 0x000001B0E943B340>],
+             'speed': [<numba.core.ir.Assign object at 0x000001B0E943B790>]})
+24-08-22  19:04:19 - DEBUG - SSA violators set()
+24-08-22  19:04:19 - WARNING - _main_ function is starting in file __innit__.py
+24-08-22  19:04:19 - INFO - count_log_files function is starting in file file_class.py
+24-08-22  19:04:19 - INFO - count_log_files function is finsihed in file file_class.py
+24-08-22  19:04:19 - INFO - Number of log files in ./logs is 6 before deletion
+24-08-22  19:04:19 - INFO - Removed log file logs/24-08-2022 19-02-15.log in ./logs
+24-08-22  19:04:19 - INFO - Number of log files in ./logs is 5 after deletion
+24-08-22  19:04:19 - WARNING - __innit__ is starting in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:04:19 - INFO - read_runtime_config function is starting in file file_class.py
+24-08-22  19:04:19 - INFO - openning config file config\config.json in file file_class.py
+24-08-22  19:04:19 - INFO - Successfully read base indentation from config file
+24-08-22  19:04:19 - INFO - Number of runtime files in .\frontend/data/ is 6 before deletion
+24-08-22  19:04:19 - INFO - Removed runtime file frontend/data/24-08-2022 19-02-15.s in .\frontend/data/
+24-08-22  19:04:19 - INFO - Number of runtime files in .\frontend/data/ is 5 after deletion
+24-08-22  19:04:19 - INFO - read_runtime_config function is finished in file file_class.py
+24-08-22  19:04:19 - INFO - W_E function is called in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:04:19 - INFO - file frontend/data/24-08-2022 19-04-19.s is opened
+24-08-22  19:04:19 - INFO - file frontend/data/24-08-2022 19-04-19.s is closed
+24-08-22  19:04:19 - INFO - W_E function is finished in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:04:19 - WARNING - __innit__ is starting in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:04:19 - INFO - read_runtime_config function is starting in file file_class.py
+24-08-22  19:04:19 - INFO - openning config file config\config.json in file file_class.py
+24-08-22  19:04:19 - INFO - Successfully read base indentation from config file
+24-08-22  19:04:19 - INFO - Number of runtime files in .\frontend/data/ is 5 before deletion
+24-08-22  19:04:19 - INFO - Number of runtime files in .\frontend/data/ is 5 after deletion
+24-08-22  19:04:19 - INFO - read_runtime_config function is finished in file file_class.py
+24-08-22  19:04:19 - INFO - E_S function is called in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:04:19 - INFO - file frontend/data/24-08-2022 19-04-19.s is opened
+24-08-22  19:04:19 - INFO - start time is already float
+24-08-22  19:04:19 - INFO - end time is already float
+24-08-22  19:04:19 - INFO - [E - S] Runtime                : 0.23800039291381836 has been written to the file
+24-08-22  19:04:19 - INFO - total time run is getting set to 238.0ms in file frontend/data/24-08-2022 19-04-19.s
+24-08-22  19:04:19 - INFO - [E - S] Unit Coverted Runtime  : 238.0 ms (Converted Values... NOT EXACT) has been written to the file
+24-08-22  19:04:19 - INFO - file frontend/data/24-08-2022 19-04-19.s is closed
+24-08-22  19:04:19 - INFO - E_S function is finished in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:04:19 - WARNING - __innit__ is starting in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:04:19 - INFO - read_runtime_config function is starting in file file_class.py
+24-08-22  19:04:19 - INFO - openning config file config\config.json in file file_class.py
+24-08-22  19:04:19 - INFO - Successfully read base indentation from config file
+24-08-22  19:04:19 - INFO - Number of runtime files in .\frontend/data/ is 5 before deletion
+24-08-22  19:04:19 - INFO - Number of runtime files in .\frontend/data/ is 5 after deletion
+24-08-22  19:04:19 - INFO - read_runtime_config function is finished in file file_class.py
+24-08-22  19:04:19 - INFO - E_S function is called in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
+24-08-22  19:04:19 - INFO - file frontend/data/24-08-2022 19-04-19.s is opened
+24-08-22  19:04:19 - INFO - start time is already float
+24-08-22  19:04:19 - INFO - end time is already float
+24-08-22  19:04:19 - INFO - [E - S] Runtime                : 0.23800039291381836 has been written to the file
+24-08-22  19:04:19 - INFO - total time run is getting set to 238.0ms in file frontend/data/24-08-2022 19-04-19.s
+24-08-22  19:04:19 - INFO - [E - S] Unit Coverted Runtime  : 238.0 ms (Converted Values... NOT EXACT) has been written to the file
+24-08-22  19:04:19 - INFO - file frontend/data/24-08-2022 19-04-19.s is closed
+24-08-22  19:04:19 - INFO - E_S function is finished in file Z:\GitHub\Repos\Proper-Terminal-Based-Application\backend\functions\TimeFunctions.py
